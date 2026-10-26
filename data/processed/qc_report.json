@@ -1,0 +1,291 @@
+{
+  "created_at": "2026-10-26T13:36:51.411322+00:00",
+  "genes_requested": [
+    "SCN1A",
+    "DNM1",
+    "MECP2",
+    "STXBP1",
+    "KCNQ2",
+    "SYNGAP1",
+    "CDKL5",
+    "TSC1",
+    "TSC2",
+    "CHD2",
+    "SCN2A",
+    "SCN8A",
+    "GABRG2",
+    "CACNA1A",
+    "DMD",
+    "SMN1",
+    "SOD1",
+    "TARDBP",
+    "FUS",
+    "LRRK2",
+    "PARK7",
+    "PINK1",
+    "HEXA",
+    "PAH",
+    "GBA1",
+    "ATP7B",
+    "NPC1",
+    "GALC",
+    "ABCD1",
+    "CFTR"
+  ],
+  "genes_built": [
+    "SCN1A",
+    "DNM1",
+    "MECP2",
+    "STXBP1",
+    "KCNQ2",
+    "SYNGAP1",
+    "CDKL5",
+    "TSC1",
+    "TSC2",
+    "CHD2",
+    "SCN8A",
+    "GABRG2",
+    "CACNA1A",
+    "SMN1",
+    "TARDBP",
+    "FUS",
+    "LRRK2",
+    "PARK7",
+    "PINK1",
+    "HEXA",
+    "PAH",
+    "GBA1",
+    "ATP7B",
+    "NPC1",
+    "GALC",
+    "ABCD1",
+    "CFTR",
+    "SCN2A",
+    "DMD",
+    "SOD1"
+  ],
+  "genes_failed": [],
+  "n_variants": 5605,
+  "n_pathogenic": 2155,
+  "n_benign": 3450,
+  "n_genes": 30,
+  "by_gene": {
+    "ABCD1": {
+      "n": 188,
+      "pathogenic": 40,
+      "benign": 148
+    },
+    "ATP7B": {
+      "n": 244,
+      "pathogenic": 128,
+      "benign": 116
+    },
+    "CACNA1A": {
+      "n": 209,
+      "pathogenic": 78,
+      "benign": 131
+    },
+    "CDKL5": {
+      "n": 216,
+      "pathogenic": 135,
+      "benign": 81
+    },
+    "CFTR": {
+      "n": 290,
+      "pathogenic": 165,
+      "benign": 125
+    },
+    "CHD2": {
+      "n": 191,
+      "pathogenic": 47,
+      "benign": 144
+    },
+    "DMD": {
+      "n": 436,
+      "pathogenic": 262,
+      "benign": 174
+    },
+    "DNM1": {
+      "n": 144,
+      "pathogenic": 13,
+      "benign": 131
+    },
+    "FUS": {
+      "n": 142,
+      "pathogenic": 3,
+      "benign": 139
+    },
+    "GABRG2": {
+      "n": 164,
+      "pathogenic": 47,
+      "benign": 117
+    },
+    "GALC": {
+      "n": 232,
+      "pathogenic": 92,
+      "benign": 140
+    },
+    "GBA1": {
+      "n": 87,
+      "pathogenic": 63,
+      "benign": 24
+    },
+    "HEXA": {
+      "n": 203,
+      "pathogenic": 49,
+      "benign": 154
+    },
+    "KCNQ2": {
+      "n": 208,
+      "pathogenic": 63,
+      "benign": 145
+    },
+    "LRRK2": {
+      "n": 150,
+      "pathogenic": 0,
+      "benign": 150
+    },
+    "MECP2": {
+      "n": 228,
+      "pathogenic": 54,
+      "benign": 174
+    },
+    "NPC1": {
+      "n": 190,
+      "pathogenic": 71,
+      "benign": 119
+    },
+    "PAH": {
+      "n": 258,
+      "pathogenic": 110,
+      "benign": 148
+    },
+    "PARK7": {
+      "n": 43,
+      "pathogenic": 1,
+      "benign": 42
+    },
+    "PINK1": {
+      "n": 75,
+      "pathogenic": 5,
+      "benign": 70
+    },
+    "SCN1A": {
+      "n": 271,
+      "pathogenic": 176,
+      "benign": 95
+    },
+    "SCN2A": {
+      "n": 211,
+      "pathogenic": 74,
+      "benign": 137
+    },
+    "SCN8A": {
+      "n": 165,
+      "pathogenic": 44,
+      "benign": 121
+    },
+    "SMN1": {
+      "n": 26,
+      "pathogenic": 15,
+      "benign": 11
+    },
+    "SOD1": {
+      "n": 46,
+      "pathogenic": 5,
+      "benign": 41
+    },
+    "STXBP1": {
+      "n": 234,
+      "pathogenic": 109,
+      "benign": 125
+    },
+    "SYNGAP1": {
+      "n": 184,
+      "pathogenic": 54,
+      "benign": 130
+    },
+    "TARDBP": {
+      "n": 49,
+      "pathogenic": 0,
+      "benign": 49
+    },
+    "TSC1": {
+      "n": 258,
+      "pathogenic": 115,
+      "benign": 143
+    },
+    "TSC2": {
+      "n": 263,
+      "pathogenic": 137,
+      "benign": 126
+    }
+  },
+  "by_region_class": {
+    "canonical_dinucleotide": {
+      "n": 1548,
+      "pathogenic": 1544,
+      "benign": 4
+    },
+    "deep_gt_50": {
+      "n": 1191,
+      "pathogenic": 249,
+      "benign": 942
+    },
+    "hard_3_50": {
+      "n": 2846,
+      "pathogenic": 349,
+      "benign": 2497
+    },
+    "other_near": {
+      "n": 20,
+      "pathogenic": 13,
+      "benign": 7
+    }
+  },
+  "by_category": {
+    "classic_splice_benchmark": {
+      "n": 290,
+      "pathogenic": 165,
+      "benign": 125
+    },
+    "epilepsy_neurodevelopmental": {
+      "n": 2946,
+      "pathogenic": 1146,
+      "benign": 1800
+    },
+    "neurodegenerative": {
+      "n": 505,
+      "pathogenic": 14,
+      "benign": 491
+    },
+    "neurometabolic": {
+      "n": 1402,
+      "pathogenic": 553,
+      "benign": 849
+    },
+    "neuromuscular": {
+      "n": 462,
+      "pathogenic": 277,
+      "benign": 185
+    }
+  },
+  "drop_reasons": {
+    "clinvar_uids": 9495,
+    "not_snv_or_missing_grch38": 1309,
+    "label_excluded": 1887,
+    "duplicate_records": 0,
+    "outside_locus": 1,
+    "passed": 5605
+  },
+  "pwm": {
+    "donor": 630,
+    "acceptor": 630
+  },
+  "sources": [
+    "NCBI ClinVar E-utilities esearch/esummary",
+    "Ensembl REST lookup, sequence/region, overlap constrained",
+    "GTEx Portal API v2 medianGeneExpression (gtex_v8)",
+    "Human Protein Atlas gene JSON"
+  ]
+}

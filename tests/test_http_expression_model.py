@@ -10,7 +10,12 @@ import pandas as pd
 import pytest
 from rnsp.cli import build_parser
 from rnsp.config import DISCLAIMER, GTEX_BRAIN_TISSUES, MODEL_FEATURES_FULL
-from rnsp.expression import brain_expression_features, parse_hpa, tau_specificity
+from rnsp.expression import (
+    brain_expression_features,
+    expression_query_symbols,
+    parse_hpa,
+    tau_specificity,
+)
 from rnsp.http import HttpClient, HttpError, RateLimiter
 from rnsp.model import (
     _iter_splits,
@@ -126,6 +131,11 @@ def test_hpa_parser_reads_brain_ntpm() -> None:
     assert parsed["hpa_gene"] == "SCN1A"
     assert parsed["hpa_brain_ntpm"] == pytest.approx(7.9)
     assert parsed["hpa_rna_tissue_specificity"] == "Tissue enhanced"
+
+
+def test_gtex_query_tries_the_historical_gba_symbol() -> None:
+    assert expression_query_symbols("GBA1", ("GBA",)) == ("GBA1", "GBA")
+    assert expression_query_symbols("SCN1A", ()) == ("SCN1A",)
 
 
 def test_gtex_brain_panel_includes_cortex_hippocampus_cerebellum() -> None:

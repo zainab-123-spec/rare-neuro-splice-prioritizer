@@ -63,8 +63,30 @@ def brain_expression_features(records: list[dict[str, Any]]) -> dict[str, float]
     }
 
 
-def fetch_gtex(client: HttpClient, symbol: str) -> dict[str, Any]:
+def expression_query_symbols(symbol: str, aliases: tuple[str, ...] = ()) -> tuple[str, ...]:
+    """Symbol first, then aliases, without duplicates. GTEx still calls GBA1 ``GBA``."""
+    ordered: list[str] = []
+    for name in (symbol, *aliases):
+        cleaned = name.strip()
+        if cleaned and cleaned.upper() not in {item.upper() for item in ordered}:
+            ordered.append(cleaned)
+    return tuple(ordered)
+
+
+def fetch_gtex(client: HttpClient, symbol: str, aliases: tuple[str, ...] = ()) -> dict[str, Any]:
     """Resolve a symbol to a versioned GENCODE id and download median TPM."""
+    last_error: LookupError | None = None
+    for query in expression_query_symbols(symbol, aliases):
+        try:
+            return _fetch_gtex_symbol(client, query)
+        except LookupError as exc:
+            last_error = exc
+            logger.info("GTEx has no exact match for %s; trying the next symbol", query)
+    raise LookupError(f"GTEx gene search found no exact match for {symbol}") from last_error
+
+
+def _fetch_gtex_symbol(client: HttpClient, symbol: str) -> dict[str, Any]:
+    """Download median TPM for one exact GTEx gene symbol."""
     search = client.get_json(
         f"{GTEX_API}/reference/geneSearch",
         params={
@@ -128,11 +150,16 @@ def fetch_hpa(client: HttpClient, ensembl_id: str) -> dict[str, Any]:
     return parse_hpa(payload)
 
 
-def fetch_expression(client: HttpClient, symbol: str, ensembl_id: str) -> dict[str, Any]:
+def fetch_expression(
+    client: HttpClient,
+    symbol: str,
+    ensembl_id: str,
+    aliases: tuple[str, ...] = (),
+) -> dict[str, Any]:
     """Combine GTEx and HPA. A failure of one source does not erase the other."""
     combined: dict[str, Any] = {"expression_observed": 0.0}
     try:
-        combined.update(fetch_gtex(client, symbol))
+        combined.update(fetch_gtex(client, symbol, aliases))
         combined["expression_observed"] = 1.0
     except (HttpError, LookupError, ValueError) as exc:
         logger.warning("GTEx failed for %s: %s", symbol, exc)

@@ -145,7 +145,7 @@ streamlit run app.py
 
 Open `docs/figures/roc_curves.png`. The left panel holds out genes. The right panel is a random split. The diagonal is chance. A curve that bows toward the top left is better. If the right panel is clearly above the left, the random split was flattering and you should quote the left panel.
 
-Then open `docs/figures/hard_subset_metrics.png`. If the ±1/±2 rule sits at ROC-AUC 0.5 and a motif model sits higher, the extra features are doing the job the rule cannot do. If they also sit near 0.5, say so. A honest negative result is a better interview story than a inflated AUC.
+Then open `docs/figures/hard_subset_metrics.png`. On the measured cohort the ±1/±2 rule sits at ROC-AUC 0.500 inside ±3..±50 bp, the distance rule falls to 0.590, and HistGradientBoosting using only motif features reaches 0.931 (PR-AUC 0.784) when the test genes are held out. The full-cohort gene-held-out gradient boosting ROC-AUC is 0.975, and that number is easier than the hard slice because almost every canonical dinucleotide in the download is pathogenic (1,544 versus 4 benign). Quote the hard slice when someone asks whether the model does more than memorize GT/AG.
 
 Brier score is the mean squared error of the predicted probability. Lower is better. A model can rank well (high AUC) and still be badly calibrated (high Brier) if its probabilities are overconfident. The calibration plot checks that.
 

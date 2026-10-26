@@ -186,7 +186,12 @@ def _fetch_locus(
         junctions,
         [variant.pos for variant in kept],
     )
-    expression = fetch_expression(expression_client, panel.symbol, str(gene["ensembl_id"]))
+    expression = fetch_expression(
+        expression_client,
+        panel.symbol,
+        str(gene["ensembl_id"]),
+        panel.aliases,
+    )
     constraint_pad = 50
     constraint = fetch_constrained(
         ensembl,

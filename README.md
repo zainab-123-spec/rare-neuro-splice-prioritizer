@@ -18,7 +18,26 @@ This repository does not reimplement AlphaGenome and it does not call the AlphaG
 Numbers below are out-of-fold measurements from `python -m rnsp evaluate` on the QC-passed ClinVar cohort. They are not training-set scores. Intervals are percentile bootstrap 95% CIs on the pooled out-of-fold predictions. A cell is omitted when a slice does not have enough variants of both classes.
 
 <!-- BENCHMARK_TABLE_START -->
-The measured comparison is written to [`docs/figures/metrics_table.md`](docs/figures/metrics_table.md) when you run the evaluator. Cohort size, class balance, and the table itself are filled from that run so the README cannot drift from `data/processed/metrics.json`.
+The cohort that produced this table is 5,605 QC-passed GRCh38 SNVs in all 30 panel genes: 2,155 pathogenic or likely pathogenic and 3,450 benign or likely benign (prevalence 0.384). The ±3..±50 bp slice has 2,846 variants (349 pathogenic, 2,497 benign). The canonical ±1/±2 slice has 1,544 pathogenic and only 4 benign variants, which is under the 8-per-class floor, so that slice is not scored. Source file: [`docs/figures/metrics_table.md`](docs/figures/metrics_table.md), copied from `data/processed/metrics.json`.
+
+| Model | Split | Subset | ROC-AUC | PR-AUC | Brier |
+| --- | --- | --- | --- | --- | --- |
+| Distance rule | fixed rule | all variants | 0.851 (0.839–0.864) | 0.882 (0.871–0.892) | 0.186 |
+| ±1/±2 dinucleotide rule | fixed rule | all variants | 0.858 (0.849–0.867) | 0.824 (0.811–0.837) | 0.110 |
+| Distance logistic | gene held out | all variants | 0.520 (0.504–0.537) | 0.484 (0.464–0.505) | 0.258 |
+| Logistic regression | gene held out | all variants | 0.964 (0.959–0.968) | 0.955 (0.948–0.961) | 0.063 |
+| HistGradientBoosting | gene held out | all variants | 0.974 (0.970–0.977) | 0.966 (0.961–0.971) | 0.059 |
+| GradientBoosting | gene held out | all variants | 0.975 (0.971–0.978) | 0.966 (0.961–0.971) | 0.057 |
+| Logistic regression | random split | all variants | 0.973 (0.969–0.977) | 0.967 (0.961–0.972) | 0.055 |
+| HistGradientBoosting | random split | all variants | 0.988 (0.985–0.990) | 0.981 (0.975–0.985) | 0.039 |
+| GradientBoosting | random split | all variants | 0.986 (0.984–0.989) | 0.979 (0.974–0.983) | 0.043 |
+| Logistic regression, motif features | gene held out | ±3..±50 bp | 0.909 (0.889–0.928) | 0.706 (0.664–0.745) | 0.095 |
+| HistGradientBoosting, motif features | gene held out | ±3..±50 bp | 0.931 (0.914–0.948) | 0.784 (0.746–0.820) | 0.062 |
+| HistGradientBoosting, full features | gene held out | ±3..±50 bp | 0.932 (0.915–0.946) | 0.771 (0.728–0.809) | 0.062 |
+| ±1/±2 rule on the hard subset | fixed rule | ±3..±50 bp | 0.500 (0.500–0.500) | 0.123 (0.111–0.135) | 0.123 |
+| Distance rule on the hard subset | fixed rule | ±3..±50 bp | 0.590 (0.547–0.636) | 0.349 (0.300–0.402) | 0.103 |
+
+On the full cohort the untrained distance rule is already strong (ROC-AUC 0.851), and a gradient boosting model with the full feature set reaches 0.975 under gene hold-out. That headline is not the hard question. Inside ±3..±50 bp the dinucleotide rule is constant (ROC-AUC 0.500, PR-AUC equal to the 0.123 prevalence) and the distance rule falls to 0.590. HistGradientBoosting trained only inside that slice, using motif features and no gene-level expression, still reaches ROC-AUC 0.931 and PR-AUC 0.784 under gene hold-out. A one-feature logistic regression on raw distance does not travel: its gene-held-out ROC-AUC is 0.520, because at least one fold learns the opposite sign and inverts genes such as DMD and HEXA. The fixed distance rule is not fit, so it does not flip.
 <!-- BENCHMARK_TABLE_END -->
 
 ### How to read the comparison
@@ -50,6 +69,7 @@ Figures, all produced by the same run:
 | [Cohort](docs/figures/cohort_by_gene.png) | Pathogenic and benign counts per gene |
 | [Brain expression](docs/figures/brain_expression.png) | GTEx v8 median TPM |
 | [SCN1A map](docs/figures/SCN1A_architecture.png) | Canonical transcript with ClinVar variants |
+| [Streamlit explorer](docs/figures/streamlit_app.png) | Gene map, motif deltas, and ranked candidates |
 
 ## Quick start
 
@@ -154,7 +174,9 @@ GitHub Actions runs both on Python 3.10 and 3.12 (`.github/workflows/tests.yml`)
 - The PWM assumes independent bases. MaxEntScan does not. Neither model is AlphaGenome, SpliceAI, or a full thermodynamic U1/U2 calculation.
 - Only SNVs are scored. Indels, especially the SMN1 exon 7 events, are out of scope.
 - Query caps truncate very large ClinVar slices. The retained IDs follow E-utilities' default order. The splice-region consequence phrase is absent from the ClinVar index, so that slice is empty by construction and those alleles are recovered as intron variants.
-- The deployment score in the app is a refit on the whole research cohort. Quote the cross-validated table, not that score.
+- The deployment score in the app is a refit on the whole research cohort (gradient boosting, chosen as the best gene-held-out ROC-AUC among the three full-feature models). Quote the cross-validated table, not that score.
+- The canonical ±1/±2 slice in this download is 1,544 pathogenic versus 4 benign. Metrics for that slice are omitted. The dinucleotide rule looks strong on the full cohort largely because of that imbalance.
+- GTEx indexes *GBA1* as *GBA*. The expression client tries the alias. Human Protein Atlas brain nTPM is missing for genes whose JSON has no `brain` entry; those cells stay missing.
 - Nothing here is cleared for diagnostic use.
 
 ## References

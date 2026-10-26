@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Rare neuro splice prioritizer — benchmark</title>
+<style>
+body { font-family: Georgia, "Iowan Old Style", serif; max-width: 920px; margin: 2rem auto; padding: 0 1.2rem; color: #1c1c1c; line-height: 1.45; }
+h1, h2 { font-family: "DejaVu Sans", sans-serif; }
+table { border-collapse: collapse; width: 100%; font-family: "DejaVu Sans", sans-serif; font-size: 0.86rem; }
+th, td { border-bottom: 1px solid #ddd; text-align: left; padding: 0.35rem 0.4rem; vertical-align: top; }
+.disclaimer { background: #fdecea; border-left: 4px solid #b2182b; padding: 0.8rem 1rem; }
+code { font-family: "DejaVu Sans Mono", monospace; font-size: 0.9em; }
+</style>
+</head>
+<body>
+<h1>Benchmark: non-coding splice variants in neurological genes</h1>
+<p class="disclaimer">Research and education tool only. This is not a medical device and it does not provide a diagnosis, a clinical classification, or a treatment recommendation. ClinVar labels are submitted assertions, not proof that a variant acts through splicing. Scores are cohort-relative probabilities from a small gene panel and must not be used to interpret a patient variant.</p>
+<p>Created 2026-10-26T13:58:23.883197+00:00.
+5605 variants,
+30 genes,
+prevalence 0.384.</p>
+<h2>Measured out-of-fold metrics</h2>
+<table>
+<tr><th>Model</th><th>Split</th><th>Subset</th><th>ROC-AUC</th><th>PR-AUC</th><th>Brier</th><th>n</th></tr>
+<tr><td>logistic_regression</td><td>group_kfold_gene<br/>train_all_eval_subset</td><td>all</td><td>0.964 (0.959–0.968)</td><td>0.955 (0.948–0.961)</td><td>0.063</td><td>5605</td></tr>
+<tr><td>logistic_regression</td><td>group_kfold_gene<br/>train_all_eval_subset</td><td>hard_3_50</td><td>0.920 (0.901–0.937)</td><td>0.719 (0.679–0.757)</td><td>0.064</td><td>2846</td></tr>
+<tr><td>logistic_regression</td><td>group_kfold_gene<br/>train_all_eval_subset</td><td>deep_gt_50</td><td>0.799 (0.770–0.828)</td><td>0.447 (0.394–0.511)</td><td>0.136</td><td>1191</td></tr>
+<tr><td>logistic_regression</td><td>stratified_kfold<br/>train_all_eval_subset</td><td>all</td><td>0.973 (0.969–0.977)</td><td>0.967 (0.961–0.972)</td><td>0.055</td><td>5605</td></tr>
+<tr><td>logistic_regression</td><td>stratified_kfold<br/>train_all_eval_subset</td><td>hard_3_50</td><td>0.931 (0.915–0.947)</td><td>0.745 (0.707–0.784)</td><td>0.059</td><td>2846</td></tr>
+<tr><td>logistic_regression</td><td>stratified_kfold<br/>train_all_eval_subset</td><td>deep_gt_50</td><td>0.868 (0.845–0.892)</td><td>0.634 (0.572–0.700)</td><td>0.112</td><td>1191</td></tr>
+<tr><td>logistic_regression</td><td>group_kfold_gene<br/>train_all_eval_subset</td><td>all</td><td>0.962 (0.957–0.967)</td><td>0.955 (0.949–0.961)</td><td>0.064</td><td>5605</td></tr>
+<tr><td>logistic_regression</td><td>group_kfold_gene<br/>train_all_eval_subset</td><td>hard_3_50</td><td>0.922 (0.905–0.937)</td><td>0.710 (0.669–0.749)</td><td>0.066</td><td>2846</td></tr>
+<tr><td>logistic_regression</td><td>group_kfold_gene<br/>train_all_eval_subset</td><td>deep_gt_50</td><td>0.803 (0.770–0.831)</td><td>0.474 (0.420–0.533)</td><td>0.129</td><td>1191</td></tr>
+<tr><td>logistic_regression</td><td>stratified_kfold<br/>train_all_eval_subset</td><td>all</td><td>0.966 (0.961–0.971)</td><td>0.960 (0.953–0.965)</td><td>0.061</td><td>5605</td></tr>
+<tr><td>logistic_regression</td><td>stratified_kfold<br/>train_all_eval_subset</td><td>hard_3_50</td><td>0.926 (0.910–0.941)</td><td>0.714 (0.674–0.753)</td><td>0.064</td><td>2846</td></tr>
+<tr><td>logistic_regression</td><td>stratified_kfold<br/>train_all_eval_subset</td><td>deep_gt_50</td><td>0.843 (0.817–0.868)</td><td>0.554 (0.496–0.615)</td><td>0.120</td><td>1191</td></tr>
+<tr><td>hist_gradient_boosting</td><td>group_kfold_gene<br/>train_all_eval_subset</td><td>all</td><td>0.974 (0.970–0.977)</td><td>0.966 (0.961–0.971)</td><td>0.059</td><td>5605</td></tr>
+<tr><td>hist_gradient_boosting</td><td>group_kfold_gene<br/>train_all_eval_subset</td><td>hard_3_50</td><td>0.949 (0.937–0.960)</td><td>0.790 (0.752–0.828)</td><td>0.050</td><td>2846</td></tr>
+<tr><td>hist_gradient_boosting</td><td>group_kfold_gene<br/>train_all_eval_subset</td><td>deep_gt_50</td><td>0.805 (0.777–0.832)</td><td>0.468 (0.410–0.532)</td><td>0.150</td><td>1191</td></tr>
+<tr><td>hist_gradient_boosting</td><td>stratified_kfold<br/>train_all_eval_subset</td><td>all</td><td>0.988 (0.985–0.990)</td><td>0.981 (0.975–0.985)</td><td>0.039</td><td>5605</td></tr>
+<tr><td>hist_gradient_boosting</td><td>stratified_kfold<br/>train_all_eval_subset</td><td>hard_3_50</td><td>0.974 (0.966–0.981)</td><td>0.862 (0.827–0.892)</td><td>0.038</td><td>2846</td></tr>
+<tr><td>hist_gradient_boosting</td><td>stratified_kfold<br/>train_all_eval_subset</td><td>deep_gt_50</td><td>0.922 (0.904–0.940)</td><td>0.785 (0.726–0.833)</td><td>0.085</td><td>1191</td></tr>
+<tr><td>hist_gradient_boosting</td><td>group_kfold_gene<br/>train_all_eval_subset</td><td>all</td><td>0.960 (0.954–0.965)</td><td>0.958 (0.952–0.964)</td><td>0.058</td><td>5605</td></tr>
+<tr><td>hist_gradient_boosting</td><td>group_kfold_gene<br/>train_all_eval_subset</td><td>hard_3_50</td><td>0.931 (0.915–0.945)</td><td>0.760 (0.720–0.801)</td><td>0.055</td><td>2846</td></tr>
+<tr><td>hist_gradient_boosting</td><td>group_kfold_gene<br/>train_all_eval_subset</td><td>deep_gt_50</td><td>0.710 (0.664–0.755)</td><td>0.482 (0.422–0.554)</td><td>0.135</td><td>1191</td></tr>
+<tr><td>hist_gradient_boosting</td><td>stratified_kfold<br/>train_all_eval_subset</td><td>all</td><td>0.983 (0.980–0.986)</td><td>0.977 (0.972–0.982)</td><td>0.043</td><td>5605</td></tr>
+<tr><td>hist_gradient_boosting</td><td>stratified_kfold<br/>train_all_eval_subset</td><td>hard_3_50</td><td>0.966 (0.955–0.975)</td><td>0.845 (0.809–0.879)</td><td>0.043</td><td>2846</td></tr>
+<tr><td>hist_gradient_boosting</td><td>stratified_kfold<br/>train_all_eval_subset</td><td>deep_gt_50</td><td>0.896 (0.872–0.918)</td><td>0.733 (0.674–0.786)</td><td>0.094</td><td>1191</td></tr>
+<tr><td>gradient_boosting</td><td>group_kfold_gene<br/>train_all_eval_subset</td><td>all</td><td>0.975 (0.971–0.978)</td><td>0.966 (0.961–0.971)</td><td>0.057</td><td>5605</td></tr>
+<tr><td>gradient_boosting</td><td>group_kfold_gene<br/>train_all_eval_subset</td><td>hard_3_50</td><td>0.953 (0.942–0.963)</td><td>0.787 (0.743–0.828)</td><td>0.050</td><td>2846</td></tr>
+<tr><td>gradient_boosting</td><td>group_kfold_gene<br/>train_all_eval_subset</td><td>deep_gt_50</td><td>0.809 (0.780–0.834)</td><td>0.478 (0.420–0.542)</td><td>0.141</td><td>1191</td></tr>
+<tr><td>gradient_boosting</td><td>stratified_kfold<br/>train_all_eval_subset</td><td>all</td><td>0.986 (0.984–0.989)</td><td>0.979 (0.974–0.983)</td><td>0.043</td><td>5605</td></tr>
+<tr><td>gradient_boosting</td><td>stratified_kfold<br/>train_all_eval_subset</td><td>hard_3_50</td><td>0.969 (0.961–0.976)</td><td>0.826 (0.785–0.864)</td><td>0.043</td><td>2846</td></tr>
+<tr><td>gradient_boosting</td><td>stratified_kfold<br/>train_all_eval_subset</td><td>deep_gt_50</td><td>0.915 (0.897–0.933)</td><td>0.747 (0.684–0.805)</td><td>0.090</td><td>1191</td></tr>
+<tr><td>gradient_boosting</td><td>group_kfold_gene<br/>train_all_eval_subset</td><td>all</td><td>0.973 (0.969–0.977)</td><td>0.966 (0.960–0.971)</td><td>0.055</td><td>5605</td></tr>
+<tr><td>gradient_boosting</td><td>group_kfold_gene<br/>train_all_eval_subset</td><td>hard_3_50</td><td>0.942 (0.928–0.954)</td><td>0.754 (0.710–0.797)</td><td>0.054</td><td>2846</td></tr>
+<tr><td>gradient_boosting</td><td>group_kfold_gene<br/>train_all_eval_subset</td><td>deep_gt_50</td><td>0.836 (0.807–0.864)</td><td>0.568 (0.509–0.630)</td><td>0.122</td><td>1191</td></tr>
+<tr><td>gradient_boosting</td><td>stratified_kfold<br/>train_all_eval_subset</td><td>all</td><td>0.982 (0.978–0.985)</td><td>0.976 (0.971–0.980)</td><td>0.048</td><td>5605</td></tr>
+<tr><td>gradient_boosting</td><td>stratified_kfold<br/>train_all_eval_subset</td><td>hard_3_50</td><td>0.962 (0.953–0.971)</td><td>0.816 (0.776–0.853)</td><td>0.048</td><td>2846</td></tr>
+<tr><td>gradient_boosting</td><td>stratified_kfold<br/>train_all_eval_subset</td><td>deep_gt_50</td><td>0.889 (0.864–0.911)</td><td>0.698 (0.632–0.759)</td><td>0.102</td><td>1191</td></tr>
+<tr><td>logistic_regression</td><td>group_kfold_gene<br/>train_on_subset</td><td>hard_3_50</td><td>0.908 (0.886–0.928)</td><td>0.723 (0.679–0.764)</td><td>0.090</td><td>2846</td></tr>
+<tr><td>logistic_regression</td><td>stratified_kfold<br/>train_on_subset</td><td>hard_3_50</td><td>0.941 (0.925–0.958)</td><td>0.797 (0.760–0.830)</td><td>0.081</td><td>2846</td></tr>
+<tr><td>logistic_regression</td><td>group_kfold_gene<br/>train_on_subset</td><td>hard_3_50</td><td>0.909 (0.889–0.928)</td><td>0.706 (0.664–0.745)</td><td>0.095</td><td>2846</td></tr>
+<tr><td>logistic_regression</td><td>stratified_kfold<br/>train_on_subset</td><td>hard_3_50</td><td>0.926 (0.909–0.943)</td><td>0.733 (0.692–0.771)</td><td>0.094</td><td>2846</td></tr>
+<tr><td>hist_gradient_boosting</td><td>group_kfold_gene<br/>train_on_subset</td><td>hard_3_50</td><td>0.932 (0.915–0.946)</td><td>0.771 (0.728–0.809)</td><td>0.062</td><td>2846</td></tr>
+<tr><td>hist_gradient_boosting</td><td>stratified_kfold<br/>train_on_subset</td><td>hard_3_50</td><td>0.971 (0.961–0.979)</td><td>0.871 (0.840–0.897)</td><td>0.048</td><td>2846</td></tr>
+<tr><td>hist_gradient_boosting</td><td>group_kfold_gene<br/>train_on_subset</td><td>hard_3_50</td><td>0.931 (0.914–0.948)</td><td>0.784 (0.746–0.820)</td><td>0.062</td><td>2846</td></tr>
+<tr><td>hist_gradient_boosting</td><td>stratified_kfold<br/>train_on_subset</td><td>hard_3_50</td><td>0.965 (0.953–0.973)</td><td>0.848 (0.814–0.878)</td><td>0.057</td><td>2846</td></tr>
+<tr><td>gradient_boosting</td><td>group_kfold_gene<br/>train_on_subset</td><td>hard_3_50</td><td>0.936 (0.921–0.950)</td><td>0.731 (0.678–0.779)</td><td>0.065</td><td>2846</td></tr>
+<tr><td>gradient_boosting</td><td>stratified_kfold<br/>train_on_subset</td><td>hard_3_50</td><td>0.969 (0.961–0.977)</td><td>0.848 (0.812–0.878)</td><td>0.055</td><td>2846</td></tr>
+<tr><td>gradient_boosting</td><td>group_kfold_gene<br/>train_on_subset</td><td>hard_3_50</td><td>0.948 (0.933–0.960)</td><td>0.785 (0.745–0.824)</td><td>0.062</td><td>2846</td></tr>
+<tr><td>gradient_boosting</td><td>stratified_kfold<br/>train_on_subset</td><td>hard_3_50</td><td>0.959 (0.948–0.969)</td><td>0.819 (0.779–0.852)</td><td>0.061</td><td>2846</td></tr>
+<tr><td>distance_rule</td><td>not_applicable<br/>fixed_rule</td><td>all</td><td>0.851 (0.839–0.864)</td><td>0.882 (0.871–0.892)</td><td>0.186</td><td>5605</td></tr>
+<tr><td>distance_rule</td><td>not_applicable<br/>fixed_rule</td><td>hard_3_50</td><td>0.590 (0.547–0.636)</td><td>0.349 (0.300–0.402)</td><td>0.103</td><td>2846</td></tr>
+<tr><td>distance_rule</td><td>not_applicable<br/>fixed_rule</td><td>deep_gt_50</td><td>0.492 (0.443–0.537)</td><td>0.245 (0.206–0.298)</td><td>0.207</td><td>1191</td></tr>
+<tr><td>dinucleotide_rule</td><td>not_applicable<br/>fixed_rule</td><td>all</td><td>0.858 (0.849–0.867)</td><td>0.824 (0.811–0.837)</td><td>0.110</td><td>5605</td></tr>
+<tr><td>dinucleotide_rule</td><td>not_applicable<br/>fixed_rule</td><td>hard_3_50</td><td>0.500 (0.500–0.500)</td><td>0.123 (0.111–0.135)</td><td>0.123</td><td>2846</td></tr>
+<tr><td>dinucleotide_rule</td><td>not_applicable<br/>fixed_rule</td><td>deep_gt_50</td><td>0.500 (0.500–0.500)</td><td>0.209 (0.185–0.233)</td><td>0.209</td><td>1191</td></tr>
+<tr><td>distance_logistic</td><td>group_kfold_gene<br/>train_all_eval_subset</td><td>all</td><td>0.520 (0.504–0.537)</td><td>0.484 (0.464–0.505)</td><td>0.258</td><td>5605</td></tr>
+<tr><td>distance_logistic</td><td>group_kfold_gene<br/>train_all_eval_subset</td><td>hard_3_50</td><td>0.549 (0.514–0.584)</td><td>0.237 (0.197–0.283)</td><td>0.251</td><td>2846</td></tr>
+<tr><td>distance_logistic</td><td>group_kfold_gene<br/>train_all_eval_subset</td><td>deep_gt_50</td><td>0.280 (0.241–0.317)</td><td>0.144 (0.125–0.170)</td><td>0.287</td><td>1191</td></tr>
+<tr><td>distance_logistic</td><td>stratified_kfold<br/>train_all_eval_subset</td><td>all</td><td>0.601 (0.587–0.616)</td><td>0.546 (0.527–0.565)</td><td>0.250</td><td>5605</td></tr>
+<tr><td>distance_logistic</td><td>stratified_kfold<br/>train_all_eval_subset</td><td>hard_3_50</td><td>0.515 (0.483–0.549)</td><td>0.166 (0.138–0.201)</td><td>0.250</td><td>2846</td></tr>
+<tr><td>distance_logistic</td><td>stratified_kfold<br/>train_all_eval_subset</td><td>deep_gt_50</td><td>0.464 (0.420–0.507)</td><td>0.215 (0.184–0.260)</td><td>0.250</td><td>1191</td></tr>
+</table>
+<h2>How to read this</h2>
+<ul><li>ROC-AUC, PR-AUC, and Brier score are computed from out-of-fold predictions.</li><li>GroupKFold holds out every variant of a gene. StratifiedKFold does not.</li><li>The canonical dinucleotide rule and the distance rule are not trained.</li><li>deployment_score is a refit on the full research cohort and is not the benchmark.</li><li>Gene-level expression features can proxy ascertainment. Compare the mechanism and motif feature sets.</li></ul>
+<h2>Quality control</h2><p>5605 variants passed, 2155 pathogenic or likely pathogenic and 3450 benign or likely benign, across 30 genes.</p><ul><li><code>clinvar_uids</code>: 9495</li><li><code>duplicate_records</code>: 0</li><li><code>label_excluded</code>: 1887</li><li><code>not_snv_or_missing_grch38</code>: 1309</li><li><code>outside_locus</code>: 1</li><li><code>passed</code>: 5605</li></ul>
+</body>
+</html>
