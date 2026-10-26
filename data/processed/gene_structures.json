@@ -1,0 +1,9392 @@
+{
+  "SCN1A": {
+    "symbol": "SCN1A",
+    "category": "epilepsy_neurodevelopmental",
+    "disease": "Dravet syndrome / GEFS+",
+    "ensembl_id": "ENSG00000144285",
+    "canonical_transcript": "ENST00000674923",
+    "chrom": "2",
+    "start": 165984641,
+    "end": 166182806,
+    "strand": -1,
+    "exons": [
+      [
+        166127771,
+        166128020
+      ],
+      [
+        166126924,
+        166127010
+      ],
+      [
+        166077710,
+        166077801
+      ],
+      [
+        166073358,
+        166073670
+      ],
+      [
+        166058570,
+        166058688
+      ],
+      [
+        166056411,
+        166056500
+      ],
+      [
+        166054638,
+        166054766
+      ],
+      [
+        166052852,
+        166052943
+      ],
+      [
+        166051719,
+        166051988
+      ],
+      [
+        166048886,
+        166048949
+      ],
+      [
+        166047627,
+        166047768
+      ],
+      [
+        166046770,
+        166046976
+      ],
+      [
+        166045043,
+        166045327
+      ],
+      [
+        166043669,
+        166044049
+      ],
+      [
+        166042292,
+        166042424
+      ],
+      [
+        166041231,
+        166041469
+      ],
+      [
+        166039423,
+        166039596
+      ],
+      [
+        166037776,
+        166038132
+      ],
+      [
+        166036048,
+        166036530
+      ],
+      [
+        166015607,
+        166015727
+      ],
+      [
+        166013744,
+        166013898
+      ],
+      [
+        166012109,
+        166012282
+      ],
+      [
+        166009719,
+        166009841
+      ],
+      [
+        166002472,
+        166002753
+      ],
+      [
+        165999723,
+        165999776
+      ],
+      [
+        165998038,
+        165998175
+      ],
+      [
+        165996013,
+        165996117
+      ],
+      [
+        165994146,
+        165994416
+      ],
+      [
+        165985813,
+        165992422
+      ]
+    ],
+    "junctions": [
+      {
+        "kind": "donor",
+        "anchor": 166127770,
+        "exon_rank": 0
+      },
+      {
+        "kind": "donor",
+        "anchor": 166126923,
+        "exon_rank": 1
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 166127011,
+        "exon_rank": 1
+      },
+      {
+        "kind": "donor",
+        "anchor": 166077709,
+        "exon_rank": 2
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 166077802,
+        "exon_rank": 2
+      },
+      {
+        "kind": "donor",
+        "anchor": 166073357,
+        "exon_rank": 3
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 166073671,
+        "exon_rank": 3
+      },
+      {
+        "kind": "donor",
+        "anchor": 166058569,
+        "exon_rank": 4
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 166058689,
+        "exon_rank": 4
+      },
+      {
+        "kind": "donor",
+        "anchor": 166056410,
+        "exon_rank": 5
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 166056501,
+        "exon_rank": 5
+      },
+      {
+        "kind": "donor",
+        "anchor": 166054637,
+        "exon_rank": 6
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 166054767,
+        "exon_rank": 6
+      },
+      {
+        "kind": "donor",
+        "anchor": 166052851,
+        "exon_rank": 7
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 166052944,
+        "exon_rank": 7
+      },
+      {
+        "kind": "donor",
+        "anchor": 166051718,
+        "exon_rank": 8
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 166051989,
+        "exon_rank": 8
+      },
+      {
+        "kind": "donor",
+        "anchor": 166048885,
+        "exon_rank": 9
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 166048950,
+        "exon_rank": 9
+      },
+      {
+        "kind": "donor",
+        "anchor": 166047626,
+        "exon_rank": 10
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 166047769,
+        "exon_rank": 10
+      },
+      {
+        "kind": "donor",
+        "anchor": 166046769,
+        "exon_rank": 11
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 166046977,
+        "exon_rank": 11
+      },
+      {
+        "kind": "donor",
+        "anchor": 166045042,
+        "exon_rank": 12
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 166045328,
+        "exon_rank": 12
+      },
+      {
+        "kind": "donor",
+        "anchor": 166043668,
+        "exon_rank": 13
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 166044050,
+        "exon_rank": 13
+      },
+      {
+        "kind": "donor",
+        "anchor": 166042291,
+        "exon_rank": 14
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 166042425,
+        "exon_rank": 14
+      },
+      {
+        "kind": "donor",
+        "anchor": 166041230,
+        "exon_rank": 15
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 166041470,
+        "exon_rank": 15
+      },
+      {
+        "kind": "donor",
+        "anchor": 166039422,
+        "exon_rank": 16
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 166039597,
+        "exon_rank": 16
+      },
+      {
+        "kind": "donor",
+        "anchor": 166037775,
+        "exon_rank": 17
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 166038133,
+        "exon_rank": 17
+      },
+      {
+        "kind": "donor",
+        "anchor": 166036047,
+        "exon_rank": 18
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 166036531,
+        "exon_rank": 18
+      },
+      {
+        "kind": "donor",
+        "anchor": 166015606,
+        "exon_rank": 19
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 166015728,
+        "exon_rank": 19
+      },
+      {
+        "kind": "donor",
+        "anchor": 166013743,
+        "exon_rank": 20
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 166013899,
+        "exon_rank": 20
+      },
+      {
+        "kind": "donor",
+        "anchor": 166012108,
+        "exon_rank": 21
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 166012283,
+        "exon_rank": 21
+      },
+      {
+        "kind": "donor",
+        "anchor": 166009718,
+        "exon_rank": 22
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 166009842,
+        "exon_rank": 22
+      },
+      {
+        "kind": "donor",
+        "anchor": 166002471,
+        "exon_rank": 23
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 166002754,
+        "exon_rank": 23
+      },
+      {
+        "kind": "donor",
+        "anchor": 165999722,
+        "exon_rank": 24
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 165999777,
+        "exon_rank": 24
+      },
+      {
+        "kind": "donor",
+        "anchor": 165998037,
+        "exon_rank": 25
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 165998176,
+        "exon_rank": 25
+      },
+      {
+        "kind": "donor",
+        "anchor": 165996012,
+        "exon_rank": 26
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 165996118,
+        "exon_rank": 26
+      },
+      {
+        "kind": "donor",
+        "anchor": 165994145,
+        "exon_rank": 27
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 165994417,
+        "exon_rank": 27
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 165992423,
+        "exon_rank": 28
+      }
+    ]
+  },
+  "DNM1": {
+    "symbol": "DNM1",
+    "category": "epilepsy_neurodevelopmental",
+    "disease": "Developmental and epileptic encephalopathy",
+    "ensembl_id": "ENSG00000106976",
+    "canonical_transcript": "ENST00000372923",
+    "chrom": "9",
+    "start": 128191655,
+    "end": 128255254,
+    "strand": 1,
+    "exons": [
+      [
+        128203379,
+        128203631
+      ],
+      [
+        128218231,
+        128218304
+      ],
+      [
+        128218582,
+        128218731
+      ],
+      [
+        128219049,
+        128219252
+      ],
+      [
+        128219988,
+        128220086
+      ],
+      [
+        128220181,
+        128220341
+      ],
+      [
+        128222197,
+        128222339
+      ],
+      [
+        128222461,
+        128222596
+      ],
+      [
+        128222793,
+        128222860
+      ],
+      [
+        128224251,
+        128224389
+      ],
+      [
+        128234021,
+        128234107
+      ],
+      [
+        128239445,
+        128239515
+      ],
+      [
+        128239728,
+        128239779
+      ],
+      [
+        128239985,
+        128239996
+      ],
+      [
+        128242232,
+        128242345
+      ],
+      [
+        128246394,
+        128246503
+      ],
+      [
+        128247375,
+        128247486
+      ],
+      [
+        128247924,
+        128247935
+      ],
+      [
+        128248583,
+        128248753
+      ],
+      [
+        128250115,
+        128250356
+      ],
+      [
+        128250725,
+        128250940
+      ],
+      [
+        128254654,
+        128255244
+      ]
+    ],
+    "junctions": [
+      {
+        "kind": "donor",
+        "anchor": 128203632,
+        "exon_rank": 0
+      },
+      {
+        "kind": "donor",
+        "anchor": 128218305,
+        "exon_rank": 1
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 128218230,
+        "exon_rank": 1
+      },
+      {
+        "kind": "donor",
+        "anchor": 128218732,
+        "exon_rank": 2
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 128218581,
+        "exon_rank": 2
+      },
+      {
+        "kind": "donor",
+        "anchor": 128219253,
+        "exon_rank": 3
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 128219048,
+        "exon_rank": 3
+      },
+      {
+        "kind": "donor",
+        "anchor": 128220087,
+        "exon_rank": 4
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 128219987,
+        "exon_rank": 4
+      },
+      {
+        "kind": "donor",
+        "anchor": 128220342,
+        "exon_rank": 5
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 128220180,
+        "exon_rank": 5
+      },
+      {
+        "kind": "donor",
+        "anchor": 128222340,
+        "exon_rank": 6
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 128222196,
+        "exon_rank": 6
+      },
+      {
+        "kind": "donor",
+        "anchor": 128222597,
+        "exon_rank": 7
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 128222460,
+        "exon_rank": 7
+      },
+      {
+        "kind": "donor",
+        "anchor": 128222861,
+        "exon_rank": 8
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 128222792,
+        "exon_rank": 8
+      },
+      {
+        "kind": "donor",
+        "anchor": 128224390,
+        "exon_rank": 9
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 128224250,
+        "exon_rank": 9
+      },
+      {
+        "kind": "donor",
+        "anchor": 128234108,
+        "exon_rank": 10
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 128234020,
+        "exon_rank": 10
+      },
+      {
+        "kind": "donor",
+        "anchor": 128239516,
+        "exon_rank": 11
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 128239444,
+        "exon_rank": 11
+      },
+      {
+        "kind": "donor",
+        "anchor": 128239780,
+        "exon_rank": 12
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 128239727,
+        "exon_rank": 12
+      },
+      {
+        "kind": "donor",
+        "anchor": 128239997,
+        "exon_rank": 13
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 128239984,
+        "exon_rank": 13
+      },
+      {
+        "kind": "donor",
+        "anchor": 128242346,
+        "exon_rank": 14
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 128242231,
+        "exon_rank": 14
+      },
+      {
+        "kind": "donor",
+        "anchor": 128246504,
+        "exon_rank": 15
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 128246393,
+        "exon_rank": 15
+      },
+      {
+        "kind": "donor",
+        "anchor": 128247487,
+        "exon_rank": 16
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 128247374,
+        "exon_rank": 16
+      },
+      {
+        "kind": "donor",
+        "anchor": 128247936,
+        "exon_rank": 17
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 128247923,
+        "exon_rank": 17
+      },
+      {
+        "kind": "donor",
+        "anchor": 128248754,
+        "exon_rank": 18
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 128248582,
+        "exon_rank": 18
+      },
+      {
+        "kind": "donor",
+        "anchor": 128250357,
+        "exon_rank": 19
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 128250114,
+        "exon_rank": 19
+      },
+      {
+        "kind": "donor",
+        "anchor": 128250941,
+        "exon_rank": 20
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 128250724,
+        "exon_rank": 20
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 128254653,
+        "exon_rank": 21
+      }
+    ]
+  },
+  "MECP2": {
+    "symbol": "MECP2",
+    "category": "epilepsy_neurodevelopmental",
+    "disease": "Rett syndrome",
+    "ensembl_id": "ENSG00000169057",
+    "canonical_transcript": "ENST00000453960",
+    "chrom": "X",
+    "start": 154021573,
+    "end": 154137103,
+    "strand": -1,
+    "exons": [
+      [
+        154097604,
+        154097717
+      ],
+      [
+        154032207,
+        154032557
+      ],
+      [
+        154021573,
+        154031450
+      ]
+    ],
+    "junctions": [
+      {
+        "kind": "donor",
+        "anchor": 154097603,
+        "exon_rank": 0
+      },
+      {
+        "kind": "donor",
+        "anchor": 154032206,
+        "exon_rank": 1
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 154032558,
+        "exon_rank": 1
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 154031451,
+        "exon_rank": 2
+      }
+    ]
+  },
+  "STXBP1": {
+    "symbol": "STXBP1",
+    "category": "epilepsy_neurodevelopmental",
+    "disease": "STXBP1 encephalopathy",
+    "ensembl_id": "ENSG00000136854",
+    "canonical_transcript": "ENST00000373299",
+    "chrom": "9",
+    "start": 127579370,
+    "end": 127696027,
+    "strand": 1,
+    "exons": [
+      [
+        127612277,
+        127612440
+      ],
+      [
+        127651603,
+        127651652
+      ],
+      [
+        127653715,
+        127653796
+      ],
+      [
+        127658375,
+        127658451
+      ],
+      [
+        127660030,
+        127660108
+      ],
+      [
+        127661102,
+        127661205
+      ],
+      [
+        127663205,
+        127663353
+      ],
+      [
+        127665247,
+        127665331
+      ],
+      [
+        127666166,
+        127666296
+      ],
+      [
+        127668080,
+        127668187
+      ],
+      [
+        127669898,
+        127669958
+      ],
+      [
+        127672051,
+        127672116
+      ],
+      [
+        127673181,
+        127673261
+      ],
+      [
+        127675804,
+        127675942
+      ],
+      [
+        127676644,
+        127676753
+      ],
+      [
+        127678431,
+        127678532
+      ],
+      [
+        127680157,
+        127680242
+      ],
+      [
+        127682406,
+        127682560
+      ],
+      [
+        127690775,
+        127692699
+      ]
+    ],
+    "junctions": [
+      {
+        "kind": "donor",
+        "anchor": 127612441,
+        "exon_rank": 0
+      },
+      {
+        "kind": "donor",
+        "anchor": 127651653,
+        "exon_rank": 1
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 127651602,
+        "exon_rank": 1
+      },
+      {
+        "kind": "donor",
+        "anchor": 127653797,
+        "exon_rank": 2
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 127653714,
+        "exon_rank": 2
+      },
+      {
+        "kind": "donor",
+        "anchor": 127658452,
+        "exon_rank": 3
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 127658374,
+        "exon_rank": 3
+      },
+      {
+        "kind": "donor",
+        "anchor": 127660109,
+        "exon_rank": 4
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 127660029,
+        "exon_rank": 4
+      },
+      {
+        "kind": "donor",
+        "anchor": 127661206,
+        "exon_rank": 5
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 127661101,
+        "exon_rank": 5
+      },
+      {
+        "kind": "donor",
+        "anchor": 127663354,
+        "exon_rank": 6
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 127663204,
+        "exon_rank": 6
+      },
+      {
+        "kind": "donor",
+        "anchor": 127665332,
+        "exon_rank": 7
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 127665246,
+        "exon_rank": 7
+      },
+      {
+        "kind": "donor",
+        "anchor": 127666297,
+        "exon_rank": 8
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 127666165,
+        "exon_rank": 8
+      },
+      {
+        "kind": "donor",
+        "anchor": 127668188,
+        "exon_rank": 9
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 127668079,
+        "exon_rank": 9
+      },
+      {
+        "kind": "donor",
+        "anchor": 127669959,
+        "exon_rank": 10
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 127669897,
+        "exon_rank": 10
+      },
+      {
+        "kind": "donor",
+        "anchor": 127672117,
+        "exon_rank": 11
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 127672050,
+        "exon_rank": 11
+      },
+      {
+        "kind": "donor",
+        "anchor": 127673262,
+        "exon_rank": 12
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 127673180,
+        "exon_rank": 12
+      },
+      {
+        "kind": "donor",
+        "anchor": 127675943,
+        "exon_rank": 13
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 127675803,
+        "exon_rank": 13
+      },
+      {
+        "kind": "donor",
+        "anchor": 127676754,
+        "exon_rank": 14
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 127676643,
+        "exon_rank": 14
+      },
+      {
+        "kind": "donor",
+        "anchor": 127678533,
+        "exon_rank": 15
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 127678430,
+        "exon_rank": 15
+      },
+      {
+        "kind": "donor",
+        "anchor": 127680243,
+        "exon_rank": 16
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 127680156,
+        "exon_rank": 16
+      },
+      {
+        "kind": "donor",
+        "anchor": 127682561,
+        "exon_rank": 17
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 127682405,
+        "exon_rank": 17
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 127690774,
+        "exon_rank": 18
+      }
+    ]
+  },
+  "KCNQ2": {
+    "symbol": "KCNQ2",
+    "category": "epilepsy_neurodevelopmental",
+    "disease": "KCNQ2 neonatal encephalopathy",
+    "ensembl_id": "ENSG00000075043",
+    "canonical_transcript": "ENST00000359125",
+    "chrom": "20",
+    "start": 63400208,
+    "end": 63472689,
+    "strand": -1,
+    "exons": [
+      [
+        63472168,
+        63472655
+      ],
+      [
+        63446747,
+        63446837
+      ],
+      [
+        63445238,
+        63445364
+      ],
+      [
+        63444659,
+        63444834
+      ],
+      [
+        63442406,
+        63442531
+      ],
+      [
+        63439598,
+        63439708
+      ],
+      [
+        63438625,
+        63438720
+      ],
+      [
+        63433809,
+        63433903
+      ],
+      [
+        63431340,
+        63431369
+      ],
+      [
+        63428367,
+        63428435
+      ],
+      [
+        63424177,
+        63424206
+      ],
+      [
+        63419619,
+        63419672
+      ],
+      [
+        63414903,
+        63415126
+      ],
+      [
+        63414088,
+        63414193
+      ],
+      [
+        63413450,
+        63413581
+      ],
+      [
+        63408413,
+        63408536
+      ],
+      [
+        63400208,
+        63407375
+      ]
+    ],
+    "junctions": [
+      {
+        "kind": "donor",
+        "anchor": 63472167,
+        "exon_rank": 0
+      },
+      {
+        "kind": "donor",
+        "anchor": 63446746,
+        "exon_rank": 1
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 63446838,
+        "exon_rank": 1
+      },
+      {
+        "kind": "donor",
+        "anchor": 63445237,
+        "exon_rank": 2
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 63445365,
+        "exon_rank": 2
+      },
+      {
+        "kind": "donor",
+        "anchor": 63444658,
+        "exon_rank": 3
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 63444835,
+        "exon_rank": 3
+      },
+      {
+        "kind": "donor",
+        "anchor": 63442405,
+        "exon_rank": 4
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 63442532,
+        "exon_rank": 4
+      },
+      {
+        "kind": "donor",
+        "anchor": 63439597,
+        "exon_rank": 5
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 63439709,
+        "exon_rank": 5
+      },
+      {
+        "kind": "donor",
+        "anchor": 63438624,
+        "exon_rank": 6
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 63438721,
+        "exon_rank": 6
+      },
+      {
+        "kind": "donor",
+        "anchor": 63433808,
+        "exon_rank": 7
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 63433904,
+        "exon_rank": 7
+      },
+      {
+        "kind": "donor",
+        "anchor": 63431339,
+        "exon_rank": 8
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 63431370,
+        "exon_rank": 8
+      },
+      {
+        "kind": "donor",
+        "anchor": 63428366,
+        "exon_rank": 9
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 63428436,
+        "exon_rank": 9
+      },
+      {
+        "kind": "donor",
+        "anchor": 63424176,
+        "exon_rank": 10
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 63424207,
+        "exon_rank": 10
+      },
+      {
+        "kind": "donor",
+        "anchor": 63419618,
+        "exon_rank": 11
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 63419673,
+        "exon_rank": 11
+      },
+      {
+        "kind": "donor",
+        "anchor": 63414902,
+        "exon_rank": 12
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 63415127,
+        "exon_rank": 12
+      },
+      {
+        "kind": "donor",
+        "anchor": 63414087,
+        "exon_rank": 13
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 63414194,
+        "exon_rank": 13
+      },
+      {
+        "kind": "donor",
+        "anchor": 63413449,
+        "exon_rank": 14
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 63413582,
+        "exon_rank": 14
+      },
+      {
+        "kind": "donor",
+        "anchor": 63408412,
+        "exon_rank": 15
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 63408537,
+        "exon_rank": 15
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 63407376,
+        "exon_rank": 16
+      }
+    ]
+  },
+  "SYNGAP1": {
+    "symbol": "SYNGAP1",
+    "category": "epilepsy_neurodevelopmental",
+    "disease": "SYNGAP1-related disorder",
+    "ensembl_id": "ENSG00000197283",
+    "canonical_transcript": "ENST00000646630",
+    "chrom": "6",
+    "start": 33419661,
+    "end": 33453689,
+    "strand": 1,
+    "exons": [
+      [
+        33420065,
+        33420331
+      ],
+      [
+        33423477,
+        33423598
+      ],
+      [
+        33425798,
+        33425903
+      ],
+      [
+        33432161,
+        33432252
+      ],
+      [
+        33432685,
+        33432806
+      ],
+      [
+        33435152,
+        33435305
+      ],
+      [
+        33435515,
+        33435613
+      ],
+      [
+        33437668,
+        33438291
+      ],
+      [
+        33438419,
+        33438563
+      ],
+      [
+        33438775,
+        33438919
+      ],
+      [
+        33440729,
+        33440965
+      ],
+      [
+        33441173,
+        33441374
+      ],
+      [
+        33441581,
+        33441759
+      ],
+      [
+        33442453,
+        33442494
+      ],
+      [
+        33442889,
+        33443960
+      ],
+      [
+        33444444,
+        33444617
+      ],
+      [
+        33446575,
+        33446786
+      ],
+      [
+        33447843,
+        33447933
+      ],
+      [
+        33451760,
+        33453689
+      ]
+    ],
+    "junctions": [
+      {
+        "kind": "donor",
+        "anchor": 33420332,
+        "exon_rank": 0
+      },
+      {
+        "kind": "donor",
+        "anchor": 33423599,
+        "exon_rank": 1
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 33423476,
+        "exon_rank": 1
+      },
+      {
+        "kind": "donor",
+        "anchor": 33425904,
+        "exon_rank": 2
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 33425797,
+        "exon_rank": 2
+      },
+      {
+        "kind": "donor",
+        "anchor": 33432253,
+        "exon_rank": 3
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 33432160,
+        "exon_rank": 3
+      },
+      {
+        "kind": "donor",
+        "anchor": 33432807,
+        "exon_rank": 4
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 33432684,
+        "exon_rank": 4
+      },
+      {
+        "kind": "donor",
+        "anchor": 33435306,
+        "exon_rank": 5
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 33435151,
+        "exon_rank": 5
+      },
+      {
+        "kind": "donor",
+        "anchor": 33435614,
+        "exon_rank": 6
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 33435514,
+        "exon_rank": 6
+      },
+      {
+        "kind": "donor",
+        "anchor": 33438292,
+        "exon_rank": 7
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 33437667,
+        "exon_rank": 7
+      },
+      {
+        "kind": "donor",
+        "anchor": 33438564,
+        "exon_rank": 8
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 33438418,
+        "exon_rank": 8
+      },
+      {
+        "kind": "donor",
+        "anchor": 33438920,
+        "exon_rank": 9
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 33438774,
+        "exon_rank": 9
+      },
+      {
+        "kind": "donor",
+        "anchor": 33440966,
+        "exon_rank": 10
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 33440728,
+        "exon_rank": 10
+      },
+      {
+        "kind": "donor",
+        "anchor": 33441375,
+        "exon_rank": 11
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 33441172,
+        "exon_rank": 11
+      },
+      {
+        "kind": "donor",
+        "anchor": 33441760,
+        "exon_rank": 12
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 33441580,
+        "exon_rank": 12
+      },
+      {
+        "kind": "donor",
+        "anchor": 33442495,
+        "exon_rank": 13
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 33442452,
+        "exon_rank": 13
+      },
+      {
+        "kind": "donor",
+        "anchor": 33443961,
+        "exon_rank": 14
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 33442888,
+        "exon_rank": 14
+      },
+      {
+        "kind": "donor",
+        "anchor": 33444618,
+        "exon_rank": 15
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 33444443,
+        "exon_rank": 15
+      },
+      {
+        "kind": "donor",
+        "anchor": 33446787,
+        "exon_rank": 16
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 33446574,
+        "exon_rank": 16
+      },
+      {
+        "kind": "donor",
+        "anchor": 33447934,
+        "exon_rank": 17
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 33447842,
+        "exon_rank": 17
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 33451759,
+        "exon_rank": 18
+      }
+    ]
+  },
+  "CDKL5": {
+    "symbol": "CDKL5",
+    "category": "epilepsy_neurodevelopmental",
+    "disease": "CDKL5 deficiency disorder",
+    "ensembl_id": "ENSG00000008086",
+    "canonical_transcript": "ENST00000623535",
+    "chrom": "X",
+    "start": 18425581,
+    "end": 18653629,
+    "strand": 1,
+    "exons": [
+      [
+        18425608,
+        18425695
+      ],
+      [
+        18506935,
+        18507160
+      ],
+      [
+        18510820,
+        18510854
+      ],
+      [
+        18564477,
+        18564522
+      ],
+      [
+        18575354,
+        18575490
+      ],
+      [
+        18579848,
+        18579968
+      ],
+      [
+        18581891,
+        18581950
+      ],
+      [
+        18584263,
+        18584353
+      ],
+      [
+        18587954,
+        18588143
+      ],
+      [
+        18595348,
+        18595428
+      ],
+      [
+        18598462,
+        18598613
+      ],
+      [
+        18603902,
+        18604868
+      ],
+      [
+        18608811,
+        18608912
+      ],
+      [
+        18609465,
+        18609570
+      ],
+      [
+        18613152,
+        18613275
+      ],
+      [
+        18619867,
+        18619966
+      ],
+      [
+        18625128,
+        18625247
+      ],
+      [
+        18628371,
+        18640196
+      ]
+    ],
+    "junctions": [
+      {
+        "kind": "donor",
+        "anchor": 18425696,
+        "exon_rank": 0
+      },
+      {
+        "kind": "donor",
+        "anchor": 18507161,
+        "exon_rank": 1
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 18506934,
+        "exon_rank": 1
+      },
+      {
+        "kind": "donor",
+        "anchor": 18510855,
+        "exon_rank": 2
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 18510819,
+        "exon_rank": 2
+      },
+      {
+        "kind": "donor",
+        "anchor": 18564523,
+        "exon_rank": 3
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 18564476,
+        "exon_rank": 3
+      },
+      {
+        "kind": "donor",
+        "anchor": 18575491,
+        "exon_rank": 4
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 18575353,
+        "exon_rank": 4
+      },
+      {
+        "kind": "donor",
+        "anchor": 18579969,
+        "exon_rank": 5
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 18579847,
+        "exon_rank": 5
+      },
+      {
+        "kind": "donor",
+        "anchor": 18581951,
+        "exon_rank": 6
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 18581890,
+        "exon_rank": 6
+      },
+      {
+        "kind": "donor",
+        "anchor": 18584354,
+        "exon_rank": 7
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 18584262,
+        "exon_rank": 7
+      },
+      {
+        "kind": "donor",
+        "anchor": 18588144,
+        "exon_rank": 8
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 18587953,
+        "exon_rank": 8
+      },
+      {
+        "kind": "donor",
+        "anchor": 18595429,
+        "exon_rank": 9
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 18595347,
+        "exon_rank": 9
+      },
+      {
+        "kind": "donor",
+        "anchor": 18598614,
+        "exon_rank": 10
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 18598461,
+        "exon_rank": 10
+      },
+      {
+        "kind": "donor",
+        "anchor": 18604869,
+        "exon_rank": 11
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 18603901,
+        "exon_rank": 11
+      },
+      {
+        "kind": "donor",
+        "anchor": 18608913,
+        "exon_rank": 12
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 18608810,
+        "exon_rank": 12
+      },
+      {
+        "kind": "donor",
+        "anchor": 18609571,
+        "exon_rank": 13
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 18609464,
+        "exon_rank": 13
+      },
+      {
+        "kind": "donor",
+        "anchor": 18613276,
+        "exon_rank": 14
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 18613151,
+        "exon_rank": 14
+      },
+      {
+        "kind": "donor",
+        "anchor": 18619967,
+        "exon_rank": 15
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 18619866,
+        "exon_rank": 15
+      },
+      {
+        "kind": "donor",
+        "anchor": 18625248,
+        "exon_rank": 16
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 18625127,
+        "exon_rank": 16
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 18628370,
+        "exon_rank": 17
+      }
+    ]
+  },
+  "TSC1": {
+    "symbol": "TSC1",
+    "category": "epilepsy_neurodevelopmental",
+    "disease": "Tuberous sclerosis",
+    "ensembl_id": "ENSG00000165699",
+    "canonical_transcript": "ENST00000298552",
+    "chrom": "9",
+    "start": 132891348,
+    "end": 132946874,
+    "strand": -1,
+    "exons": [
+      [
+        132944543,
+        132944616
+      ],
+      [
+        132935033,
+        132935095
+      ],
+      [
+        132928767,
+        132928952
+      ],
+      [
+        132927201,
+        132927304
+      ],
+      [
+        132925587,
+        132925739
+      ],
+      [
+        132923348,
+        132923492
+      ],
+      [
+        132921819,
+        132921973
+      ],
+      [
+        132921363,
+        132921436
+      ],
+      [
+        132912282,
+        132912457
+      ],
+      [
+        132911453,
+        132911568
+      ],
+      [
+        132911002,
+        132911113
+      ],
+      [
+        132910571,
+        132910692
+      ],
+      [
+        132907301,
+        132907370
+      ],
+      [
+        132906731,
+        132906835
+      ],
+      [
+        132905581,
+        132906139
+      ],
+      [
+        132904411,
+        132904454
+      ],
+      [
+        132903651,
+        132903817
+      ],
+      [
+        132902605,
+        132902787
+      ],
+      [
+        132901589,
+        132901699
+      ],
+      [
+        132900715,
+        132900837
+      ],
+      [
+        132897423,
+        132897610
+      ],
+      [
+        132897184,
+        132897345
+      ],
+      [
+        132891349,
+        132896754
+      ]
+    ],
+    "junctions": [
+      {
+        "kind": "donor",
+        "anchor": 132944542,
+        "exon_rank": 0
+      },
+      {
+        "kind": "donor",
+        "anchor": 132935032,
+        "exon_rank": 1
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 132935096,
+        "exon_rank": 1
+      },
+      {
+        "kind": "donor",
+        "anchor": 132928766,
+        "exon_rank": 2
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 132928953,
+        "exon_rank": 2
+      },
+      {
+        "kind": "donor",
+        "anchor": 132927200,
+        "exon_rank": 3
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 132927305,
+        "exon_rank": 3
+      },
+      {
+        "kind": "donor",
+        "anchor": 132925586,
+        "exon_rank": 4
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 132925740,
+        "exon_rank": 4
+      },
+      {
+        "kind": "donor",
+        "anchor": 132923347,
+        "exon_rank": 5
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 132923493,
+        "exon_rank": 5
+      },
+      {
+        "kind": "donor",
+        "anchor": 132921818,
+        "exon_rank": 6
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 132921974,
+        "exon_rank": 6
+      },
+      {
+        "kind": "donor",
+        "anchor": 132921362,
+        "exon_rank": 7
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 132921437,
+        "exon_rank": 7
+      },
+      {
+        "kind": "donor",
+        "anchor": 132912281,
+        "exon_rank": 8
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 132912458,
+        "exon_rank": 8
+      },
+      {
+        "kind": "donor",
+        "anchor": 132911452,
+        "exon_rank": 9
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 132911569,
+        "exon_rank": 9
+      },
+      {
+        "kind": "donor",
+        "anchor": 132911001,
+        "exon_rank": 10
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 132911114,
+        "exon_rank": 10
+      },
+      {
+        "kind": "donor",
+        "anchor": 132910570,
+        "exon_rank": 11
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 132910693,
+        "exon_rank": 11
+      },
+      {
+        "kind": "donor",
+        "anchor": 132907300,
+        "exon_rank": 12
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 132907371,
+        "exon_rank": 12
+      },
+      {
+        "kind": "donor",
+        "anchor": 132906730,
+        "exon_rank": 13
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 132906836,
+        "exon_rank": 13
+      },
+      {
+        "kind": "donor",
+        "anchor": 132905580,
+        "exon_rank": 14
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 132906140,
+        "exon_rank": 14
+      },
+      {
+        "kind": "donor",
+        "anchor": 132904410,
+        "exon_rank": 15
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 132904455,
+        "exon_rank": 15
+      },
+      {
+        "kind": "donor",
+        "anchor": 132903650,
+        "exon_rank": 16
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 132903818,
+        "exon_rank": 16
+      },
+      {
+        "kind": "donor",
+        "anchor": 132902604,
+        "exon_rank": 17
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 132902788,
+        "exon_rank": 17
+      },
+      {
+        "kind": "donor",
+        "anchor": 132901588,
+        "exon_rank": 18
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 132901700,
+        "exon_rank": 18
+      },
+      {
+        "kind": "donor",
+        "anchor": 132900714,
+        "exon_rank": 19
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 132900838,
+        "exon_rank": 19
+      },
+      {
+        "kind": "donor",
+        "anchor": 132897422,
+        "exon_rank": 20
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 132897611,
+        "exon_rank": 20
+      },
+      {
+        "kind": "donor",
+        "anchor": 132897183,
+        "exon_rank": 21
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 132897346,
+        "exon_rank": 21
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 132896755,
+        "exon_rank": 22
+      }
+    ]
+  },
+  "TSC2": {
+    "symbol": "TSC2",
+    "category": "epilepsy_neurodevelopmental",
+    "disease": "Tuberous sclerosis",
+    "ensembl_id": "ENSG00000103197",
+    "canonical_transcript": "ENST00000219476",
+    "chrom": "16",
+    "start": 2047345,
+    "end": 2089491,
+    "strand": 1,
+    "exons": [
+      [
+        2047985,
+        2048065
+      ],
+      [
+        2048587,
+        2048753
+      ],
+      [
+        2050400,
+        2050486
+      ],
+      [
+        2053342,
+        2053452
+      ],
+      [
+        2054296,
+        2054440
+      ],
+      [
+        2055402,
+        2055519
+      ],
+      [
+        2056196,
+        2056244
+      ],
+      [
+        2056644,
+        2056769
+      ],
+      [
+        2057105,
+        2057178
+      ],
+      [
+        2058747,
+        2058873
+      ],
+      [
+        2060670,
+        2060813
+      ],
+      [
+        2061871,
+        2062008
+      ],
+      [
+        2062497,
+        2062600
+      ],
+      [
+        2062972,
+        2063053
+      ],
+      [
+        2064272,
+        2064427
+      ],
+      [
+        2065519,
+        2065635
+      ],
+      [
+        2070456,
+        2070578
+      ],
+      [
+        2071510,
+        2071616
+      ],
+      [
+        2071784,
+        2071934
+      ],
+      [
+        2072241,
+        2072363
+      ],
+      [
+        2072849,
+        2072983
+      ],
+      [
+        2074200,
+        2074389
+      ],
+      [
+        2075799,
+        2075892
+      ],
+      [
+        2076068,
+        2076170
+      ],
+      [
+        2076491,
+        2076585
+      ],
+      [
+        2077598,
+        2077726
+      ],
+      [
+        2079032,
+        2079196
+      ],
+      [
+        2079276,
+        2079428
+      ],
+      [
+        2079557,
+        2079669
+      ],
+      [
+        2080165,
+        2080377
+      ],
+      [
+        2081595,
+        2081798
+      ],
+      [
+        2082436,
+        2082504
+      ],
+      [
+        2083695,
+        2083816
+      ],
+      [
+        2084228,
+        2084715
+      ],
+      [
+        2084951,
+        2085026
+      ],
+      [
+        2085230,
+        2085322
+      ],
+      [
+        2086193,
+        2086379
+      ],
+      [
+        2086732,
+        2086871
+      ],
+      [
+        2087863,
+        2087941
+      ],
+      [
+        2088048,
+        2088139
+      ],
+      [
+        2088227,
+        2088325
+      ],
+      [
+        2088446,
+        2089491
+      ]
+    ],
+    "junctions": [
+      {
+        "kind": "donor",
+        "anchor": 2048066,
+        "exon_rank": 0
+      },
+      {
+        "kind": "donor",
+        "anchor": 2048754,
+        "exon_rank": 1
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 2048586,
+        "exon_rank": 1
+      },
+      {
+        "kind": "donor",
+        "anchor": 2050487,
+        "exon_rank": 2
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 2050399,
+        "exon_rank": 2
+      },
+      {
+        "kind": "donor",
+        "anchor": 2053453,
+        "exon_rank": 3
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 2053341,
+        "exon_rank": 3
+      },
+      {
+        "kind": "donor",
+        "anchor": 2054441,
+        "exon_rank": 4
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 2054295,
+        "exon_rank": 4
+      },
+      {
+        "kind": "donor",
+        "anchor": 2055520,
+        "exon_rank": 5
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 2055401,
+        "exon_rank": 5
+      },
+      {
+        "kind": "donor",
+        "anchor": 2056245,
+        "exon_rank": 6
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 2056195,
+        "exon_rank": 6
+      },
+      {
+        "kind": "donor",
+        "anchor": 2056770,
+        "exon_rank": 7
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 2056643,
+        "exon_rank": 7
+      },
+      {
+        "kind": "donor",
+        "anchor": 2057179,
+        "exon_rank": 8
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 2057104,
+        "exon_rank": 8
+      },
+      {
+        "kind": "donor",
+        "anchor": 2058874,
+        "exon_rank": 9
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 2058746,
+        "exon_rank": 9
+      },
+      {
+        "kind": "donor",
+        "anchor": 2060814,
+        "exon_rank": 10
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 2060669,
+        "exon_rank": 10
+      },
+      {
+        "kind": "donor",
+        "anchor": 2062009,
+        "exon_rank": 11
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 2061870,
+        "exon_rank": 11
+      },
+      {
+        "kind": "donor",
+        "anchor": 2062601,
+        "exon_rank": 12
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 2062496,
+        "exon_rank": 12
+      },
+      {
+        "kind": "donor",
+        "anchor": 2063054,
+        "exon_rank": 13
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 2062971,
+        "exon_rank": 13
+      },
+      {
+        "kind": "donor",
+        "anchor": 2064428,
+        "exon_rank": 14
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 2064271,
+        "exon_rank": 14
+      },
+      {
+        "kind": "donor",
+        "anchor": 2065636,
+        "exon_rank": 15
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 2065518,
+        "exon_rank": 15
+      },
+      {
+        "kind": "donor",
+        "anchor": 2070579,
+        "exon_rank": 16
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 2070455,
+        "exon_rank": 16
+      },
+      {
+        "kind": "donor",
+        "anchor": 2071617,
+        "exon_rank": 17
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 2071509,
+        "exon_rank": 17
+      },
+      {
+        "kind": "donor",
+        "anchor": 2071935,
+        "exon_rank": 18
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 2071783,
+        "exon_rank": 18
+      },
+      {
+        "kind": "donor",
+        "anchor": 2072364,
+        "exon_rank": 19
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 2072240,
+        "exon_rank": 19
+      },
+      {
+        "kind": "donor",
+        "anchor": 2072984,
+        "exon_rank": 20
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 2072848,
+        "exon_rank": 20
+      },
+      {
+        "kind": "donor",
+        "anchor": 2074390,
+        "exon_rank": 21
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 2074199,
+        "exon_rank": 21
+      },
+      {
+        "kind": "donor",
+        "anchor": 2075893,
+        "exon_rank": 22
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 2075798,
+        "exon_rank": 22
+      },
+      {
+        "kind": "donor",
+        "anchor": 2076171,
+        "exon_rank": 23
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 2076067,
+        "exon_rank": 23
+      },
+      {
+        "kind": "donor",
+        "anchor": 2076586,
+        "exon_rank": 24
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 2076490,
+        "exon_rank": 24
+      },
+      {
+        "kind": "donor",
+        "anchor": 2077727,
+        "exon_rank": 25
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 2077597,
+        "exon_rank": 25
+      },
+      {
+        "kind": "donor",
+        "anchor": 2079197,
+        "exon_rank": 26
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 2079031,
+        "exon_rank": 26
+      },
+      {
+        "kind": "donor",
+        "anchor": 2079429,
+        "exon_rank": 27
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 2079275,
+        "exon_rank": 27
+      },
+      {
+        "kind": "donor",
+        "anchor": 2079670,
+        "exon_rank": 28
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 2079556,
+        "exon_rank": 28
+      },
+      {
+        "kind": "donor",
+        "anchor": 2080378,
+        "exon_rank": 29
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 2080164,
+        "exon_rank": 29
+      },
+      {
+        "kind": "donor",
+        "anchor": 2081799,
+        "exon_rank": 30
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 2081594,
+        "exon_rank": 30
+      },
+      {
+        "kind": "donor",
+        "anchor": 2082505,
+        "exon_rank": 31
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 2082435,
+        "exon_rank": 31
+      },
+      {
+        "kind": "donor",
+        "anchor": 2083817,
+        "exon_rank": 32
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 2083694,
+        "exon_rank": 32
+      },
+      {
+        "kind": "donor",
+        "anchor": 2084716,
+        "exon_rank": 33
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 2084227,
+        "exon_rank": 33
+      },
+      {
+        "kind": "donor",
+        "anchor": 2085027,
+        "exon_rank": 34
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 2084950,
+        "exon_rank": 34
+      },
+      {
+        "kind": "donor",
+        "anchor": 2085323,
+        "exon_rank": 35
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 2085229,
+        "exon_rank": 35
+      },
+      {
+        "kind": "donor",
+        "anchor": 2086380,
+        "exon_rank": 36
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 2086192,
+        "exon_rank": 36
+      },
+      {
+        "kind": "donor",
+        "anchor": 2086872,
+        "exon_rank": 37
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 2086731,
+        "exon_rank": 37
+      },
+      {
+        "kind": "donor",
+        "anchor": 2087942,
+        "exon_rank": 38
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 2087862,
+        "exon_rank": 38
+      },
+      {
+        "kind": "donor",
+        "anchor": 2088140,
+        "exon_rank": 39
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 2088047,
+        "exon_rank": 39
+      },
+      {
+        "kind": "donor",
+        "anchor": 2088326,
+        "exon_rank": 40
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 2088226,
+        "exon_rank": 40
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 2088445,
+        "exon_rank": 41
+      }
+    ]
+  },
+  "CHD2": {
+    "symbol": "CHD2",
+    "category": "epilepsy_neurodevelopmental",
+    "disease": "CHD2-related epilepsy",
+    "ensembl_id": "ENSG00000173575",
+    "canonical_transcript": "ENST00000394196",
+    "chrom": "15",
+    "start": 92886203,
+    "end": 93027996,
+    "strand": 1,
+    "exons": [
+      [
+        92900324,
+        92900824
+      ],
+      [
+        92901167,
+        92901299
+      ],
+      [
+        92924321,
+        92924552
+      ],
+      [
+        92927244,
+        92927330
+      ],
+      [
+        92929030,
+        92929091
+      ],
+      [
+        92937518,
+        92937625
+      ],
+      [
+        92939578,
+        92939718
+      ],
+      [
+        92941822,
+        92941955
+      ],
+      [
+        92942843,
+        92943068
+      ],
+      [
+        92944415,
+        92944515
+      ],
+      [
+        92945821,
+        92945865
+      ],
+      [
+        92946038,
+        92946216
+      ],
+      [
+        92948952,
+        92949076
+      ],
+      [
+        92953357,
+        92953573
+      ],
+      [
+        92955423,
+        92955512
+      ],
+      [
+        92956459,
+        92956649
+      ],
+      [
+        92967325,
+        92967513
+      ],
+      [
+        92971765,
+        92971927
+      ],
+      [
+        92972265,
+        92972417
+      ],
+      [
+        92974879,
+        92974950
+      ],
+      [
+        92978234,
+        92978383
+      ],
+      [
+        92979135,
+        92979283
+      ],
+      [
+        92980815,
+        92980911
+      ],
+      [
+        92981365,
+        92981457
+      ],
+      [
+        92984330,
+        92984500
+      ],
+      [
+        92985498,
+        92985673
+      ],
+      [
+        92991476,
+        92991517
+      ],
+      [
+        92992859,
+        92992998
+      ],
+      [
+        92996957,
+        92997095
+      ],
+      [
+        92997253,
+        92997403
+      ],
+      [
+        92998499,
+        92998621
+      ],
+      [
+        93000512,
+        93000640
+      ],
+      [
+        93002177,
+        93002317
+      ],
+      [
+        93004617,
+        93004751
+      ],
+      [
+        93009145,
+        93009323
+      ],
+      [
+        93012345,
+        93012444
+      ],
+      [
+        93014696,
+        93014909
+      ],
+      [
+        93020012,
+        93020258
+      ],
+      [
+        93024372,
+        93027996
+      ]
+    ],
+    "junctions": [
+      {
+        "kind": "donor",
+        "anchor": 92900825,
+        "exon_rank": 0
+      },
+      {
+        "kind": "donor",
+        "anchor": 92901300,
+        "exon_rank": 1
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 92901166,
+        "exon_rank": 1
+      },
+      {
+        "kind": "donor",
+        "anchor": 92924553,
+        "exon_rank": 2
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 92924320,
+        "exon_rank": 2
+      },
+      {
+        "kind": "donor",
+        "anchor": 92927331,
+        "exon_rank": 3
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 92927243,
+        "exon_rank": 3
+      },
+      {
+        "kind": "donor",
+        "anchor": 92929092,
+        "exon_rank": 4
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 92929029,
+        "exon_rank": 4
+      },
+      {
+        "kind": "donor",
+        "anchor": 92937626,
+        "exon_rank": 5
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 92937517,
+        "exon_rank": 5
+      },
+      {
+        "kind": "donor",
+        "anchor": 92939719,
+        "exon_rank": 6
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 92939577,
+        "exon_rank": 6
+      },
+      {
+        "kind": "donor",
+        "anchor": 92941956,
+        "exon_rank": 7
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 92941821,
+        "exon_rank": 7
+      },
+      {
+        "kind": "donor",
+        "anchor": 92943069,
+        "exon_rank": 8
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 92942842,
+        "exon_rank": 8
+      },
+      {
+        "kind": "donor",
+        "anchor": 92944516,
+        "exon_rank": 9
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 92944414,
+        "exon_rank": 9
+      },
+      {
+        "kind": "donor",
+        "anchor": 92945866,
+        "exon_rank": 10
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 92945820,
+        "exon_rank": 10
+      },
+      {
+        "kind": "donor",
+        "anchor": 92946217,
+        "exon_rank": 11
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 92946037,
+        "exon_rank": 11
+      },
+      {
+        "kind": "donor",
+        "anchor": 92949077,
+        "exon_rank": 12
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 92948951,
+        "exon_rank": 12
+      },
+      {
+        "kind": "donor",
+        "anchor": 92953574,
+        "exon_rank": 13
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 92953356,
+        "exon_rank": 13
+      },
+      {
+        "kind": "donor",
+        "anchor": 92955513,
+        "exon_rank": 14
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 92955422,
+        "exon_rank": 14
+      },
+      {
+        "kind": "donor",
+        "anchor": 92956650,
+        "exon_rank": 15
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 92956458,
+        "exon_rank": 15
+      },
+      {
+        "kind": "donor",
+        "anchor": 92967514,
+        "exon_rank": 16
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 92967324,
+        "exon_rank": 16
+      },
+      {
+        "kind": "donor",
+        "anchor": 92971928,
+        "exon_rank": 17
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 92971764,
+        "exon_rank": 17
+      },
+      {
+        "kind": "donor",
+        "anchor": 92972418,
+        "exon_rank": 18
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 92972264,
+        "exon_rank": 18
+      },
+      {
+        "kind": "donor",
+        "anchor": 92974951,
+        "exon_rank": 19
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 92974878,
+        "exon_rank": 19
+      },
+      {
+        "kind": "donor",
+        "anchor": 92978384,
+        "exon_rank": 20
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 92978233,
+        "exon_rank": 20
+      },
+      {
+        "kind": "donor",
+        "anchor": 92979284,
+        "exon_rank": 21
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 92979134,
+        "exon_rank": 21
+      },
+      {
+        "kind": "donor",
+        "anchor": 92980912,
+        "exon_rank": 22
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 92980814,
+        "exon_rank": 22
+      },
+      {
+        "kind": "donor",
+        "anchor": 92981458,
+        "exon_rank": 23
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 92981364,
+        "exon_rank": 23
+      },
+      {
+        "kind": "donor",
+        "anchor": 92984501,
+        "exon_rank": 24
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 92984329,
+        "exon_rank": 24
+      },
+      {
+        "kind": "donor",
+        "anchor": 92985674,
+        "exon_rank": 25
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 92985497,
+        "exon_rank": 25
+      },
+      {
+        "kind": "donor",
+        "anchor": 92991518,
+        "exon_rank": 26
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 92991475,
+        "exon_rank": 26
+      },
+      {
+        "kind": "donor",
+        "anchor": 92992999,
+        "exon_rank": 27
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 92992858,
+        "exon_rank": 27
+      },
+      {
+        "kind": "donor",
+        "anchor": 92997096,
+        "exon_rank": 28
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 92996956,
+        "exon_rank": 28
+      },
+      {
+        "kind": "donor",
+        "anchor": 92997404,
+        "exon_rank": 29
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 92997252,
+        "exon_rank": 29
+      },
+      {
+        "kind": "donor",
+        "anchor": 92998622,
+        "exon_rank": 30
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 92998498,
+        "exon_rank": 30
+      },
+      {
+        "kind": "donor",
+        "anchor": 93000641,
+        "exon_rank": 31
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 93000511,
+        "exon_rank": 31
+      },
+      {
+        "kind": "donor",
+        "anchor": 93002318,
+        "exon_rank": 32
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 93002176,
+        "exon_rank": 32
+      },
+      {
+        "kind": "donor",
+        "anchor": 93004752,
+        "exon_rank": 33
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 93004616,
+        "exon_rank": 33
+      },
+      {
+        "kind": "donor",
+        "anchor": 93009324,
+        "exon_rank": 34
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 93009144,
+        "exon_rank": 34
+      },
+      {
+        "kind": "donor",
+        "anchor": 93012445,
+        "exon_rank": 35
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 93012344,
+        "exon_rank": 35
+      },
+      {
+        "kind": "donor",
+        "anchor": 93014910,
+        "exon_rank": 36
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 93014695,
+        "exon_rank": 36
+      },
+      {
+        "kind": "donor",
+        "anchor": 93020259,
+        "exon_rank": 37
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 93020011,
+        "exon_rank": 37
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 93024371,
+        "exon_rank": 38
+      }
+    ]
+  },
+  "SCN8A": {
+    "symbol": "SCN8A",
+    "category": "epilepsy_neurodevelopmental",
+    "disease": "SCN8A encephalopathy",
+    "ensembl_id": "ENSG00000196876",
+    "canonical_transcript": "ENST00000627620",
+    "chrom": "12",
+    "start": 51590266,
+    "end": 51812864,
+    "strand": 1,
+    "exons": [
+      [
+        51591233,
+        51591359
+      ],
+      [
+        51662764,
+        51663093
+      ],
+      [
+        51684174,
+        51684292
+      ],
+      [
+        51686368,
+        51686457
+      ],
+      [
+        51687091,
+        51687219
+      ],
+      [
+        51689005,
+        51689096
+      ],
+      [
+        51699570,
+        51699791
+      ],
+      [
+        51701144,
+        51701207
+      ],
+      [
+        51702773,
+        51702914
+      ],
+      [
+        51705417,
+        51705623
+      ],
+      [
+        51706422,
+        51706715
+      ],
+      [
+        51721546,
+        51721908
+      ],
+      [
+        51745903,
+        51746035
+      ],
+      [
+        51751355,
+        51751593
+      ],
+      [
+        51762503,
+        51762676
+      ],
+      [
+        51765671,
+        51766027
+      ],
+      [
+        51768865,
+        51769335
+      ],
+      [
+        51769868,
+        51769985
+      ],
+      [
+        51770529,
+        51770683
+      ],
+      [
+        51774189,
+        51774362
+      ],
+      [
+        51780649,
+        51780771
+      ],
+      [
+        51786542,
+        51786826
+      ],
+      [
+        51788695,
+        51788748
+      ],
+      [
+        51789281,
+        51789418
+      ],
+      [
+        51790398,
+        51790502
+      ],
+      [
+        51794371,
+        51794641
+      ],
+      [
+        51806282,
+        51812864
+      ]
+    ],
+    "junctions": [
+      {
+        "kind": "donor",
+        "anchor": 51591360,
+        "exon_rank": 0
+      },
+      {
+        "kind": "donor",
+        "anchor": 51663094,
+        "exon_rank": 1
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 51662763,
+        "exon_rank": 1
+      },
+      {
+        "kind": "donor",
+        "anchor": 51684293,
+        "exon_rank": 2
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 51684173,
+        "exon_rank": 2
+      },
+      {
+        "kind": "donor",
+        "anchor": 51686458,
+        "exon_rank": 3
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 51686367,
+        "exon_rank": 3
+      },
+      {
+        "kind": "donor",
+        "anchor": 51687220,
+        "exon_rank": 4
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 51687090,
+        "exon_rank": 4
+      },
+      {
+        "kind": "donor",
+        "anchor": 51689097,
+        "exon_rank": 5
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 51689004,
+        "exon_rank": 5
+      },
+      {
+        "kind": "donor",
+        "anchor": 51699792,
+        "exon_rank": 6
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 51699569,
+        "exon_rank": 6
+      },
+      {
+        "kind": "donor",
+        "anchor": 51701208,
+        "exon_rank": 7
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 51701143,
+        "exon_rank": 7
+      },
+      {
+        "kind": "donor",
+        "anchor": 51702915,
+        "exon_rank": 8
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 51702772,
+        "exon_rank": 8
+      },
+      {
+        "kind": "donor",
+        "anchor": 51705624,
+        "exon_rank": 9
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 51705416,
+        "exon_rank": 9
+      },
+      {
+        "kind": "donor",
+        "anchor": 51706716,
+        "exon_rank": 10
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 51706421,
+        "exon_rank": 10
+      },
+      {
+        "kind": "donor",
+        "anchor": 51721909,
+        "exon_rank": 11
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 51721545,
+        "exon_rank": 11
+      },
+      {
+        "kind": "donor",
+        "anchor": 51746036,
+        "exon_rank": 12
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 51745902,
+        "exon_rank": 12
+      },
+      {
+        "kind": "donor",
+        "anchor": 51751594,
+        "exon_rank": 13
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 51751354,
+        "exon_rank": 13
+      },
+      {
+        "kind": "donor",
+        "anchor": 51762677,
+        "exon_rank": 14
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 51762502,
+        "exon_rank": 14
+      },
+      {
+        "kind": "donor",
+        "anchor": 51766028,
+        "exon_rank": 15
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 51765670,
+        "exon_rank": 15
+      },
+      {
+        "kind": "donor",
+        "anchor": 51769336,
+        "exon_rank": 16
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 51768864,
+        "exon_rank": 16
+      },
+      {
+        "kind": "donor",
+        "anchor": 51769986,
+        "exon_rank": 17
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 51769867,
+        "exon_rank": 17
+      },
+      {
+        "kind": "donor",
+        "anchor": 51770684,
+        "exon_rank": 18
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 51770528,
+        "exon_rank": 18
+      },
+      {
+        "kind": "donor",
+        "anchor": 51774363,
+        "exon_rank": 19
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 51774188,
+        "exon_rank": 19
+      },
+      {
+        "kind": "donor",
+        "anchor": 51780772,
+        "exon_rank": 20
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 51780648,
+        "exon_rank": 20
+      },
+      {
+        "kind": "donor",
+        "anchor": 51786827,
+        "exon_rank": 21
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 51786541,
+        "exon_rank": 21
+      },
+      {
+        "kind": "donor",
+        "anchor": 51788749,
+        "exon_rank": 22
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 51788694,
+        "exon_rank": 22
+      },
+      {
+        "kind": "donor",
+        "anchor": 51789419,
+        "exon_rank": 23
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 51789280,
+        "exon_rank": 23
+      },
+      {
+        "kind": "donor",
+        "anchor": 51790503,
+        "exon_rank": 24
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 51790397,
+        "exon_rank": 24
+      },
+      {
+        "kind": "donor",
+        "anchor": 51794642,
+        "exon_rank": 25
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 51794370,
+        "exon_rank": 25
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 51806281,
+        "exon_rank": 26
+      }
+    ]
+  },
+  "GABRG2": {
+    "symbol": "GABRG2",
+    "category": "epilepsy_neurodevelopmental",
+    "disease": "GEFS+",
+    "ensembl_id": "ENSG00000113327",
+    "canonical_transcript": "ENST00000639213",
+    "chrom": "5",
+    "start": 162000057,
+    "end": 162162977,
+    "strand": 1,
+    "exons": [
+      [
+        162067773,
+        162068106
+      ],
+      [
+        162093828,
+        162093979
+      ],
+      [
+        162095495,
+        162095562
+      ],
+      [
+        162097638,
+        162097858
+      ],
+      [
+        162101235,
+        162101317
+      ],
+      [
+        162103889,
+        162104026
+      ],
+      [
+        162142164,
+        162142316
+      ],
+      [
+        162149108,
+        162149313
+      ],
+      [
+        162151730,
+        162151753
+      ],
+      [
+        162153093,
+        162155526
+      ]
+    ],
+    "junctions": [
+      {
+        "kind": "donor",
+        "anchor": 162068107,
+        "exon_rank": 0
+      },
+      {
+        "kind": "donor",
+        "anchor": 162093980,
+        "exon_rank": 1
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 162093827,
+        "exon_rank": 1
+      },
+      {
+        "kind": "donor",
+        "anchor": 162095563,
+        "exon_rank": 2
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 162095494,
+        "exon_rank": 2
+      },
+      {
+        "kind": "donor",
+        "anchor": 162097859,
+        "exon_rank": 3
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 162097637,
+        "exon_rank": 3
+      },
+      {
+        "kind": "donor",
+        "anchor": 162101318,
+        "exon_rank": 4
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 162101234,
+        "exon_rank": 4
+      },
+      {
+        "kind": "donor",
+        "anchor": 162104027,
+        "exon_rank": 5
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 162103888,
+        "exon_rank": 5
+      },
+      {
+        "kind": "donor",
+        "anchor": 162142317,
+        "exon_rank": 6
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 162142163,
+        "exon_rank": 6
+      },
+      {
+        "kind": "donor",
+        "anchor": 162149314,
+        "exon_rank": 7
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 162149107,
+        "exon_rank": 7
+      },
+      {
+        "kind": "donor",
+        "anchor": 162151754,
+        "exon_rank": 8
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 162151729,
+        "exon_rank": 8
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 162153092,
+        "exon_rank": 9
+      }
+    ]
+  },
+  "CACNA1A": {
+    "symbol": "CACNA1A",
+    "category": "epilepsy_neurodevelopmental",
+    "disease": "Episodic ataxia / CACNA1A encephalopathy",
+    "ensembl_id": "ENSG00000141837",
+    "canonical_transcript": "ENST00000360228",
+    "chrom": "19",
+    "start": 13206442,
+    "end": 13624489,
+    "strand": -1,
+    "exons": [
+      [
+        13505932,
+        13506479
+      ],
+      [
+        13455107,
+        13455212
+      ],
+      [
+        13452876,
+        13453015
+      ],
+      [
+        13371688,
+        13371779
+      ],
+      [
+        13365317,
+        13365469
+      ],
+      [
+        13359606,
+        13359799
+      ],
+      [
+        13335806,
+        13335909
+      ],
+      [
+        13334378,
+        13334493
+      ],
+      [
+        13332869,
+        13332925
+      ],
+      [
+        13330244,
+        13330333
+      ],
+      [
+        13317112,
+        13317321
+      ],
+      [
+        13312669,
+        13312781
+      ],
+      [
+        13308416,
+        13308528
+      ],
+      [
+        13308120,
+        13308251
+      ],
+      [
+        13307782,
+        13307854
+      ],
+      [
+        13303767,
+        13303884
+      ],
+      [
+        13303546,
+        13303613
+      ],
+      [
+        13300550,
+        13300656
+      ],
+      [
+        13298544,
+        13299353
+      ],
+      [
+        13286503,
+        13286966
+      ],
+      [
+        13285068,
+        13285206
+      ],
+      [
+        13283267,
+        13283396
+      ],
+      [
+        13277069,
+        13277128
+      ],
+      [
+        13275850,
+        13275956
+      ],
+      [
+        13262734,
+        13262833
+      ],
+      [
+        13261450,
+        13261610
+      ],
+      [
+        13259564,
+        13259701
+      ],
+      [
+        13257350,
+        13257551
+      ],
+      [
+        13255095,
+        13255259
+      ],
+      [
+        13252991,
+        13253101
+      ],
+      [
+        13245182,
+        13245265
+      ],
+      [
+        13235614,
+        13235730
+      ],
+      [
+        13235209,
+        13235274
+      ],
+      [
+        13234921,
+        13235036
+      ],
+      [
+        13231710,
+        13231860
+      ],
+      [
+        13230082,
+        13230209
+      ],
+      [
+        13227431,
+        13227527
+      ],
+      [
+        13224667,
+        13224772
+      ],
+      [
+        13214501,
+        13214608
+      ],
+      [
+        13214233,
+        13214333
+      ],
+      [
+        13212631,
+        13212740
+      ],
+      [
+        13212384,
+        13212522
+      ],
+      [
+        13212103,
+        13212216
+      ],
+      [
+        13210617,
+        13210652
+      ],
+      [
+        13209312,
+        13209498
+      ],
+      [
+        13208756,
+        13209009
+      ],
+      [
+        13206442,
+        13208053
+      ]
+    ],
+    "junctions": [
+      {
+        "kind": "donor",
+        "anchor": 13505931,
+        "exon_rank": 0
+      },
+      {
+        "kind": "donor",
+        "anchor": 13455106,
+        "exon_rank": 1
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 13455213,
+        "exon_rank": 1
+      },
+      {
+        "kind": "donor",
+        "anchor": 13452875,
+        "exon_rank": 2
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 13453016,
+        "exon_rank": 2
+      },
+      {
+        "kind": "donor",
+        "anchor": 13371687,
+        "exon_rank": 3
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 13371780,
+        "exon_rank": 3
+      },
+      {
+        "kind": "donor",
+        "anchor": 13365316,
+        "exon_rank": 4
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 13365470,
+        "exon_rank": 4
+      },
+      {
+        "kind": "donor",
+        "anchor": 13359605,
+        "exon_rank": 5
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 13359800,
+        "exon_rank": 5
+      },
+      {
+        "kind": "donor",
+        "anchor": 13335805,
+        "exon_rank": 6
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 13335910,
+        "exon_rank": 6
+      },
+      {
+        "kind": "donor",
+        "anchor": 13334377,
+        "exon_rank": 7
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 13334494,
+        "exon_rank": 7
+      },
+      {
+        "kind": "donor",
+        "anchor": 13332868,
+        "exon_rank": 8
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 13332926,
+        "exon_rank": 8
+      },
+      {
+        "kind": "donor",
+        "anchor": 13330243,
+        "exon_rank": 9
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 13330334,
+        "exon_rank": 9
+      },
+      {
+        "kind": "donor",
+        "anchor": 13317111,
+        "exon_rank": 10
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 13317322,
+        "exon_rank": 10
+      },
+      {
+        "kind": "donor",
+        "anchor": 13312668,
+        "exon_rank": 11
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 13312782,
+        "exon_rank": 11
+      },
+      {
+        "kind": "donor",
+        "anchor": 13308415,
+        "exon_rank": 12
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 13308529,
+        "exon_rank": 12
+      },
+      {
+        "kind": "donor",
+        "anchor": 13308119,
+        "exon_rank": 13
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 13308252,
+        "exon_rank": 13
+      },
+      {
+        "kind": "donor",
+        "anchor": 13307781,
+        "exon_rank": 14
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 13307855,
+        "exon_rank": 14
+      },
+      {
+        "kind": "donor",
+        "anchor": 13303766,
+        "exon_rank": 15
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 13303885,
+        "exon_rank": 15
+      },
+      {
+        "kind": "donor",
+        "anchor": 13303545,
+        "exon_rank": 16
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 13303614,
+        "exon_rank": 16
+      },
+      {
+        "kind": "donor",
+        "anchor": 13300549,
+        "exon_rank": 17
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 13300657,
+        "exon_rank": 17
+      },
+      {
+        "kind": "donor",
+        "anchor": 13298543,
+        "exon_rank": 18
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 13299354,
+        "exon_rank": 18
+      },
+      {
+        "kind": "donor",
+        "anchor": 13286502,
+        "exon_rank": 19
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 13286967,
+        "exon_rank": 19
+      },
+      {
+        "kind": "donor",
+        "anchor": 13285067,
+        "exon_rank": 20
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 13285207,
+        "exon_rank": 20
+      },
+      {
+        "kind": "donor",
+        "anchor": 13283266,
+        "exon_rank": 21
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 13283397,
+        "exon_rank": 21
+      },
+      {
+        "kind": "donor",
+        "anchor": 13277068,
+        "exon_rank": 22
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 13277129,
+        "exon_rank": 22
+      },
+      {
+        "kind": "donor",
+        "anchor": 13275849,
+        "exon_rank": 23
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 13275957,
+        "exon_rank": 23
+      },
+      {
+        "kind": "donor",
+        "anchor": 13262733,
+        "exon_rank": 24
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 13262834,
+        "exon_rank": 24
+      },
+      {
+        "kind": "donor",
+        "anchor": 13261449,
+        "exon_rank": 25
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 13261611,
+        "exon_rank": 25
+      },
+      {
+        "kind": "donor",
+        "anchor": 13259563,
+        "exon_rank": 26
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 13259702,
+        "exon_rank": 26
+      },
+      {
+        "kind": "donor",
+        "anchor": 13257349,
+        "exon_rank": 27
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 13257552,
+        "exon_rank": 27
+      },
+      {
+        "kind": "donor",
+        "anchor": 13255094,
+        "exon_rank": 28
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 13255260,
+        "exon_rank": 28
+      },
+      {
+        "kind": "donor",
+        "anchor": 13252990,
+        "exon_rank": 29
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 13253102,
+        "exon_rank": 29
+      },
+      {
+        "kind": "donor",
+        "anchor": 13245181,
+        "exon_rank": 30
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 13245266,
+        "exon_rank": 30
+      },
+      {
+        "kind": "donor",
+        "anchor": 13235613,
+        "exon_rank": 31
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 13235731,
+        "exon_rank": 31
+      },
+      {
+        "kind": "donor",
+        "anchor": 13235208,
+        "exon_rank": 32
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 13235275,
+        "exon_rank": 32
+      },
+      {
+        "kind": "donor",
+        "anchor": 13234920,
+        "exon_rank": 33
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 13235037,
+        "exon_rank": 33
+      },
+      {
+        "kind": "donor",
+        "anchor": 13231709,
+        "exon_rank": 34
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 13231861,
+        "exon_rank": 34
+      },
+      {
+        "kind": "donor",
+        "anchor": 13230081,
+        "exon_rank": 35
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 13230210,
+        "exon_rank": 35
+      },
+      {
+        "kind": "donor",
+        "anchor": 13227430,
+        "exon_rank": 36
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 13227528,
+        "exon_rank": 36
+      },
+      {
+        "kind": "donor",
+        "anchor": 13224666,
+        "exon_rank": 37
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 13224773,
+        "exon_rank": 37
+      },
+      {
+        "kind": "donor",
+        "anchor": 13214500,
+        "exon_rank": 38
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 13214609,
+        "exon_rank": 38
+      },
+      {
+        "kind": "donor",
+        "anchor": 13214232,
+        "exon_rank": 39
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 13214334,
+        "exon_rank": 39
+      },
+      {
+        "kind": "donor",
+        "anchor": 13212630,
+        "exon_rank": 40
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 13212741,
+        "exon_rank": 40
+      },
+      {
+        "kind": "donor",
+        "anchor": 13212383,
+        "exon_rank": 41
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 13212523,
+        "exon_rank": 41
+      },
+      {
+        "kind": "donor",
+        "anchor": 13212102,
+        "exon_rank": 42
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 13212217,
+        "exon_rank": 42
+      },
+      {
+        "kind": "donor",
+        "anchor": 13210616,
+        "exon_rank": 43
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 13210653,
+        "exon_rank": 43
+      },
+      {
+        "kind": "donor",
+        "anchor": 13209311,
+        "exon_rank": 44
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 13209499,
+        "exon_rank": 44
+      },
+      {
+        "kind": "donor",
+        "anchor": 13208755,
+        "exon_rank": 45
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 13209010,
+        "exon_rank": 45
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 13208054,
+        "exon_rank": 46
+      }
+    ]
+  },
+  "SMN1": {
+    "symbol": "SMN1",
+    "category": "neuromuscular",
+    "disease": "Spinal muscular atrophy",
+    "ensembl_id": "ENSG00000172062",
+    "canonical_transcript": "ENST00000380707",
+    "chrom": "5",
+    "start": 70925030,
+    "end": 70953942,
+    "strand": 1,
+    "exons": [
+      [
+        70925087,
+        70925184
+      ],
+      [
+        70938839,
+        70938910
+      ],
+      [
+        70941389,
+        70941508
+      ],
+      [
+        70942358,
+        70942558
+      ],
+      [
+        70942718,
+        70942870
+      ],
+      [
+        70944658,
+        70944753
+      ],
+      [
+        70946066,
+        70946176
+      ],
+      [
+        70951941,
+        70951994
+      ],
+      [
+        70952439,
+        70953015
+      ]
+    ],
+    "junctions": [
+      {
+        "kind": "donor",
+        "anchor": 70925185,
+        "exon_rank": 0
+      },
+      {
+        "kind": "donor",
+        "anchor": 70938911,
+        "exon_rank": 1
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 70938838,
+        "exon_rank": 1
+      },
+      {
+        "kind": "donor",
+        "anchor": 70941509,
+        "exon_rank": 2
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 70941388,
+        "exon_rank": 2
+      },
+      {
+        "kind": "donor",
+        "anchor": 70942559,
+        "exon_rank": 3
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 70942357,
+        "exon_rank": 3
+      },
+      {
+        "kind": "donor",
+        "anchor": 70942871,
+        "exon_rank": 4
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 70942717,
+        "exon_rank": 4
+      },
+      {
+        "kind": "donor",
+        "anchor": 70944754,
+        "exon_rank": 5
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 70944657,
+        "exon_rank": 5
+      },
+      {
+        "kind": "donor",
+        "anchor": 70946177,
+        "exon_rank": 6
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 70946065,
+        "exon_rank": 6
+      },
+      {
+        "kind": "donor",
+        "anchor": 70951995,
+        "exon_rank": 7
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 70951940,
+        "exon_rank": 7
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 70952438,
+        "exon_rank": 8
+      }
+    ]
+  },
+  "TARDBP": {
+    "symbol": "TARDBP",
+    "category": "neurodegenerative",
+    "disease": "Amyotrophic lateral sclerosis",
+    "ensembl_id": "ENSG00000120948",
+    "canonical_transcript": "ENST00000240185",
+    "chrom": "1",
+    "start": 11012344,
+    "end": 11037991,
+    "strand": 1,
+    "exons": [
+      [
+        11012654,
+        11012743
+      ],
+      [
+        11013716,
+        11013965
+      ],
+      [
+        11016844,
+        11017007
+      ],
+      [
+        11018733,
+        11018873
+      ],
+      [
+        11020429,
+        11020599
+      ],
+      [
+        11022124,
+        11025492
+      ]
+    ],
+    "junctions": [
+      {
+        "kind": "donor",
+        "anchor": 11012744,
+        "exon_rank": 0
+      },
+      {
+        "kind": "donor",
+        "anchor": 11013966,
+        "exon_rank": 1
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 11013715,
+        "exon_rank": 1
+      },
+      {
+        "kind": "donor",
+        "anchor": 11017008,
+        "exon_rank": 2
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 11016843,
+        "exon_rank": 2
+      },
+      {
+        "kind": "donor",
+        "anchor": 11018874,
+        "exon_rank": 3
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 11018732,
+        "exon_rank": 3
+      },
+      {
+        "kind": "donor",
+        "anchor": 11020600,
+        "exon_rank": 4
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 11020428,
+        "exon_rank": 4
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 11022123,
+        "exon_rank": 5
+      }
+    ]
+  },
+  "FUS": {
+    "symbol": "FUS",
+    "category": "neurodegenerative",
+    "disease": "Amyotrophic lateral sclerosis",
+    "ensembl_id": "ENSG00000089280",
+    "canonical_transcript": "ENST00000254108",
+    "chrom": "16",
+    "start": 31180131,
+    "end": 31196963,
+    "strand": 1,
+    "exons": [
+      [
+        31180139,
+        31180227
+      ],
+      [
+        31182398,
+        31182422
+      ],
+      [
+        31182513,
+        31182664
+      ],
+      [
+        31183858,
+        31184002
+      ],
+      [
+        31184209,
+        31184396
+      ],
+      [
+        31184939,
+        31185179
+      ],
+      [
+        31186802,
+        31186836
+      ],
+      [
+        31188325,
+        31188357
+      ],
+      [
+        31189123,
+        31189226
+      ],
+      [
+        31189665,
+        31189794
+      ],
+      [
+        31190040,
+        31190141
+      ],
+      [
+        31190275,
+        31190398
+      ],
+      [
+        31190742,
+        31190842
+      ],
+      [
+        31190963,
+        31191110
+      ],
+      [
+        31191399,
+        31191605
+      ]
+    ],
+    "junctions": [
+      {
+        "kind": "donor",
+        "anchor": 31180228,
+        "exon_rank": 0
+      },
+      {
+        "kind": "donor",
+        "anchor": 31182423,
+        "exon_rank": 1
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 31182397,
+        "exon_rank": 1
+      },
+      {
+        "kind": "donor",
+        "anchor": 31182665,
+        "exon_rank": 2
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 31182512,
+        "exon_rank": 2
+      },
+      {
+        "kind": "donor",
+        "anchor": 31184003,
+        "exon_rank": 3
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 31183857,
+        "exon_rank": 3
+      },
+      {
+        "kind": "donor",
+        "anchor": 31184397,
+        "exon_rank": 4
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 31184208,
+        "exon_rank": 4
+      },
+      {
+        "kind": "donor",
+        "anchor": 31185180,
+        "exon_rank": 5
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 31184938,
+        "exon_rank": 5
+      },
+      {
+        "kind": "donor",
+        "anchor": 31186837,
+        "exon_rank": 6
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 31186801,
+        "exon_rank": 6
+      },
+      {
+        "kind": "donor",
+        "anchor": 31188358,
+        "exon_rank": 7
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 31188324,
+        "exon_rank": 7
+      },
+      {
+        "kind": "donor",
+        "anchor": 31189227,
+        "exon_rank": 8
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 31189122,
+        "exon_rank": 8
+      },
+      {
+        "kind": "donor",
+        "anchor": 31189795,
+        "exon_rank": 9
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 31189664,
+        "exon_rank": 9
+      },
+      {
+        "kind": "donor",
+        "anchor": 31190142,
+        "exon_rank": 10
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 31190039,
+        "exon_rank": 10
+      },
+      {
+        "kind": "donor",
+        "anchor": 31190399,
+        "exon_rank": 11
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 31190274,
+        "exon_rank": 11
+      },
+      {
+        "kind": "donor",
+        "anchor": 31190843,
+        "exon_rank": 12
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 31190741,
+        "exon_rank": 12
+      },
+      {
+        "kind": "donor",
+        "anchor": 31191111,
+        "exon_rank": 13
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 31190962,
+        "exon_rank": 13
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 31191398,
+        "exon_rank": 14
+      }
+    ]
+  },
+  "LRRK2": {
+    "symbol": "LRRK2",
+    "category": "neurodegenerative",
+    "disease": "Parkinson disease",
+    "ensembl_id": "ENSG00000188906",
+    "canonical_transcript": "ENST00000298910",
+    "chrom": "12",
+    "start": 40196744,
+    "end": 40369285,
+    "strand": 1,
+    "exons": [
+      [
+        40224997,
+        40225282
+      ],
+      [
+        40225555,
+        40225640
+      ],
+      [
+        40232274,
+        40232383
+      ],
+      [
+        40235626,
+        40235714
+      ],
+      [
+        40237969,
+        40238103
+      ],
+      [
+        40240483,
+        40240617
+      ],
+      [
+        40243550,
+        40243681
+      ],
+      [
+        40249826,
+        40249945
+      ],
+      [
+        40251232,
+        40251374
+      ],
+      [
+        40251465,
+        40251544
+      ],
+      [
+        40252910,
+        40253016
+      ],
+      [
+        40257248,
+        40257377
+      ],
+      [
+        40259480,
+        40259604
+      ],
+      [
+        40263789,
+        40263901
+      ],
+      [
+        40274583,
+        40274727
+      ],
+      [
+        40274854,
+        40274993
+      ],
+      [
+        40277888,
+        40278016
+      ],
+      [
+        40278091,
+        40278261
+      ],
+      [
+        40283875,
+        40284133
+      ],
+      [
+        40287351,
+        40287539
+      ],
+      [
+        40293545,
+        40293663
+      ],
+      [
+        40294845,
+        40294914
+      ],
+      [
+        40295427,
+        40295644
+      ],
+      [
+        40298243,
+        40298493
+      ],
+      [
+        40299109,
+        40299257
+      ],
+      [
+        40302789,
+        40302882
+      ],
+      [
+        40303948,
+        40304134
+      ],
+      [
+        40305785,
+        40305966
+      ],
+      [
+        40308467,
+        40308696
+      ],
+      [
+        40309106,
+        40309233
+      ],
+      [
+        40310431,
+        40310649
+      ],
+      [
+        40313972,
+        40314173
+      ],
+      [
+        40315212,
+        40315300
+      ],
+      [
+        40319988,
+        40320175
+      ],
+      [
+        40321034,
+        40321188
+      ],
+      [
+        40322035,
+        40322181
+      ],
+      [
+        40322319,
+        40322510
+      ],
+      [
+        40323160,
+        40323306
+      ],
+      [
+        40328360,
+        40328460
+      ],
+      [
+        40334967,
+        40335157
+      ],
+      [
+        40340294,
+        40340454
+      ],
+      [
+        40346753,
+        40346923
+      ],
+      [
+        40348409,
+        40348509
+      ],
+      [
+        40351539,
+        40351733
+      ],
+      [
+        40354299,
+        40354492
+      ],
+      [
+        40356115,
+        40356187
+      ],
+      [
+        40359260,
+        40359444
+      ],
+      [
+        40363402,
+        40363554
+      ],
+      [
+        40364842,
+        40365050
+      ],
+      [
+        40367006,
+        40367077
+      ],
+      [
+        40367644,
+        40369285
+      ]
+    ],
+    "junctions": [
+      {
+        "kind": "donor",
+        "anchor": 40225283,
+        "exon_rank": 0
+      },
+      {
+        "kind": "donor",
+        "anchor": 40225641,
+        "exon_rank": 1
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 40225554,
+        "exon_rank": 1
+      },
+      {
+        "kind": "donor",
+        "anchor": 40232384,
+        "exon_rank": 2
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 40232273,
+        "exon_rank": 2
+      },
+      {
+        "kind": "donor",
+        "anchor": 40235715,
+        "exon_rank": 3
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 40235625,
+        "exon_rank": 3
+      },
+      {
+        "kind": "donor",
+        "anchor": 40238104,
+        "exon_rank": 4
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 40237968,
+        "exon_rank": 4
+      },
+      {
+        "kind": "donor",
+        "anchor": 40240618,
+        "exon_rank": 5
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 40240482,
+        "exon_rank": 5
+      },
+      {
+        "kind": "donor",
+        "anchor": 40243682,
+        "exon_rank": 6
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 40243549,
+        "exon_rank": 6
+      },
+      {
+        "kind": "donor",
+        "anchor": 40249946,
+        "exon_rank": 7
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 40249825,
+        "exon_rank": 7
+      },
+      {
+        "kind": "donor",
+        "anchor": 40251375,
+        "exon_rank": 8
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 40251231,
+        "exon_rank": 8
+      },
+      {
+        "kind": "donor",
+        "anchor": 40251545,
+        "exon_rank": 9
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 40251464,
+        "exon_rank": 9
+      },
+      {
+        "kind": "donor",
+        "anchor": 40253017,
+        "exon_rank": 10
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 40252909,
+        "exon_rank": 10
+      },
+      {
+        "kind": "donor",
+        "anchor": 40257378,
+        "exon_rank": 11
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 40257247,
+        "exon_rank": 11
+      },
+      {
+        "kind": "donor",
+        "anchor": 40259605,
+        "exon_rank": 12
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 40259479,
+        "exon_rank": 12
+      },
+      {
+        "kind": "donor",
+        "anchor": 40263902,
+        "exon_rank": 13
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 40263788,
+        "exon_rank": 13
+      },
+      {
+        "kind": "donor",
+        "anchor": 40274728,
+        "exon_rank": 14
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 40274582,
+        "exon_rank": 14
+      },
+      {
+        "kind": "donor",
+        "anchor": 40274994,
+        "exon_rank": 15
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 40274853,
+        "exon_rank": 15
+      },
+      {
+        "kind": "donor",
+        "anchor": 40278017,
+        "exon_rank": 16
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 40277887,
+        "exon_rank": 16
+      },
+      {
+        "kind": "donor",
+        "anchor": 40278262,
+        "exon_rank": 17
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 40278090,
+        "exon_rank": 17
+      },
+      {
+        "kind": "donor",
+        "anchor": 40284134,
+        "exon_rank": 18
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 40283874,
+        "exon_rank": 18
+      },
+      {
+        "kind": "donor",
+        "anchor": 40287540,
+        "exon_rank": 19
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 40287350,
+        "exon_rank": 19
+      },
+      {
+        "kind": "donor",
+        "anchor": 40293664,
+        "exon_rank": 20
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 40293544,
+        "exon_rank": 20
+      },
+      {
+        "kind": "donor",
+        "anchor": 40294915,
+        "exon_rank": 21
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 40294844,
+        "exon_rank": 21
+      },
+      {
+        "kind": "donor",
+        "anchor": 40295645,
+        "exon_rank": 22
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 40295426,
+        "exon_rank": 22
+      },
+      {
+        "kind": "donor",
+        "anchor": 40298494,
+        "exon_rank": 23
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 40298242,
+        "exon_rank": 23
+      },
+      {
+        "kind": "donor",
+        "anchor": 40299258,
+        "exon_rank": 24
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 40299108,
+        "exon_rank": 24
+      },
+      {
+        "kind": "donor",
+        "anchor": 40302883,
+        "exon_rank": 25
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 40302788,
+        "exon_rank": 25
+      },
+      {
+        "kind": "donor",
+        "anchor": 40304135,
+        "exon_rank": 26
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 40303947,
+        "exon_rank": 26
+      },
+      {
+        "kind": "donor",
+        "anchor": 40305967,
+        "exon_rank": 27
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 40305784,
+        "exon_rank": 27
+      },
+      {
+        "kind": "donor",
+        "anchor": 40308697,
+        "exon_rank": 28
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 40308466,
+        "exon_rank": 28
+      },
+      {
+        "kind": "donor",
+        "anchor": 40309234,
+        "exon_rank": 29
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 40309105,
+        "exon_rank": 29
+      },
+      {
+        "kind": "donor",
+        "anchor": 40310650,
+        "exon_rank": 30
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 40310430,
+        "exon_rank": 30
+      },
+      {
+        "kind": "donor",
+        "anchor": 40314174,
+        "exon_rank": 31
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 40313971,
+        "exon_rank": 31
+      },
+      {
+        "kind": "donor",
+        "anchor": 40315301,
+        "exon_rank": 32
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 40315211,
+        "exon_rank": 32
+      },
+      {
+        "kind": "donor",
+        "anchor": 40320176,
+        "exon_rank": 33
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 40319987,
+        "exon_rank": 33
+      },
+      {
+        "kind": "donor",
+        "anchor": 40321189,
+        "exon_rank": 34
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 40321033,
+        "exon_rank": 34
+      },
+      {
+        "kind": "donor",
+        "anchor": 40322182,
+        "exon_rank": 35
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 40322034,
+        "exon_rank": 35
+      },
+      {
+        "kind": "donor",
+        "anchor": 40322511,
+        "exon_rank": 36
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 40322318,
+        "exon_rank": 36
+      },
+      {
+        "kind": "donor",
+        "anchor": 40323307,
+        "exon_rank": 37
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 40323159,
+        "exon_rank": 37
+      },
+      {
+        "kind": "donor",
+        "anchor": 40328461,
+        "exon_rank": 38
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 40328359,
+        "exon_rank": 38
+      },
+      {
+        "kind": "donor",
+        "anchor": 40335158,
+        "exon_rank": 39
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 40334966,
+        "exon_rank": 39
+      },
+      {
+        "kind": "donor",
+        "anchor": 40340455,
+        "exon_rank": 40
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 40340293,
+        "exon_rank": 40
+      },
+      {
+        "kind": "donor",
+        "anchor": 40346924,
+        "exon_rank": 41
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 40346752,
+        "exon_rank": 41
+      },
+      {
+        "kind": "donor",
+        "anchor": 40348510,
+        "exon_rank": 42
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 40348408,
+        "exon_rank": 42
+      },
+      {
+        "kind": "donor",
+        "anchor": 40351734,
+        "exon_rank": 43
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 40351538,
+        "exon_rank": 43
+      },
+      {
+        "kind": "donor",
+        "anchor": 40354493,
+        "exon_rank": 44
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 40354298,
+        "exon_rank": 44
+      },
+      {
+        "kind": "donor",
+        "anchor": 40356188,
+        "exon_rank": 45
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 40356114,
+        "exon_rank": 45
+      },
+      {
+        "kind": "donor",
+        "anchor": 40359445,
+        "exon_rank": 46
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 40359259,
+        "exon_rank": 46
+      },
+      {
+        "kind": "donor",
+        "anchor": 40363555,
+        "exon_rank": 47
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 40363401,
+        "exon_rank": 47
+      },
+      {
+        "kind": "donor",
+        "anchor": 40365051,
+        "exon_rank": 48
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 40364841,
+        "exon_rank": 48
+      },
+      {
+        "kind": "donor",
+        "anchor": 40367078,
+        "exon_rank": 49
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 40367005,
+        "exon_rank": 49
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 40367643,
+        "exon_rank": 50
+      }
+    ]
+  },
+  "PARK7": {
+    "symbol": "PARK7",
+    "category": "neurodegenerative",
+    "disease": "Parkinson disease",
+    "ensembl_id": "ENSG00000116288",
+    "canonical_transcript": "ENST00000338639",
+    "chrom": "1",
+    "start": 7952654,
+    "end": 7985991,
+    "strand": 1,
+    "exons": [
+      [
+        7961711,
+        7961793
+      ],
+      [
+        7962763,
+        7962875
+      ],
+      [
+        7965324,
+        7965425
+      ],
+      [
+        7969345,
+        7969404
+      ],
+      [
+        7970894,
+        7970963
+      ],
+      [
+        7977652,
+        7977738
+      ],
+      [
+        7984894,
+        7985505
+      ]
+    ],
+    "junctions": [
+      {
+        "kind": "donor",
+        "anchor": 7961794,
+        "exon_rank": 0
+      },
+      {
+        "kind": "donor",
+        "anchor": 7962876,
+        "exon_rank": 1
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 7962762,
+        "exon_rank": 1
+      },
+      {
+        "kind": "donor",
+        "anchor": 7965426,
+        "exon_rank": 2
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 7965323,
+        "exon_rank": 2
+      },
+      {
+        "kind": "donor",
+        "anchor": 7969405,
+        "exon_rank": 3
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 7969344,
+        "exon_rank": 3
+      },
+      {
+        "kind": "donor",
+        "anchor": 7970964,
+        "exon_rank": 4
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 7970893,
+        "exon_rank": 4
+      },
+      {
+        "kind": "donor",
+        "anchor": 7977739,
+        "exon_rank": 5
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 7977651,
+        "exon_rank": 5
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 7984893,
+        "exon_rank": 6
+      }
+    ]
+  },
+  "PINK1": {
+    "symbol": "PINK1",
+    "category": "neurodegenerative",
+    "disease": "Parkinson disease",
+    "ensembl_id": "ENSG00000158828",
+    "canonical_transcript": "ENST00000321556",
+    "chrom": "1",
+    "start": 20633436,
+    "end": 20652231,
+    "strand": 1,
+    "exons": [
+      [
+        20633458,
+        20633935
+      ],
+      [
+        20637842,
+        20638129
+      ],
+      [
+        20639892,
+        20639992
+      ],
+      [
+        20644490,
+        20644672
+      ],
+      [
+        20645560,
+        20645723
+      ],
+      [
+        20648505,
+        20648632
+      ],
+      [
+        20648995,
+        20649231
+      ],
+      [
+        20650434,
+        20651511
+      ]
+    ],
+    "junctions": [
+      {
+        "kind": "donor",
+        "anchor": 20633936,
+        "exon_rank": 0
+      },
+      {
+        "kind": "donor",
+        "anchor": 20638130,
+        "exon_rank": 1
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 20637841,
+        "exon_rank": 1
+      },
+      {
+        "kind": "donor",
+        "anchor": 20639993,
+        "exon_rank": 2
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 20639891,
+        "exon_rank": 2
+      },
+      {
+        "kind": "donor",
+        "anchor": 20644673,
+        "exon_rank": 3
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 20644489,
+        "exon_rank": 3
+      },
+      {
+        "kind": "donor",
+        "anchor": 20645724,
+        "exon_rank": 4
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 20645559,
+        "exon_rank": 4
+      },
+      {
+        "kind": "donor",
+        "anchor": 20648633,
+        "exon_rank": 5
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 20648504,
+        "exon_rank": 5
+      },
+      {
+        "kind": "donor",
+        "anchor": 20649232,
+        "exon_rank": 6
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 20648994,
+        "exon_rank": 6
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 20650433,
+        "exon_rank": 7
+      }
+    ]
+  },
+  "HEXA": {
+    "symbol": "HEXA",
+    "category": "neurometabolic",
+    "disease": "Tay-Sachs disease",
+    "ensembl_id": "ENSG00000213614",
+    "canonical_transcript": "ENST00000268097",
+    "chrom": "15",
+    "start": 72340919,
+    "end": 72376420,
+    "strand": -1,
+    "exons": [
+      [
+        72375720,
+        72376014
+      ],
+      [
+        72356525,
+        72356617
+      ],
+      [
+        72355559,
+        72355624
+      ],
+      [
+        72353691,
+        72353737
+      ],
+      [
+        72353068,
+        72353178
+      ],
+      [
+        72351133,
+        72351234
+      ],
+      [
+        72350518,
+        72350650
+      ],
+      [
+        72349079,
+        72349259
+      ],
+      [
+        72348048,
+        72348134
+      ],
+      [
+        72347686,
+        72347758
+      ],
+      [
+        72346527,
+        72346710
+      ],
+      [
+        72346235,
+        72346325
+      ],
+      [
+        72345446,
+        72345550
+      ],
+      [
+        72340924,
+        72344140
+      ]
+    ],
+    "junctions": [
+      {
+        "kind": "donor",
+        "anchor": 72375719,
+        "exon_rank": 0
+      },
+      {
+        "kind": "donor",
+        "anchor": 72356524,
+        "exon_rank": 1
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 72356618,
+        "exon_rank": 1
+      },
+      {
+        "kind": "donor",
+        "anchor": 72355558,
+        "exon_rank": 2
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 72355625,
+        "exon_rank": 2
+      },
+      {
+        "kind": "donor",
+        "anchor": 72353690,
+        "exon_rank": 3
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 72353738,
+        "exon_rank": 3
+      },
+      {
+        "kind": "donor",
+        "anchor": 72353067,
+        "exon_rank": 4
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 72353179,
+        "exon_rank": 4
+      },
+      {
+        "kind": "donor",
+        "anchor": 72351132,
+        "exon_rank": 5
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 72351235,
+        "exon_rank": 5
+      },
+      {
+        "kind": "donor",
+        "anchor": 72350517,
+        "exon_rank": 6
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 72350651,
+        "exon_rank": 6
+      },
+      {
+        "kind": "donor",
+        "anchor": 72349078,
+        "exon_rank": 7
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 72349260,
+        "exon_rank": 7
+      },
+      {
+        "kind": "donor",
+        "anchor": 72348047,
+        "exon_rank": 8
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 72348135,
+        "exon_rank": 8
+      },
+      {
+        "kind": "donor",
+        "anchor": 72347685,
+        "exon_rank": 9
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 72347759,
+        "exon_rank": 9
+      },
+      {
+        "kind": "donor",
+        "anchor": 72346526,
+        "exon_rank": 10
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 72346711,
+        "exon_rank": 10
+      },
+      {
+        "kind": "donor",
+        "anchor": 72346234,
+        "exon_rank": 11
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 72346326,
+        "exon_rank": 11
+      },
+      {
+        "kind": "donor",
+        "anchor": 72345445,
+        "exon_rank": 12
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 72345551,
+        "exon_rank": 12
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 72344141,
+        "exon_rank": 13
+      }
+    ]
+  },
+  "PAH": {
+    "symbol": "PAH",
+    "category": "neurometabolic",
+    "disease": "Phenylketonuria",
+    "ensembl_id": "ENSG00000171759",
+    "canonical_transcript": "ENST00000553106",
+    "chrom": "12",
+    "start": 102836889,
+    "end": 102958410,
+    "strand": -1,
+    "exons": [
+      [
+        102917071,
+        102917244
+      ],
+      [
+        102912791,
+        102912898
+      ],
+      [
+        102894735,
+        102894918
+      ],
+      [
+        102877462,
+        102877550
+      ],
+      [
+        102866596,
+        102866663
+      ],
+      [
+        102855136,
+        102855332
+      ],
+      [
+        102852815,
+        102852950
+      ],
+      [
+        102851687,
+        102851756
+      ],
+      [
+        102846895,
+        102846951
+      ],
+      [
+        102844336,
+        102844431
+      ],
+      [
+        102843646,
+        102843779
+      ],
+      [
+        102840400,
+        102840515
+      ],
+      [
+        102836889,
+        102839218
+      ]
+    ],
+    "junctions": [
+      {
+        "kind": "donor",
+        "anchor": 102917070,
+        "exon_rank": 0
+      },
+      {
+        "kind": "donor",
+        "anchor": 102912790,
+        "exon_rank": 1
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 102912899,
+        "exon_rank": 1
+      },
+      {
+        "kind": "donor",
+        "anchor": 102894734,
+        "exon_rank": 2
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 102894919,
+        "exon_rank": 2
+      },
+      {
+        "kind": "donor",
+        "anchor": 102877461,
+        "exon_rank": 3
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 102877551,
+        "exon_rank": 3
+      },
+      {
+        "kind": "donor",
+        "anchor": 102866595,
+        "exon_rank": 4
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 102866664,
+        "exon_rank": 4
+      },
+      {
+        "kind": "donor",
+        "anchor": 102855135,
+        "exon_rank": 5
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 102855333,
+        "exon_rank": 5
+      },
+      {
+        "kind": "donor",
+        "anchor": 102852814,
+        "exon_rank": 6
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 102852951,
+        "exon_rank": 6
+      },
+      {
+        "kind": "donor",
+        "anchor": 102851686,
+        "exon_rank": 7
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 102851757,
+        "exon_rank": 7
+      },
+      {
+        "kind": "donor",
+        "anchor": 102846894,
+        "exon_rank": 8
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 102846952,
+        "exon_rank": 8
+      },
+      {
+        "kind": "donor",
+        "anchor": 102844335,
+        "exon_rank": 9
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 102844432,
+        "exon_rank": 9
+      },
+      {
+        "kind": "donor",
+        "anchor": 102843645,
+        "exon_rank": 10
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 102843780,
+        "exon_rank": 10
+      },
+      {
+        "kind": "donor",
+        "anchor": 102840399,
+        "exon_rank": 11
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 102840516,
+        "exon_rank": 11
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 102839219,
+        "exon_rank": 12
+      }
+    ]
+  },
+  "GBA1": {
+    "symbol": "GBA1",
+    "category": "neurometabolic",
+    "disease": "Gaucher disease / GBA1-associated Parkinson disease",
+    "ensembl_id": "ENSG00000177628",
+    "canonical_transcript": "ENST00000368373",
+    "chrom": "1",
+    "start": 155231270,
+    "end": 155245178,
+    "strand": -1,
+    "exons": [
+      [
+        155241086,
+        155241249
+      ],
+      [
+        155240630,
+        155240717
+      ],
+      [
+        155239886,
+        155240077
+      ],
+      [
+        155239616,
+        155239762
+      ],
+      [
+        155238517,
+        155238650
+      ],
+      [
+        155238134,
+        155238306
+      ],
+      [
+        155237341,
+        155237578
+      ],
+      [
+        155236245,
+        155236469
+      ],
+      [
+        155235681,
+        155235844
+      ],
+      [
+        155235195,
+        155235311
+      ],
+      [
+        155234452,
+        155235100
+      ]
+    ],
+    "junctions": [
+      {
+        "kind": "donor",
+        "anchor": 155241085,
+        "exon_rank": 0
+      },
+      {
+        "kind": "donor",
+        "anchor": 155240629,
+        "exon_rank": 1
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 155240718,
+        "exon_rank": 1
+      },
+      {
+        "kind": "donor",
+        "anchor": 155239885,
+        "exon_rank": 2
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 155240078,
+        "exon_rank": 2
+      },
+      {
+        "kind": "donor",
+        "anchor": 155239615,
+        "exon_rank": 3
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 155239763,
+        "exon_rank": 3
+      },
+      {
+        "kind": "donor",
+        "anchor": 155238516,
+        "exon_rank": 4
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 155238651,
+        "exon_rank": 4
+      },
+      {
+        "kind": "donor",
+        "anchor": 155238133,
+        "exon_rank": 5
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 155238307,
+        "exon_rank": 5
+      },
+      {
+        "kind": "donor",
+        "anchor": 155237340,
+        "exon_rank": 6
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 155237579,
+        "exon_rank": 6
+      },
+      {
+        "kind": "donor",
+        "anchor": 155236244,
+        "exon_rank": 7
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 155236470,
+        "exon_rank": 7
+      },
+      {
+        "kind": "donor",
+        "anchor": 155235680,
+        "exon_rank": 8
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 155235845,
+        "exon_rank": 8
+      },
+      {
+        "kind": "donor",
+        "anchor": 155235194,
+        "exon_rank": 9
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 155235312,
+        "exon_rank": 9
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 155235101,
+        "exon_rank": 10
+      }
+    ]
+  },
+  "ATP7B": {
+    "symbol": "ATP7B",
+    "category": "neurometabolic",
+    "disease": "Wilson disease",
+    "ensembl_id": "ENSG00000123191",
+    "canonical_transcript": "ENST00000242839",
+    "chrom": "13",
+    "start": 51930436,
+    "end": 52012198,
+    "strand": -1,
+    "exons": [
+      [
+        52011287,
+        52011450
+      ],
+      [
+        51973935,
+        51975168
+      ],
+      [
+        51970492,
+        51970749
+      ],
+      [
+        51968444,
+        51968607
+      ],
+      [
+        51964872,
+        51965033
+      ],
+      [
+        51961837,
+        51961913
+      ],
+      [
+        51960148,
+        51960322
+      ],
+      [
+        51958311,
+        51958544
+      ],
+      [
+        51957516,
+        51957607
+      ],
+      [
+        51950272,
+        51950399
+      ],
+      [
+        51950007,
+        51950161
+      ],
+      [
+        51949662,
+        51949796
+      ],
+      [
+        51946284,
+        51946478
+      ],
+      [
+        51944109,
+        51944291
+      ],
+      [
+        51942386,
+        51942554
+      ],
+      [
+        51941081,
+        51941224
+      ],
+      [
+        51939051,
+        51939193
+      ],
+      [
+        51937476,
+        51937679
+      ],
+      [
+        51937276,
+        51937393
+      ],
+      [
+        51935593,
+        51935695
+      ],
+      [
+        51932669,
+        51935029
+      ]
+    ],
+    "junctions": [
+      {
+        "kind": "donor",
+        "anchor": 52011286,
+        "exon_rank": 0
+      },
+      {
+        "kind": "donor",
+        "anchor": 51973934,
+        "exon_rank": 1
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 51975169,
+        "exon_rank": 1
+      },
+      {
+        "kind": "donor",
+        "anchor": 51970491,
+        "exon_rank": 2
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 51970750,
+        "exon_rank": 2
+      },
+      {
+        "kind": "donor",
+        "anchor": 51968443,
+        "exon_rank": 3
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 51968608,
+        "exon_rank": 3
+      },
+      {
+        "kind": "donor",
+        "anchor": 51964871,
+        "exon_rank": 4
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 51965034,
+        "exon_rank": 4
+      },
+      {
+        "kind": "donor",
+        "anchor": 51961836,
+        "exon_rank": 5
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 51961914,
+        "exon_rank": 5
+      },
+      {
+        "kind": "donor",
+        "anchor": 51960147,
+        "exon_rank": 6
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 51960323,
+        "exon_rank": 6
+      },
+      {
+        "kind": "donor",
+        "anchor": 51958310,
+        "exon_rank": 7
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 51958545,
+        "exon_rank": 7
+      },
+      {
+        "kind": "donor",
+        "anchor": 51957515,
+        "exon_rank": 8
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 51957608,
+        "exon_rank": 8
+      },
+      {
+        "kind": "donor",
+        "anchor": 51950271,
+        "exon_rank": 9
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 51950400,
+        "exon_rank": 9
+      },
+      {
+        "kind": "donor",
+        "anchor": 51950006,
+        "exon_rank": 10
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 51950162,
+        "exon_rank": 10
+      },
+      {
+        "kind": "donor",
+        "anchor": 51949661,
+        "exon_rank": 11
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 51949797,
+        "exon_rank": 11
+      },
+      {
+        "kind": "donor",
+        "anchor": 51946283,
+        "exon_rank": 12
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 51946479,
+        "exon_rank": 12
+      },
+      {
+        "kind": "donor",
+        "anchor": 51944108,
+        "exon_rank": 13
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 51944292,
+        "exon_rank": 13
+      },
+      {
+        "kind": "donor",
+        "anchor": 51942385,
+        "exon_rank": 14
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 51942555,
+        "exon_rank": 14
+      },
+      {
+        "kind": "donor",
+        "anchor": 51941080,
+        "exon_rank": 15
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 51941225,
+        "exon_rank": 15
+      },
+      {
+        "kind": "donor",
+        "anchor": 51939050,
+        "exon_rank": 16
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 51939194,
+        "exon_rank": 16
+      },
+      {
+        "kind": "donor",
+        "anchor": 51937475,
+        "exon_rank": 17
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 51937680,
+        "exon_rank": 17
+      },
+      {
+        "kind": "donor",
+        "anchor": 51937275,
+        "exon_rank": 18
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 51937394,
+        "exon_rank": 18
+      },
+      {
+        "kind": "donor",
+        "anchor": 51935592,
+        "exon_rank": 19
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 51935696,
+        "exon_rank": 19
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 51935030,
+        "exon_rank": 20
+      }
+    ]
+  },
+  "NPC1": {
+    "symbol": "NPC1",
+    "category": "neurometabolic",
+    "disease": "Niemann-Pick disease type C",
+    "ensembl_id": "ENSG00000141458",
+    "canonical_transcript": "ENST00000269228",
+    "chrom": "18",
+    "start": 23506184,
+    "end": 23586969,
+    "strand": -1,
+    "exons": [
+      [
+        23586287,
+        23586506
+      ],
+      [
+        23573452,
+        23573574
+      ],
+      [
+        23572074,
+        23572180
+      ],
+      [
+        23568823,
+        23568998
+      ],
+      [
+        23561360,
+        23561527
+      ],
+      [
+        23560231,
+        23560480
+      ],
+      [
+        23557117,
+        23557190
+      ],
+      [
+        23556243,
+        23556613
+      ],
+      [
+        23554758,
+        23554984
+      ],
+      [
+        23551627,
+        23551727
+      ],
+      [
+        23548006,
+        23548108
+      ],
+      [
+        23544960,
+        23545149
+      ],
+      [
+        23544344,
+        23544526
+      ],
+      [
+        23543455,
+        23543569
+      ],
+      [
+        23541306,
+        23541433
+      ],
+      [
+        23541068,
+        23541208
+      ],
+      [
+        23540448,
+        23540537
+      ],
+      [
+        23539811,
+        23540001
+      ],
+      [
+        23539355,
+        23539470
+      ],
+      [
+        23538542,
+        23538671
+      ],
+      [
+        23536673,
+        23536876
+      ],
+      [
+        23535469,
+        23535700
+      ],
+      [
+        23534446,
+        23534559
+      ],
+      [
+        23533355,
+        23533517
+      ],
+      [
+        23531442,
+        23532284
+      ]
+    ],
+    "junctions": [
+      {
+        "kind": "donor",
+        "anchor": 23586286,
+        "exon_rank": 0
+      },
+      {
+        "kind": "donor",
+        "anchor": 23573451,
+        "exon_rank": 1
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 23573575,
+        "exon_rank": 1
+      },
+      {
+        "kind": "donor",
+        "anchor": 23572073,
+        "exon_rank": 2
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 23572181,
+        "exon_rank": 2
+      },
+      {
+        "kind": "donor",
+        "anchor": 23568822,
+        "exon_rank": 3
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 23568999,
+        "exon_rank": 3
+      },
+      {
+        "kind": "donor",
+        "anchor": 23561359,
+        "exon_rank": 4
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 23561528,
+        "exon_rank": 4
+      },
+      {
+        "kind": "donor",
+        "anchor": 23560230,
+        "exon_rank": 5
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 23560481,
+        "exon_rank": 5
+      },
+      {
+        "kind": "donor",
+        "anchor": 23557116,
+        "exon_rank": 6
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 23557191,
+        "exon_rank": 6
+      },
+      {
+        "kind": "donor",
+        "anchor": 23556242,
+        "exon_rank": 7
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 23556614,
+        "exon_rank": 7
+      },
+      {
+        "kind": "donor",
+        "anchor": 23554757,
+        "exon_rank": 8
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 23554985,
+        "exon_rank": 8
+      },
+      {
+        "kind": "donor",
+        "anchor": 23551626,
+        "exon_rank": 9
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 23551728,
+        "exon_rank": 9
+      },
+      {
+        "kind": "donor",
+        "anchor": 23548005,
+        "exon_rank": 10
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 23548109,
+        "exon_rank": 10
+      },
+      {
+        "kind": "donor",
+        "anchor": 23544959,
+        "exon_rank": 11
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 23545150,
+        "exon_rank": 11
+      },
+      {
+        "kind": "donor",
+        "anchor": 23544343,
+        "exon_rank": 12
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 23544527,
+        "exon_rank": 12
+      },
+      {
+        "kind": "donor",
+        "anchor": 23543454,
+        "exon_rank": 13
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 23543570,
+        "exon_rank": 13
+      },
+      {
+        "kind": "donor",
+        "anchor": 23541305,
+        "exon_rank": 14
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 23541434,
+        "exon_rank": 14
+      },
+      {
+        "kind": "donor",
+        "anchor": 23541067,
+        "exon_rank": 15
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 23541209,
+        "exon_rank": 15
+      },
+      {
+        "kind": "donor",
+        "anchor": 23540447,
+        "exon_rank": 16
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 23540538,
+        "exon_rank": 16
+      },
+      {
+        "kind": "donor",
+        "anchor": 23539810,
+        "exon_rank": 17
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 23540002,
+        "exon_rank": 17
+      },
+      {
+        "kind": "donor",
+        "anchor": 23539354,
+        "exon_rank": 18
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 23539471,
+        "exon_rank": 18
+      },
+      {
+        "kind": "donor",
+        "anchor": 23538541,
+        "exon_rank": 19
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 23538672,
+        "exon_rank": 19
+      },
+      {
+        "kind": "donor",
+        "anchor": 23536672,
+        "exon_rank": 20
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 23536877,
+        "exon_rank": 20
+      },
+      {
+        "kind": "donor",
+        "anchor": 23535468,
+        "exon_rank": 21
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 23535701,
+        "exon_rank": 21
+      },
+      {
+        "kind": "donor",
+        "anchor": 23534445,
+        "exon_rank": 22
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 23534560,
+        "exon_rank": 22
+      },
+      {
+        "kind": "donor",
+        "anchor": 23533354,
+        "exon_rank": 23
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 23533518,
+        "exon_rank": 23
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 23532285,
+        "exon_rank": 24
+      }
+    ]
+  },
+  "GALC": {
+    "symbol": "GALC",
+    "category": "neurometabolic",
+    "disease": "Krabbe disease",
+    "ensembl_id": "ENSG00000054983",
+    "canonical_transcript": "ENST00000261304",
+    "chrom": "14",
+    "start": 87837820,
+    "end": 87993665,
+    "strand": -1,
+    "exons": [
+      [
+        87992970,
+        87993182
+      ],
+      [
+        87988455,
+        87988523
+      ],
+      [
+        87988144,
+        87988207
+      ],
+      [
+        87986489,
+        87986602
+      ],
+      [
+        87984394,
+        87984533
+      ],
+      [
+        87982205,
+        87982243
+      ],
+      [
+        87976358,
+        87976488
+      ],
+      [
+        87968335,
+        87968490
+      ],
+      [
+        87965505,
+        87965629
+      ],
+      [
+        87963384,
+        87963511
+      ],
+      [
+        87950659,
+        87950748
+      ],
+      [
+        87949845,
+        87949931
+      ],
+      [
+        87947728,
+        87947878
+      ],
+      [
+        87945553,
+        87945733
+      ],
+      [
+        87941395,
+        87941558
+      ],
+      [
+        87939905,
+        87939981
+      ],
+      [
+        87933014,
+        87934878
+      ]
+    ],
+    "junctions": [
+      {
+        "kind": "donor",
+        "anchor": 87992969,
+        "exon_rank": 0
+      },
+      {
+        "kind": "donor",
+        "anchor": 87988454,
+        "exon_rank": 1
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 87988524,
+        "exon_rank": 1
+      },
+      {
+        "kind": "donor",
+        "anchor": 87988143,
+        "exon_rank": 2
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 87988208,
+        "exon_rank": 2
+      },
+      {
+        "kind": "donor",
+        "anchor": 87986488,
+        "exon_rank": 3
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 87986603,
+        "exon_rank": 3
+      },
+      {
+        "kind": "donor",
+        "anchor": 87984393,
+        "exon_rank": 4
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 87984534,
+        "exon_rank": 4
+      },
+      {
+        "kind": "donor",
+        "anchor": 87982204,
+        "exon_rank": 5
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 87982244,
+        "exon_rank": 5
+      },
+      {
+        "kind": "donor",
+        "anchor": 87976357,
+        "exon_rank": 6
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 87976489,
+        "exon_rank": 6
+      },
+      {
+        "kind": "donor",
+        "anchor": 87968334,
+        "exon_rank": 7
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 87968491,
+        "exon_rank": 7
+      },
+      {
+        "kind": "donor",
+        "anchor": 87965504,
+        "exon_rank": 8
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 87965630,
+        "exon_rank": 8
+      },
+      {
+        "kind": "donor",
+        "anchor": 87963383,
+        "exon_rank": 9
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 87963512,
+        "exon_rank": 9
+      },
+      {
+        "kind": "donor",
+        "anchor": 87950658,
+        "exon_rank": 10
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 87950749,
+        "exon_rank": 10
+      },
+      {
+        "kind": "donor",
+        "anchor": 87949844,
+        "exon_rank": 11
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 87949932,
+        "exon_rank": 11
+      },
+      {
+        "kind": "donor",
+        "anchor": 87947727,
+        "exon_rank": 12
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 87947879,
+        "exon_rank": 12
+      },
+      {
+        "kind": "donor",
+        "anchor": 87945552,
+        "exon_rank": 13
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 87945734,
+        "exon_rank": 13
+      },
+      {
+        "kind": "donor",
+        "anchor": 87941394,
+        "exon_rank": 14
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 87941559,
+        "exon_rank": 14
+      },
+      {
+        "kind": "donor",
+        "anchor": 87939904,
+        "exon_rank": 15
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 87939982,
+        "exon_rank": 15
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 87934879,
+        "exon_rank": 16
+      }
+    ]
+  },
+  "ABCD1": {
+    "symbol": "ABCD1",
+    "category": "neurometabolic",
+    "disease": "X-linked adrenoleukodystrophy",
+    "ensembl_id": "ENSG00000101986",
+    "canonical_transcript": "ENST00000218104",
+    "chrom": "X",
+    "start": 153724495,
+    "end": 153744755,
+    "strand": 1,
+    "exons": [
+      [
+        153724856,
+        153726166
+      ],
+      [
+        153729232,
+        153729412
+      ],
+      [
+        153736112,
+        153736254
+      ],
+      [
+        153736345,
+        153736513
+      ],
+      [
+        153737157,
+        153737251
+      ],
+      [
+        153740092,
+        153740237
+      ],
+      [
+        153740574,
+        153740719
+      ],
+      [
+        153742987,
+        153743071
+      ],
+      [
+        153743221,
+        153743346
+      ],
+      [
+        153743489,
+        153744755
+      ]
+    ],
+    "junctions": [
+      {
+        "kind": "donor",
+        "anchor": 153726167,
+        "exon_rank": 0
+      },
+      {
+        "kind": "donor",
+        "anchor": 153729413,
+        "exon_rank": 1
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 153729231,
+        "exon_rank": 1
+      },
+      {
+        "kind": "donor",
+        "anchor": 153736255,
+        "exon_rank": 2
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 153736111,
+        "exon_rank": 2
+      },
+      {
+        "kind": "donor",
+        "anchor": 153736514,
+        "exon_rank": 3
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 153736344,
+        "exon_rank": 3
+      },
+      {
+        "kind": "donor",
+        "anchor": 153737252,
+        "exon_rank": 4
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 153737156,
+        "exon_rank": 4
+      },
+      {
+        "kind": "donor",
+        "anchor": 153740238,
+        "exon_rank": 5
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 153740091,
+        "exon_rank": 5
+      },
+      {
+        "kind": "donor",
+        "anchor": 153740720,
+        "exon_rank": 6
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 153740573,
+        "exon_rank": 6
+      },
+      {
+        "kind": "donor",
+        "anchor": 153743072,
+        "exon_rank": 7
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 153742986,
+        "exon_rank": 7
+      },
+      {
+        "kind": "donor",
+        "anchor": 153743347,
+        "exon_rank": 8
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 153743220,
+        "exon_rank": 8
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 153743488,
+        "exon_rank": 9
+      }
+    ]
+  },
+  "CFTR": {
+    "symbol": "CFTR",
+    "category": "classic_splice_benchmark",
+    "disease": "Cystic fibrosis",
+    "ensembl_id": "ENSG00000001626",
+    "canonical_transcript": "ENST00000003084",
+    "chrom": "7",
+    "start": 117287120,
+    "end": 117715971,
+    "strand": 1,
+    "exons": [
+      [
+        117480025,
+        117480147
+      ],
+      [
+        117504253,
+        117504363
+      ],
+      [
+        117509034,
+        117509142
+      ],
+      [
+        117530899,
+        117531114
+      ],
+      [
+        117534276,
+        117534365
+      ],
+      [
+        117535248,
+        117535411
+      ],
+      [
+        117536548,
+        117536673
+      ],
+      [
+        117540100,
+        117540346
+      ],
+      [
+        117542016,
+        117542108
+      ],
+      [
+        117548641,
+        117548823
+      ],
+      [
+        117559464,
+        117559655
+      ],
+      [
+        117587739,
+        117587833
+      ],
+      [
+        117590353,
+        117590439
+      ],
+      [
+        117591934,
+        117592657
+      ],
+      [
+        117594930,
+        117595058
+      ],
+      [
+        117602826,
+        117602863
+      ],
+      [
+        117603532,
+        117603782
+      ],
+      [
+        117606674,
+        117606753
+      ],
+      [
+        117610519,
+        117610669
+      ],
+      [
+        117611581,
+        117611808
+      ],
+      [
+        117614613,
+        117614713
+      ],
+      [
+        117627522,
+        117627770
+      ],
+      [
+        117642438,
+        117642593
+      ],
+      [
+        117652842,
+        117652931
+      ],
+      [
+        117664688,
+        117664860
+      ],
+      [
+        117665459,
+        117665564
+      ],
+      [
+        117666908,
+        117668665
+      ]
+    ],
+    "junctions": [
+      {
+        "kind": "donor",
+        "anchor": 117480148,
+        "exon_rank": 0
+      },
+      {
+        "kind": "donor",
+        "anchor": 117504364,
+        "exon_rank": 1
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 117504252,
+        "exon_rank": 1
+      },
+      {
+        "kind": "donor",
+        "anchor": 117509143,
+        "exon_rank": 2
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 117509033,
+        "exon_rank": 2
+      },
+      {
+        "kind": "donor",
+        "anchor": 117531115,
+        "exon_rank": 3
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 117530898,
+        "exon_rank": 3
+      },
+      {
+        "kind": "donor",
+        "anchor": 117534366,
+        "exon_rank": 4
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 117534275,
+        "exon_rank": 4
+      },
+      {
+        "kind": "donor",
+        "anchor": 117535412,
+        "exon_rank": 5
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 117535247,
+        "exon_rank": 5
+      },
+      {
+        "kind": "donor",
+        "anchor": 117536674,
+        "exon_rank": 6
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 117536547,
+        "exon_rank": 6
+      },
+      {
+        "kind": "donor",
+        "anchor": 117540347,
+        "exon_rank": 7
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 117540099,
+        "exon_rank": 7
+      },
+      {
+        "kind": "donor",
+        "anchor": 117542109,
+        "exon_rank": 8
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 117542015,
+        "exon_rank": 8
+      },
+      {
+        "kind": "donor",
+        "anchor": 117548824,
+        "exon_rank": 9
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 117548640,
+        "exon_rank": 9
+      },
+      {
+        "kind": "donor",
+        "anchor": 117559656,
+        "exon_rank": 10
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 117559463,
+        "exon_rank": 10
+      },
+      {
+        "kind": "donor",
+        "anchor": 117587834,
+        "exon_rank": 11
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 117587738,
+        "exon_rank": 11
+      },
+      {
+        "kind": "donor",
+        "anchor": 117590440,
+        "exon_rank": 12
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 117590352,
+        "exon_rank": 12
+      },
+      {
+        "kind": "donor",
+        "anchor": 117592658,
+        "exon_rank": 13
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 117591933,
+        "exon_rank": 13
+      },
+      {
+        "kind": "donor",
+        "anchor": 117595059,
+        "exon_rank": 14
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 117594929,
+        "exon_rank": 14
+      },
+      {
+        "kind": "donor",
+        "anchor": 117602864,
+        "exon_rank": 15
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 117602825,
+        "exon_rank": 15
+      },
+      {
+        "kind": "donor",
+        "anchor": 117603783,
+        "exon_rank": 16
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 117603531,
+        "exon_rank": 16
+      },
+      {
+        "kind": "donor",
+        "anchor": 117606754,
+        "exon_rank": 17
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 117606673,
+        "exon_rank": 17
+      },
+      {
+        "kind": "donor",
+        "anchor": 117610670,
+        "exon_rank": 18
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 117610518,
+        "exon_rank": 18
+      },
+      {
+        "kind": "donor",
+        "anchor": 117611809,
+        "exon_rank": 19
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 117611580,
+        "exon_rank": 19
+      },
+      {
+        "kind": "donor",
+        "anchor": 117614714,
+        "exon_rank": 20
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 117614612,
+        "exon_rank": 20
+      },
+      {
+        "kind": "donor",
+        "anchor": 117627771,
+        "exon_rank": 21
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 117627521,
+        "exon_rank": 21
+      },
+      {
+        "kind": "donor",
+        "anchor": 117642594,
+        "exon_rank": 22
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 117642437,
+        "exon_rank": 22
+      },
+      {
+        "kind": "donor",
+        "anchor": 117652932,
+        "exon_rank": 23
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 117652841,
+        "exon_rank": 23
+      },
+      {
+        "kind": "donor",
+        "anchor": 117664861,
+        "exon_rank": 24
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 117664687,
+        "exon_rank": 24
+      },
+      {
+        "kind": "donor",
+        "anchor": 117665565,
+        "exon_rank": 25
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 117665458,
+        "exon_rank": 25
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 117666907,
+        "exon_rank": 26
+      }
+    ]
+  },
+  "SCN2A": {
+    "symbol": "SCN2A",
+    "category": "epilepsy_neurodevelopmental",
+    "disease": "SCN2A-related disorder",
+    "ensembl_id": "ENSG00000136531",
+    "canonical_transcript": "ENST00000375437",
+    "chrom": "2",
+    "start": 165194993,
+    "end": 165392310,
+    "strand": 1,
+    "exons": [
+      [
+        165239414,
+        165239640
+      ],
+      [
+        165295773,
+        165296090
+      ],
+      [
+        165297017,
+        165297135
+      ],
+      [
+        165307848,
+        165307937
+      ],
+      [
+        165308666,
+        165308794
+      ],
+      [
+        165309352,
+        165309443
+      ],
+      [
+        165310323,
+        165310595
+      ],
+      [
+        165312025,
+        165312088
+      ],
+      [
+        165313620,
+        165313761
+      ],
+      [
+        165313902,
+        165314108
+      ],
+      [
+        165315471,
+        165315758
+      ],
+      [
+        165323156,
+        165323500
+      ],
+      [
+        165326852,
+        165326984
+      ],
+      [
+        165331330,
+        165331568
+      ],
+      [
+        165342296,
+        165342469
+      ],
+      [
+        165344555,
+        165344911
+      ],
+      [
+        165354192,
+        165354671
+      ],
+      [
+        165365143,
+        165365263
+      ],
+      [
+        165367217,
+        165367371
+      ],
+      [
+        165370126,
+        165370299
+      ],
+      [
+        165373225,
+        165373347
+      ],
+      [
+        165374685,
+        165374966
+      ],
+      [
+        165377597,
+        165377650
+      ],
+      [
+        165380592,
+        165380729
+      ],
+      [
+        165381093,
+        165381197
+      ],
+      [
+        165386746,
+        165387016
+      ],
+      [
+        165388629,
+        165392304
+      ]
+    ],
+    "junctions": [
+      {
+        "kind": "donor",
+        "anchor": 165239641,
+        "exon_rank": 0
+      },
+      {
+        "kind": "donor",
+        "anchor": 165296091,
+        "exon_rank": 1
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 165295772,
+        "exon_rank": 1
+      },
+      {
+        "kind": "donor",
+        "anchor": 165297136,
+        "exon_rank": 2
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 165297016,
+        "exon_rank": 2
+      },
+      {
+        "kind": "donor",
+        "anchor": 165307938,
+        "exon_rank": 3
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 165307847,
+        "exon_rank": 3
+      },
+      {
+        "kind": "donor",
+        "anchor": 165308795,
+        "exon_rank": 4
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 165308665,
+        "exon_rank": 4
+      },
+      {
+        "kind": "donor",
+        "anchor": 165309444,
+        "exon_rank": 5
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 165309351,
+        "exon_rank": 5
+      },
+      {
+        "kind": "donor",
+        "anchor": 165310596,
+        "exon_rank": 6
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 165310322,
+        "exon_rank": 6
+      },
+      {
+        "kind": "donor",
+        "anchor": 165312089,
+        "exon_rank": 7
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 165312024,
+        "exon_rank": 7
+      },
+      {
+        "kind": "donor",
+        "anchor": 165313762,
+        "exon_rank": 8
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 165313619,
+        "exon_rank": 8
+      },
+      {
+        "kind": "donor",
+        "anchor": 165314109,
+        "exon_rank": 9
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 165313901,
+        "exon_rank": 9
+      },
+      {
+        "kind": "donor",
+        "anchor": 165315759,
+        "exon_rank": 10
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 165315470,
+        "exon_rank": 10
+      },
+      {
+        "kind": "donor",
+        "anchor": 165323501,
+        "exon_rank": 11
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 165323155,
+        "exon_rank": 11
+      },
+      {
+        "kind": "donor",
+        "anchor": 165326985,
+        "exon_rank": 12
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 165326851,
+        "exon_rank": 12
+      },
+      {
+        "kind": "donor",
+        "anchor": 165331569,
+        "exon_rank": 13
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 165331329,
+        "exon_rank": 13
+      },
+      {
+        "kind": "donor",
+        "anchor": 165342470,
+        "exon_rank": 14
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 165342295,
+        "exon_rank": 14
+      },
+      {
+        "kind": "donor",
+        "anchor": 165344912,
+        "exon_rank": 15
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 165344554,
+        "exon_rank": 15
+      },
+      {
+        "kind": "donor",
+        "anchor": 165354672,
+        "exon_rank": 16
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 165354191,
+        "exon_rank": 16
+      },
+      {
+        "kind": "donor",
+        "anchor": 165365264,
+        "exon_rank": 17
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 165365142,
+        "exon_rank": 17
+      },
+      {
+        "kind": "donor",
+        "anchor": 165367372,
+        "exon_rank": 18
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 165367216,
+        "exon_rank": 18
+      },
+      {
+        "kind": "donor",
+        "anchor": 165370300,
+        "exon_rank": 19
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 165370125,
+        "exon_rank": 19
+      },
+      {
+        "kind": "donor",
+        "anchor": 165373348,
+        "exon_rank": 20
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 165373224,
+        "exon_rank": 20
+      },
+      {
+        "kind": "donor",
+        "anchor": 165374967,
+        "exon_rank": 21
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 165374684,
+        "exon_rank": 21
+      },
+      {
+        "kind": "donor",
+        "anchor": 165377651,
+        "exon_rank": 22
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 165377596,
+        "exon_rank": 22
+      },
+      {
+        "kind": "donor",
+        "anchor": 165380730,
+        "exon_rank": 23
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 165380591,
+        "exon_rank": 23
+      },
+      {
+        "kind": "donor",
+        "anchor": 165381198,
+        "exon_rank": 24
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 165381092,
+        "exon_rank": 24
+      },
+      {
+        "kind": "donor",
+        "anchor": 165387017,
+        "exon_rank": 25
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 165386745,
+        "exon_rank": 25
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 165388628,
+        "exon_rank": 26
+      }
+    ]
+  },
+  "DMD": {
+    "symbol": "DMD",
+    "category": "neuromuscular",
+    "disease": "Duchenne muscular dystrophy",
+    "ensembl_id": "ENSG00000198947",
+    "canonical_transcript": "ENST00000357033",
+    "chrom": "X",
+    "start": 31097677,
+    "end": 33339609,
+    "strand": -1,
+    "exons": [
+      [
+        33211282,
+        33211549
+      ],
+      [
+        33020139,
+        33020200
+      ],
+      [
+        32849728,
+        32849820
+      ],
+      [
+        32844783,
+        32844860
+      ],
+      [
+        32823295,
+        32823387
+      ],
+      [
+        32816468,
+        32816640
+      ],
+      [
+        32809493,
+        32809611
+      ],
+      [
+        32699112,
+        32699293
+      ],
+      [
+        32697870,
+        32697998
+      ],
+      [
+        32644964,
+        32645152
+      ],
+      [
+        32644132,
+        32644313
+      ],
+      [
+        32614303,
+        32614453
+      ],
+      [
+        32595757,
+        32595876
+      ],
+      [
+        32573745,
+        32573846
+      ],
+      [
+        32573530,
+        32573637
+      ],
+      [
+        32565702,
+        32565881
+      ],
+      [
+        32545159,
+        32545334
+      ],
+      [
+        32518008,
+        32518131
+      ],
+      [
+        32501755,
+        32501842
+      ],
+      [
+        32491277,
+        32491518
+      ],
+      [
+        32484919,
+        32485099
+      ],
+      [
+        32472164,
+        32472309
+      ],
+      [
+        32468498,
+        32468710
+      ],
+      [
+        32464586,
+        32464699
+      ],
+      [
+        32463439,
+        32463594
+      ],
+      [
+        32454662,
+        32454832
+      ],
+      [
+        32448456,
+        32448638
+      ],
+      [
+        32441180,
+        32441314
+      ],
+      [
+        32438241,
+        32438390
+      ],
+      [
+        32411752,
+        32411913
+      ],
+      [
+        32390071,
+        32390181
+      ],
+      [
+        32389501,
+        32389674
+      ],
+      [
+        32386310,
+        32386465
+      ],
+      [
+        32380510,
+        32380680
+      ],
+      [
+        32365020,
+        32365199
+      ],
+      [
+        32364582,
+        32364710
+      ],
+      [
+        32362788,
+        32362958
+      ],
+      [
+        32348406,
+        32348528
+      ],
+      [
+        32345943,
+        32346080
+      ],
+      [
+        32343134,
+        32343286
+      ],
+      [
+        32342100,
+        32342282
+      ],
+      [
+        32310082,
+        32310276
+      ],
+      [
+        32287529,
+        32287701
+      ],
+      [
+        32216916,
+        32217063
+      ],
+      [
+        31968339,
+        31968514
+      ],
+      [
+        31932080,
+        31932227
+      ],
+      [
+        31929596,
+        31929745
+      ],
+      [
+        31875188,
+        31875373
+      ],
+      [
+        31836718,
+        31836819
+      ],
+      [
+        31819975,
+        31820083
+      ],
+      [
+        31773960,
+        31774192
+      ],
+      [
+        31729631,
+        31729748
+      ],
+      [
+        31679375,
+        31679586
+      ],
+      [
+        31657990,
+        31658144
+      ],
+      [
+        31627673,
+        31627862
+      ],
+      [
+        31507281,
+        31507453
+      ],
+      [
+        31496788,
+        31496944
+      ],
+      [
+        31478983,
+        31479103
+      ],
+      [
+        31478106,
+        31478374
+      ],
+      [
+        31444481,
+        31444627
+      ],
+      [
+        31348556,
+        31348634
+      ],
+      [
+        31323598,
+        31323658
+      ],
+      [
+        31260955,
+        31261016
+      ],
+      [
+        31223047,
+        31223121
+      ],
+      [
+        31209498,
+        31209699
+      ],
+      [
+        31206582,
+        31206667
+      ],
+      [
+        31203961,
+        31204118
+      ],
+      [
+        31182738,
+        31182904
+      ],
+      [
+        31180370,
+        31180481
+      ],
+      [
+        31178669,
+        31178805
+      ],
+      [
+        31177932,
+        31177970
+      ],
+      [
+        31173539,
+        31173604
+      ],
+      [
+        31172348,
+        31172413
+      ],
+      [
+        31169443,
+        31169601
+      ],
+      [
+        31147275,
+        31147518
+      ],
+      [
+        31146291,
+        31146414
+      ],
+      [
+        31134102,
+        31134194
+      ],
+      [
+        31126642,
+        31126673
+      ],
+      [
+        31119222,
+        31121930
+      ]
+    ],
+    "junctions": [
+      {
+        "kind": "donor",
+        "anchor": 33211281,
+        "exon_rank": 0
+      },
+      {
+        "kind": "donor",
+        "anchor": 33020138,
+        "exon_rank": 1
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 33020201,
+        "exon_rank": 1
+      },
+      {
+        "kind": "donor",
+        "anchor": 32849727,
+        "exon_rank": 2
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 32849821,
+        "exon_rank": 2
+      },
+      {
+        "kind": "donor",
+        "anchor": 32844782,
+        "exon_rank": 3
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 32844861,
+        "exon_rank": 3
+      },
+      {
+        "kind": "donor",
+        "anchor": 32823294,
+        "exon_rank": 4
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 32823388,
+        "exon_rank": 4
+      },
+      {
+        "kind": "donor",
+        "anchor": 32816467,
+        "exon_rank": 5
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 32816641,
+        "exon_rank": 5
+      },
+      {
+        "kind": "donor",
+        "anchor": 32809492,
+        "exon_rank": 6
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 32809612,
+        "exon_rank": 6
+      },
+      {
+        "kind": "donor",
+        "anchor": 32699111,
+        "exon_rank": 7
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 32699294,
+        "exon_rank": 7
+      },
+      {
+        "kind": "donor",
+        "anchor": 32697869,
+        "exon_rank": 8
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 32697999,
+        "exon_rank": 8
+      },
+      {
+        "kind": "donor",
+        "anchor": 32644963,
+        "exon_rank": 9
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 32645153,
+        "exon_rank": 9
+      },
+      {
+        "kind": "donor",
+        "anchor": 32644131,
+        "exon_rank": 10
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 32644314,
+        "exon_rank": 10
+      },
+      {
+        "kind": "donor",
+        "anchor": 32614302,
+        "exon_rank": 11
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 32614454,
+        "exon_rank": 11
+      },
+      {
+        "kind": "donor",
+        "anchor": 32595756,
+        "exon_rank": 12
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 32595877,
+        "exon_rank": 12
+      },
+      {
+        "kind": "donor",
+        "anchor": 32573744,
+        "exon_rank": 13
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 32573847,
+        "exon_rank": 13
+      },
+      {
+        "kind": "donor",
+        "anchor": 32573529,
+        "exon_rank": 14
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 32573638,
+        "exon_rank": 14
+      },
+      {
+        "kind": "donor",
+        "anchor": 32565701,
+        "exon_rank": 15
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 32565882,
+        "exon_rank": 15
+      },
+      {
+        "kind": "donor",
+        "anchor": 32545158,
+        "exon_rank": 16
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 32545335,
+        "exon_rank": 16
+      },
+      {
+        "kind": "donor",
+        "anchor": 32518007,
+        "exon_rank": 17
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 32518132,
+        "exon_rank": 17
+      },
+      {
+        "kind": "donor",
+        "anchor": 32501754,
+        "exon_rank": 18
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 32501843,
+        "exon_rank": 18
+      },
+      {
+        "kind": "donor",
+        "anchor": 32491276,
+        "exon_rank": 19
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 32491519,
+        "exon_rank": 19
+      },
+      {
+        "kind": "donor",
+        "anchor": 32484918,
+        "exon_rank": 20
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 32485100,
+        "exon_rank": 20
+      },
+      {
+        "kind": "donor",
+        "anchor": 32472163,
+        "exon_rank": 21
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 32472310,
+        "exon_rank": 21
+      },
+      {
+        "kind": "donor",
+        "anchor": 32468497,
+        "exon_rank": 22
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 32468711,
+        "exon_rank": 22
+      },
+      {
+        "kind": "donor",
+        "anchor": 32464585,
+        "exon_rank": 23
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 32464700,
+        "exon_rank": 23
+      },
+      {
+        "kind": "donor",
+        "anchor": 32463438,
+        "exon_rank": 24
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 32463595,
+        "exon_rank": 24
+      },
+      {
+        "kind": "donor",
+        "anchor": 32454661,
+        "exon_rank": 25
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 32454833,
+        "exon_rank": 25
+      },
+      {
+        "kind": "donor",
+        "anchor": 32448455,
+        "exon_rank": 26
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 32448639,
+        "exon_rank": 26
+      },
+      {
+        "kind": "donor",
+        "anchor": 32441179,
+        "exon_rank": 27
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 32441315,
+        "exon_rank": 27
+      },
+      {
+        "kind": "donor",
+        "anchor": 32438240,
+        "exon_rank": 28
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 32438391,
+        "exon_rank": 28
+      },
+      {
+        "kind": "donor",
+        "anchor": 32411751,
+        "exon_rank": 29
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 32411914,
+        "exon_rank": 29
+      },
+      {
+        "kind": "donor",
+        "anchor": 32390070,
+        "exon_rank": 30
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 32390182,
+        "exon_rank": 30
+      },
+      {
+        "kind": "donor",
+        "anchor": 32389500,
+        "exon_rank": 31
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 32389675,
+        "exon_rank": 31
+      },
+      {
+        "kind": "donor",
+        "anchor": 32386309,
+        "exon_rank": 32
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 32386466,
+        "exon_rank": 32
+      },
+      {
+        "kind": "donor",
+        "anchor": 32380509,
+        "exon_rank": 33
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 32380681,
+        "exon_rank": 33
+      },
+      {
+        "kind": "donor",
+        "anchor": 32365019,
+        "exon_rank": 34
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 32365200,
+        "exon_rank": 34
+      },
+      {
+        "kind": "donor",
+        "anchor": 32364581,
+        "exon_rank": 35
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 32364711,
+        "exon_rank": 35
+      },
+      {
+        "kind": "donor",
+        "anchor": 32362787,
+        "exon_rank": 36
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 32362959,
+        "exon_rank": 36
+      },
+      {
+        "kind": "donor",
+        "anchor": 32348405,
+        "exon_rank": 37
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 32348529,
+        "exon_rank": 37
+      },
+      {
+        "kind": "donor",
+        "anchor": 32345942,
+        "exon_rank": 38
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 32346081,
+        "exon_rank": 38
+      },
+      {
+        "kind": "donor",
+        "anchor": 32343133,
+        "exon_rank": 39
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 32343287,
+        "exon_rank": 39
+      },
+      {
+        "kind": "donor",
+        "anchor": 32342099,
+        "exon_rank": 40
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 32342283,
+        "exon_rank": 40
+      },
+      {
+        "kind": "donor",
+        "anchor": 32310081,
+        "exon_rank": 41
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 32310277,
+        "exon_rank": 41
+      },
+      {
+        "kind": "donor",
+        "anchor": 32287528,
+        "exon_rank": 42
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 32287702,
+        "exon_rank": 42
+      },
+      {
+        "kind": "donor",
+        "anchor": 32216915,
+        "exon_rank": 43
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 32217064,
+        "exon_rank": 43
+      },
+      {
+        "kind": "donor",
+        "anchor": 31968338,
+        "exon_rank": 44
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 31968515,
+        "exon_rank": 44
+      },
+      {
+        "kind": "donor",
+        "anchor": 31932079,
+        "exon_rank": 45
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 31932228,
+        "exon_rank": 45
+      },
+      {
+        "kind": "donor",
+        "anchor": 31929595,
+        "exon_rank": 46
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 31929746,
+        "exon_rank": 46
+      },
+      {
+        "kind": "donor",
+        "anchor": 31875187,
+        "exon_rank": 47
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 31875374,
+        "exon_rank": 47
+      },
+      {
+        "kind": "donor",
+        "anchor": 31836717,
+        "exon_rank": 48
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 31836820,
+        "exon_rank": 48
+      },
+      {
+        "kind": "donor",
+        "anchor": 31819974,
+        "exon_rank": 49
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 31820084,
+        "exon_rank": 49
+      },
+      {
+        "kind": "donor",
+        "anchor": 31773959,
+        "exon_rank": 50
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 31774193,
+        "exon_rank": 50
+      },
+      {
+        "kind": "donor",
+        "anchor": 31729630,
+        "exon_rank": 51
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 31729749,
+        "exon_rank": 51
+      },
+      {
+        "kind": "donor",
+        "anchor": 31679374,
+        "exon_rank": 52
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 31679587,
+        "exon_rank": 52
+      },
+      {
+        "kind": "donor",
+        "anchor": 31657989,
+        "exon_rank": 53
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 31658145,
+        "exon_rank": 53
+      },
+      {
+        "kind": "donor",
+        "anchor": 31627672,
+        "exon_rank": 54
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 31627863,
+        "exon_rank": 54
+      },
+      {
+        "kind": "donor",
+        "anchor": 31507280,
+        "exon_rank": 55
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 31507454,
+        "exon_rank": 55
+      },
+      {
+        "kind": "donor",
+        "anchor": 31496787,
+        "exon_rank": 56
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 31496945,
+        "exon_rank": 56
+      },
+      {
+        "kind": "donor",
+        "anchor": 31478982,
+        "exon_rank": 57
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 31479104,
+        "exon_rank": 57
+      },
+      {
+        "kind": "donor",
+        "anchor": 31478105,
+        "exon_rank": 58
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 31478375,
+        "exon_rank": 58
+      },
+      {
+        "kind": "donor",
+        "anchor": 31444480,
+        "exon_rank": 59
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 31444628,
+        "exon_rank": 59
+      },
+      {
+        "kind": "donor",
+        "anchor": 31348555,
+        "exon_rank": 60
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 31348635,
+        "exon_rank": 60
+      },
+      {
+        "kind": "donor",
+        "anchor": 31323597,
+        "exon_rank": 61
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 31323659,
+        "exon_rank": 61
+      },
+      {
+        "kind": "donor",
+        "anchor": 31260954,
+        "exon_rank": 62
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 31261017,
+        "exon_rank": 62
+      },
+      {
+        "kind": "donor",
+        "anchor": 31223046,
+        "exon_rank": 63
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 31223122,
+        "exon_rank": 63
+      },
+      {
+        "kind": "donor",
+        "anchor": 31209497,
+        "exon_rank": 64
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 31209700,
+        "exon_rank": 64
+      },
+      {
+        "kind": "donor",
+        "anchor": 31206581,
+        "exon_rank": 65
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 31206668,
+        "exon_rank": 65
+      },
+      {
+        "kind": "donor",
+        "anchor": 31203960,
+        "exon_rank": 66
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 31204119,
+        "exon_rank": 66
+      },
+      {
+        "kind": "donor",
+        "anchor": 31182737,
+        "exon_rank": 67
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 31182905,
+        "exon_rank": 67
+      },
+      {
+        "kind": "donor",
+        "anchor": 31180369,
+        "exon_rank": 68
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 31180482,
+        "exon_rank": 68
+      },
+      {
+        "kind": "donor",
+        "anchor": 31178668,
+        "exon_rank": 69
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 31178806,
+        "exon_rank": 69
+      },
+      {
+        "kind": "donor",
+        "anchor": 31177931,
+        "exon_rank": 70
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 31177971,
+        "exon_rank": 70
+      },
+      {
+        "kind": "donor",
+        "anchor": 31173538,
+        "exon_rank": 71
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 31173605,
+        "exon_rank": 71
+      },
+      {
+        "kind": "donor",
+        "anchor": 31172347,
+        "exon_rank": 72
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 31172414,
+        "exon_rank": 72
+      },
+      {
+        "kind": "donor",
+        "anchor": 31169442,
+        "exon_rank": 73
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 31169602,
+        "exon_rank": 73
+      },
+      {
+        "kind": "donor",
+        "anchor": 31147274,
+        "exon_rank": 74
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 31147519,
+        "exon_rank": 74
+      },
+      {
+        "kind": "donor",
+        "anchor": 31146290,
+        "exon_rank": 75
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 31146415,
+        "exon_rank": 75
+      },
+      {
+        "kind": "donor",
+        "anchor": 31134101,
+        "exon_rank": 76
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 31134195,
+        "exon_rank": 76
+      },
+      {
+        "kind": "donor",
+        "anchor": 31126641,
+        "exon_rank": 77
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 31126674,
+        "exon_rank": 77
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 31121931,
+        "exon_rank": 78
+      }
+    ]
+  },
+  "SOD1": {
+    "symbol": "SOD1",
+    "category": "neurodegenerative",
+    "disease": "Amyotrophic lateral sclerosis",
+    "ensembl_id": "ENSG00000142168",
+    "canonical_transcript": "ENST00000270142",
+    "chrom": "21",
+    "start": 31659617,
+    "end": 31668931,
+    "strand": 1,
+    "exons": [
+      [
+        31659693,
+        31659841
+      ],
+      [
+        31663790,
+        31663886
+      ],
+      [
+        31666449,
+        31666518
+      ],
+      [
+        31667258,
+        31667375
+      ],
+      [
+        31668471,
+        31668931
+      ]
+    ],
+    "junctions": [
+      {
+        "kind": "donor",
+        "anchor": 31659842,
+        "exon_rank": 0
+      },
+      {
+        "kind": "donor",
+        "anchor": 31663887,
+        "exon_rank": 1
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 31663789,
+        "exon_rank": 1
+      },
+      {
+        "kind": "donor",
+        "anchor": 31666519,
+        "exon_rank": 2
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 31666448,
+        "exon_rank": 2
+      },
+      {
+        "kind": "donor",
+        "anchor": 31667376,
+        "exon_rank": 3
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 31667257,
+        "exon_rank": 3
+      },
+      {
+        "kind": "acceptor",
+        "anchor": 31668470,
+        "exon_rank": 4
+      }
+    ]
+  }
+}

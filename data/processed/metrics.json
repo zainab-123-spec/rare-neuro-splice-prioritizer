@@ -1,0 +1,2947 @@
+{
+  "created_at": "2026-10-26T13:58:23.883197+00:00",
+  "n_variants": 5605,
+  "n_genes": 30,
+  "n_pathogenic": 2155,
+  "n_benign": 3450,
+  "prevalence": 0.38447814451382695,
+  "n_splits_requested": 5,
+  "feature_sets": {
+    "full": [
+      "abs_dist_to_splice",
+      "nearest_is_donor",
+      "disrupts_canonical_dinucleotide",
+      "donor_maxent_delta",
+      "acceptor_maxent_delta",
+      "donor_pwm_delta",
+      "acceptor_pwm_delta",
+      "cryptic_donor_delta",
+      "cryptic_acceptor_delta",
+      "cryptic_donor_created",
+      "cryptic_acceptor_created",
+      "ppt_delta",
+      "branchpoint_delta",
+      "gc_delta",
+      "cpg_delta",
+      "gc_local",
+      "motif_ref_information_bits",
+      "constraint_overlap",
+      "constraint_score",
+      "constraint_observed",
+      "gtex_brain_specificity",
+      "gtex_brain_mean_tpm",
+      "gtex_tau",
+      "gtex_cortex_tpm",
+      "gtex_hippocampus_tpm",
+      "gtex_cerebellum_tpm",
+      "hpa_brain_ntpm",
+      "expression_observed"
+    ],
+    "mechanism": [
+      "nearest_is_donor",
+      "disrupts_canonical_dinucleotide",
+      "donor_maxent_delta",
+      "acceptor_maxent_delta",
+      "donor_pwm_delta",
+      "acceptor_pwm_delta",
+      "cryptic_donor_delta",
+      "cryptic_acceptor_delta",
+      "cryptic_donor_created",
+      "cryptic_acceptor_created",
+      "ppt_delta",
+      "branchpoint_delta",
+      "gc_delta",
+      "cpg_delta",
+      "gc_local",
+      "motif_ref_information_bits",
+      "constraint_overlap",
+      "constraint_score",
+      "constraint_observed"
+    ],
+    "motif": [
+      "donor_maxent_delta",
+      "acceptor_maxent_delta",
+      "donor_pwm_delta",
+      "acceptor_pwm_delta",
+      "cryptic_donor_delta",
+      "cryptic_acceptor_delta",
+      "cryptic_donor_created",
+      "cryptic_acceptor_created",
+      "ppt_delta",
+      "branchpoint_delta",
+      "gc_delta",
+      "cpg_delta",
+      "gc_local",
+      "motif_ref_information_bits",
+      "constraint_overlap",
+      "constraint_score",
+      "constraint_observed"
+    ]
+  },
+  "evaluations": [
+    {
+      "model": "logistic_regression",
+      "feature_set": "full",
+      "split": "group_kfold_gene",
+      "subset": "all",
+      "protocol": "train_all_eval_subset",
+      "n": 5605,
+      "n_positive": 2155,
+      "n_negative": 3450,
+      "roc_auc": 0.9638082652409293,
+      "pr_auc": 0.9550574254356926,
+      "brier": 0.06343669755663302,
+      "roc_auc_ci95": [
+        0.9586011082457676,
+        0.9684768492522515
+      ],
+      "pr_auc_ci95": [
+        0.9484076094188217,
+        0.9613986456671805
+      ],
+      "brier_scores_clipped": false
+    },
+    {
+      "model": "logistic_regression",
+      "feature_set": "full",
+      "split": "group_kfold_gene",
+      "subset": "canonical_dinucleotide",
+      "protocol": "train_all_eval_subset",
+      "skipped": true,
+      "n": 1548,
+      "reason": "fewer than 8 variants in one class, or no finite scores"
+    },
+    {
+      "model": "logistic_regression",
+      "feature_set": "full",
+      "split": "group_kfold_gene",
+      "subset": "hard_3_50",
+      "protocol": "train_all_eval_subset",
+      "n": 2846,
+      "n_positive": 349,
+      "n_negative": 2497,
+      "roc_auc": 0.9200450282459296,
+      "pr_auc": 0.719403204527688,
+      "brier": 0.0635978216734401,
+      "roc_auc_ci95": [
+        0.9011208605635133,
+        0.937304607656358
+      ],
+      "pr_auc_ci95": [
+        0.6794750740772547,
+        0.7572990078140249
+      ],
+      "brier_scores_clipped": false
+    },
+    {
+      "model": "logistic_regression",
+      "feature_set": "full",
+      "split": "group_kfold_gene",
+      "subset": "deep_gt_50",
+      "protocol": "train_all_eval_subset",
+      "n": 1191,
+      "n_positive": 249,
+      "n_negative": 942,
+      "roc_auc": 0.7988194817486506,
+      "pr_auc": 0.44705397007420333,
+      "brier": 0.1363661796089247,
+      "roc_auc_ci95": [
+        0.7703015030433259,
+        0.827930699399338
+      ],
+      "pr_auc_ci95": [
+        0.394288616713776,
+        0.5110057466821318
+      ],
+      "brier_scores_clipped": false
+    },
+    {
+      "model": "logistic_regression",
+      "feature_set": "full",
+      "split": "group_kfold_gene",
+      "subset": "criteria_provided",
+      "protocol": "train_all_eval_subset",
+      "n": 5419,
+      "n_positive": 1988,
+      "n_negative": 3431,
+      "roc_auc": 0.9641692328262786,
+      "pr_auc": 0.9536976644864665,
+      "brier": 0.06166186790526347,
+      "roc_auc_ci95": [
+        0.958543288885228,
+        0.9693330892596752
+      ],
+      "pr_auc_ci95": [
+        0.9464917111756712,
+        0.9603899500051981
+      ],
+      "brier_scores_clipped": false
+    },
+    {
+      "model": "logistic_regression",
+      "feature_set": "full",
+      "split": "stratified_kfold",
+      "subset": "all",
+      "protocol": "train_all_eval_subset",
+      "n": 5605,
+      "n_positive": 2155,
+      "n_negative": 3450,
+      "roc_auc": 0.9734104038468004,
+      "pr_auc": 0.9666529757507775,
+      "brier": 0.055390361033272176,
+      "roc_auc_ci95": [
+        0.9688972221322346,
+        0.9773852490329321
+      ],
+      "pr_auc_ci95": [
+        0.96050735192316,
+        0.9722221614751759
+      ],
+      "brier_scores_clipped": false
+    },
+    {
+      "model": "logistic_regression",
+      "feature_set": "full",
+      "split": "stratified_kfold",
+      "subset": "canonical_dinucleotide",
+      "protocol": "train_all_eval_subset",
+      "skipped": true,
+      "n": 1548,
+      "reason": "fewer than 8 variants in one class, or no finite scores"
+    },
+    {
+      "model": "logistic_regression",
+      "feature_set": "full",
+      "split": "stratified_kfold",
+      "subset": "hard_3_50",
+      "protocol": "train_all_eval_subset",
+      "n": 2846,
+      "n_positive": 349,
+      "n_negative": 2497,
+      "roc_auc": 0.9314420858038241,
+      "pr_auc": 0.7451634963106765,
+      "brier": 0.058744479985904464,
+      "roc_auc_ci95": [
+        0.9146981600653399,
+        0.9466113278055676
+      ],
+      "pr_auc_ci95": [
+        0.7073475794768935,
+        0.7843286165730077
+      ],
+      "brier_scores_clipped": false
+    },
+    {
+      "model": "logistic_regression",
+      "feature_set": "full",
+      "split": "stratified_kfold",
+      "subset": "deep_gt_50",
+      "protocol": "train_all_eval_subset",
+      "n": 1191,
+      "n_positive": 249,
+      "n_negative": 942,
+      "roc_auc": 0.8682372803315171,
+      "pr_auc": 0.6336628125511079,
+      "brier": 0.11177268086368031,
+      "roc_auc_ci95": [
+        0.8454726476416244,
+        0.8923362851075732
+      ],
+      "pr_auc_ci95": [
+        0.5720117725458953,
+        0.7003263518354378
+      ],
+      "brier_scores_clipped": false
+    },
+    {
+      "model": "logistic_regression",
+      "feature_set": "full",
+      "split": "stratified_kfold",
+      "subset": "criteria_provided",
+      "protocol": "train_all_eval_subset",
+      "n": 5419,
+      "n_positive": 1988,
+      "n_negative": 3431,
+      "roc_auc": 0.9731981219875359,
+      "pr_auc": 0.9647359368394228,
+      "brier": 0.05450564709853284,
+      "roc_auc_ci95": [
+        0.9687908286636431,
+        0.9776212121828485
+      ],
+      "pr_auc_ci95": [
+        0.9577773668381416,
+        0.9707347426949064
+      ],
+      "brier_scores_clipped": false
+    },
+    {
+      "model": "logistic_regression",
+      "feature_set": "mechanism",
+      "split": "group_kfold_gene",
+      "subset": "all",
+      "protocol": "train_all_eval_subset",
+      "n": 5605,
+      "n_positive": 2155,
+      "n_negative": 3450,
+      "roc_auc": 0.9642642994048221,
+      "pr_auc": 0.956214067289205,
+      "brier": 0.062374256997479324,
+      "roc_auc_ci95": [
+        0.9594970366192065,
+        0.9688774554682613
+      ],
+      "pr_auc_ci95": [
+        0.9499666117096475,
+        0.9619915814608337
+      ],
+      "brier_scores_clipped": false
+    },
+    {
+      "model": "logistic_regression",
+      "feature_set": "mechanism",
+      "split": "group_kfold_gene",
+      "subset": "canonical_dinucleotide",
+      "protocol": "train_all_eval_subset",
+      "skipped": true,
+      "n": 1548,
+      "reason": "fewer than 8 variants in one class, or no finite scores"
+    },
+    {
+      "model": "logistic_regression",
+      "feature_set": "mechanism",
+      "split": "group_kfold_gene",
+      "subset": "hard_3_50",
+      "protocol": "train_all_eval_subset",
+      "n": 2846,
+      "n_positive": 349,
+      "n_negative": 2497,
+      "roc_auc": 0.9201024036867164,
+      "pr_auc": 0.7037378438739422,
+      "brier": 0.06493345002012903,
+      "roc_auc_ci95": [
+        0.9039526173033717,
+        0.9356155596098907
+      ],
+      "pr_auc_ci95": [
+        0.6638618713597255,
+        0.742718981113235
+      ],
+      "brier_scores_clipped": false
+    },
+    {
+      "model": "logistic_regression",
+      "feature_set": "mechanism",
+      "split": "group_kfold_gene",
+      "subset": "deep_gt_50",
+      "protocol": "train_all_eval_subset",
+      "n": 1191,
+      "n_positive": 249,
+      "n_negative": 942,
+      "roc_auc": 0.7999727146377442,
+      "pr_auc": 0.47337178261669455,
+      "brier": 0.12982738257012438,
+      "roc_auc_ci95": [
+        0.7663991256141853,
+        0.8291023630186458
+      ],
+      "pr_auc_ci95": [
+        0.4166368594135816,
+        0.5329721299007489
+      ],
+      "brier_scores_clipped": false
+    },
+    {
+      "model": "logistic_regression",
+      "feature_set": "mechanism",
+      "split": "group_kfold_gene",
+      "subset": "criteria_provided",
+      "protocol": "train_all_eval_subset",
+      "n": 5419,
+      "n_positive": 1988,
+      "n_negative": 3431,
+      "roc_auc": 0.9651172115760726,
+      "pr_auc": 0.9553762881793719,
+      "brier": 0.060407992086439925,
+      "roc_auc_ci95": [
+        0.9597688164558713,
+        0.9704632236600668
+      ],
+      "pr_auc_ci95": [
+        0.9479855995969428,
+        0.9615279548543914
+      ],
+      "brier_scores_clipped": false
+    },
+    {
+      "model": "logistic_regression",
+      "feature_set": "mechanism",
+      "split": "stratified_kfold",
+      "subset": "all",
+      "protocol": "train_all_eval_subset",
+      "n": 5605,
+      "n_positive": 2155,
+      "n_negative": 3450,
+      "roc_auc": 0.9689929721913986,
+      "pr_auc": 0.9604302951804461,
+      "brier": 0.05931838402978464,
+      "roc_auc_ci95": [
+        0.9646718205309792,
+        0.9733289547474472
+      ],
+      "pr_auc_ci95": [
+        0.9537791250710693,
+        0.9666337765343518
+      ],
+      "brier_scores_clipped": false
+    },
+    {
+      "model": "logistic_regression",
+      "feature_set": "mechanism",
+      "split": "stratified_kfold",
+      "subset": "canonical_dinucleotide",
+      "protocol": "train_all_eval_subset",
+      "skipped": true,
+      "n": 1548,
+      "reason": "fewer than 8 variants in one class, or no finite scores"
+    },
+    {
+      "model": "logistic_regression",
+      "feature_set": "mechanism",
+      "split": "stratified_kfold",
+      "subset": "hard_3_50",
+      "protocol": "train_all_eval_subset",
+      "n": 2846,
+      "n_positive": 349,
+      "n_negative": 2497,
+      "roc_auc": 0.9249907912417538,
+      "pr_auc": 0.7109740752617577,
+      "brier": 0.06349820605755976,
+      "roc_auc_ci95": [
+        0.9090253255330258,
+        0.9397713627094636
+      ],
+      "pr_auc_ci95": [
+        0.669396423684785,
+        0.7499473414932019
+      ],
+      "brier_scores_clipped": false
+    },
+    {
+      "model": "logistic_regression",
+      "feature_set": "mechanism",
+      "split": "stratified_kfold",
+      "subset": "deep_gt_50",
+      "protocol": "train_all_eval_subset",
+      "n": 1191,
+      "n_positive": 249,
+      "n_negative": 942,
+      "roc_auc": 0.8394384331380724,
+      "pr_auc": 0.5611983911600037,
+      "brier": 0.11963350898269429,
+      "roc_auc_ci95": [
+        0.8121704337232774,
+        0.8657745390451584
+      ],
+      "pr_auc_ci95": [
+        0.5026615494289242,
+        0.6232502872260295
+      ],
+      "brier_scores_clipped": false
+    },
+    {
+      "model": "logistic_regression",
+      "feature_set": "mechanism",
+      "split": "stratified_kfold",
+      "subset": "criteria_provided",
+      "protocol": "train_all_eval_subset",
+      "n": 5419,
+      "n_positive": 1988,
+      "n_negative": 3431,
+      "roc_auc": 0.9695769340613779,
+      "pr_auc": 0.9593188170020612,
+      "brier": 0.05779602169362213,
+      "roc_auc_ci95": [
+        0.9647776080007746,
+        0.974266884140945
+      ],
+      "pr_auc_ci95": [
+        0.9513572829408694,
+        0.9657106338539583
+      ],
+      "brier_scores_clipped": false
+    },
+    {
+      "model": "logistic_regression",
+      "feature_set": "motif",
+      "split": "group_kfold_gene",
+      "subset": "all",
+      "protocol": "train_all_eval_subset",
+      "n": 5605,
+      "n_positive": 2155,
+      "n_negative": 3450,
+      "roc_auc": 0.9617140455294395,
+      "pr_auc": 0.9552343133980218,
+      "brier": 0.0638822289654391,
+      "roc_auc_ci95": [
+        0.9565281834077833,
+        0.9668185682584192
+      ],
+      "pr_auc_ci95": [
+        0.9487691476838873,
+        0.9612742775306927
+      ],
+      "brier_scores_clipped": false
+    },
+    {
+      "model": "logistic_regression",
+      "feature_set": "motif",
+      "split": "group_kfold_gene",
+      "subset": "canonical_dinucleotide",
+      "protocol": "train_all_eval_subset",
+      "skipped": true,
+      "n": 1548,
+      "reason": "fewer than 8 variants in one class, or no finite scores"
+    },
+    {
+      "model": "logistic_regression",
+      "feature_set": "motif",
+      "split": "group_kfold_gene",
+      "subset": "hard_3_50",
+      "protocol": "train_all_eval_subset",
+      "n": 2846,
+      "n_positive": 349,
+      "n_negative": 2497,
+      "roc_auc": 0.9216234266219749,
+      "pr_auc": 0.7099825716379051,
+      "brier": 0.06558994481349395,
+      "roc_auc_ci95": [
+        0.9053354557949337,
+        0.9372293693554099
+      ],
+      "pr_auc_ci95": [
+        0.6694682859425132,
+        0.7490723161558067
+      ],
+      "brier_scores_clipped": false
+    },
+    {
+      "model": "logistic_regression",
+      "feature_set": "motif",
+      "split": "group_kfold_gene",
+      "subset": "deep_gt_50",
+      "protocol": "train_all_eval_subset",
+      "n": 1191,
+      "n_positive": 249,
+      "n_negative": 942,
+      "roc_auc": 0.8028739160463509,
+      "pr_auc": 0.47432493702026396,
+      "brier": 0.12945069370917842,
+      "roc_auc_ci95": [
+        0.7701944345434152,
+        0.8313747178354511
+      ],
+      "pr_auc_ci95": [
+        0.4199439870361577,
+        0.5328731569818214
+      ],
+      "brier_scores_clipped": false
+    },
+    {
+      "model": "logistic_regression",
+      "feature_set": "motif",
+      "split": "group_kfold_gene",
+      "subset": "criteria_provided",
+      "protocol": "train_all_eval_subset",
+      "n": 5419,
+      "n_positive": 1988,
+      "n_negative": 3431,
+      "roc_auc": 0.9623910762740241,
+      "pr_auc": 0.9541636888215304,
+      "brier": 0.06210927277295369,
+      "roc_auc_ci95": [
+        0.9567022802975097,
+        0.9684528871593214
+      ],
+      "pr_auc_ci95": [
+        0.9470035377552266,
+        0.9605021966507608
+      ],
+      "brier_scores_clipped": false
+    },
+    {
+      "model": "logistic_regression",
+      "feature_set": "motif",
+      "split": "stratified_kfold",
+      "subset": "all",
+      "protocol": "train_all_eval_subset",
+      "n": 5605,
+      "n_positive": 2155,
+      "n_negative": 3450,
+      "roc_auc": 0.9662059921315443,
+      "pr_auc": 0.9595308207831565,
+      "brier": 0.06121646557202699,
+      "roc_auc_ci95": [
+        0.9613969765872384,
+        0.9710667989090274
+      ],
+      "pr_auc_ci95": [
+        0.9532050945588239,
+        0.9654996591419928
+      ],
+      "brier_scores_clipped": false
+    },
+    {
+      "model": "logistic_regression",
+      "feature_set": "motif",
+      "split": "stratified_kfold",
+      "subset": "canonical_dinucleotide",
+      "protocol": "train_all_eval_subset",
+      "skipped": true,
+      "n": 1548,
+      "reason": "fewer than 8 variants in one class, or no finite scores"
+    },
+    {
+      "model": "logistic_regression",
+      "feature_set": "motif",
+      "split": "stratified_kfold",
+      "subset": "hard_3_50",
+      "protocol": "train_all_eval_subset",
+      "n": 2846,
+      "n_positive": 349,
+      "n_negative": 2497,
+      "roc_auc": 0.9255278253675185,
+      "pr_auc": 0.7141539616376954,
+      "brier": 0.06429498418026888,
+      "roc_auc_ci95": [
+        0.9095315414756472,
+        0.9410954250908349
+      ],
+      "pr_auc_ci95": [
+        0.6742472524798132,
+        0.7527238938670363
+      ],
+      "brier_scores_clipped": false
+    },
+    {
+      "model": "logistic_regression",
+      "feature_set": "motif",
+      "split": "stratified_kfold",
+      "subset": "deep_gt_50",
+      "protocol": "train_all_eval_subset",
+      "n": 1191,
+      "n_positive": 249,
+      "n_negative": 942,
+      "roc_auc": 0.8430388219544847,
+      "pr_auc": 0.5541997807020258,
+      "brier": 0.12045426281517008,
+      "roc_auc_ci95": [
+        0.8166354292017557,
+        0.867656567999489
+      ],
+      "pr_auc_ci95": [
+        0.4956050064410025,
+        0.6152758728388079
+      ],
+      "brier_scores_clipped": false
+    },
+    {
+      "model": "logistic_regression",
+      "feature_set": "motif",
+      "split": "stratified_kfold",
+      "subset": "criteria_provided",
+      "protocol": "train_all_eval_subset",
+      "n": 5419,
+      "n_positive": 1988,
+      "n_negative": 3431,
+      "roc_auc": 0.9667218554697466,
+      "pr_auc": 0.9583173547062561,
+      "brier": 0.05981446364199079,
+      "roc_auc_ci95": [
+        0.9617237368999894,
+        0.9718957284625762
+      ],
+      "pr_auc_ci95": [
+        0.9511772296301472,
+        0.9643766356687573
+      ],
+      "brier_scores_clipped": false
+    },
+    {
+      "model": "hist_gradient_boosting",
+      "feature_set": "full",
+      "split": "group_kfold_gene",
+      "subset": "all",
+      "protocol": "train_all_eval_subset",
+      "n": 5605,
+      "n_positive": 2155,
+      "n_negative": 3450,
+      "roc_auc": 0.9737845926224823,
+      "pr_auc": 0.965862086216649,
+      "brier": 0.05915734263008565,
+      "roc_auc_ci95": [
+        0.9699864063411374,
+        0.9773767572070444
+      ],
+      "pr_auc_ci95": [
+        0.960902593537617,
+        0.9706621709904686
+      ],
+      "brier_scores_clipped": false
+    },
+    {
+      "model": "hist_gradient_boosting",
+      "feature_set": "full",
+      "split": "group_kfold_gene",
+      "subset": "canonical_dinucleotide",
+      "protocol": "train_all_eval_subset",
+      "skipped": true,
+      "n": 1548,
+      "reason": "fewer than 8 variants in one class, or no finite scores"
+    },
+    {
+      "model": "hist_gradient_boosting",
+      "feature_set": "full",
+      "split": "group_kfold_gene",
+      "subset": "hard_3_50",
+      "protocol": "train_all_eval_subset",
+      "n": 2846,
+      "n_positive": 349,
+      "n_negative": 2497,
+      "roc_auc": 0.9492640452210275,
+      "pr_auc": 0.790320060344086,
+      "brier": 0.0504734949424529,
+      "roc_auc_ci95": [
+        0.9374235285320393,
+        0.9602121986276736
+      ],
+      "pr_auc_ci95": [
+        0.7515605453155468,
+        0.8275430907320139
+      ],
+      "brier_scores_clipped": false
+    },
+    {
+      "model": "hist_gradient_boosting",
+      "feature_set": "full",
+      "split": "group_kfold_gene",
+      "subset": "deep_gt_50",
+      "protocol": "train_all_eval_subset",
+      "n": 1191,
+      "n_positive": 249,
+      "n_negative": 942,
+      "roc_auc": 0.8051292217703084,
+      "pr_auc": 0.4678845320725714,
+      "brier": 0.1495668679478319,
+      "roc_auc_ci95": [
+        0.7769524535409675,
+        0.8317278379439704
+      ],
+      "pr_auc_ci95": [
+        0.41017814615609843,
+        0.5323966674752775
+      ],
+      "brier_scores_clipped": false
+    },
+    {
+      "model": "hist_gradient_boosting",
+      "feature_set": "full",
+      "split": "group_kfold_gene",
+      "subset": "criteria_provided",
+      "protocol": "train_all_eval_subset",
+      "n": 5419,
+      "n_positive": 1988,
+      "n_negative": 3431,
+      "roc_auc": 0.9741315863704524,
+      "pr_auc": 0.9647174119135132,
+      "brier": 0.05640713767341095,
+      "roc_auc_ci95": [
+        0.969983442737459,
+        0.9781303090792338
+      ],
+      "pr_auc_ci95": [
+        0.9589101491882536,
+        0.97028504474079
+      ],
+      "brier_scores_clipped": false
+    },
+    {
+      "model": "hist_gradient_boosting",
+      "feature_set": "full",
+      "split": "stratified_kfold",
+      "subset": "all",
+      "protocol": "train_all_eval_subset",
+      "n": 5605,
+      "n_positive": 2155,
+      "n_negative": 3450,
+      "roc_auc": 0.987665422509163,
+      "pr_auc": 0.980691675660168,
+      "brier": 0.03876808503636623,
+      "roc_auc_ci95": [
+        0.9852421108965373,
+        0.9900483164938481
+      ],
+      "pr_auc_ci95": [
+        0.9752509583050654,
+        0.9853360978351269
+      ],
+      "brier_scores_clipped": false
+    },
+    {
+      "model": "hist_gradient_boosting",
+      "feature_set": "full",
+      "split": "stratified_kfold",
+      "subset": "canonical_dinucleotide",
+      "protocol": "train_all_eval_subset",
+      "skipped": true,
+      "n": 1548,
+      "reason": "fewer than 8 variants in one class, or no finite scores"
+    },
+    {
+      "model": "hist_gradient_boosting",
+      "feature_set": "full",
+      "split": "stratified_kfold",
+      "subset": "hard_3_50",
+      "protocol": "train_all_eval_subset",
+      "n": 2846,
+      "n_positive": 349,
+      "n_negative": 2497,
+      "roc_auc": 0.9741288399948134,
+      "pr_auc": 0.8621049970917408,
+      "brier": 0.03831382345547196,
+      "roc_auc_ci95": [
+        0.9663944077337611,
+        0.9809353802057208
+      ],
+      "pr_auc_ci95": [
+        0.8266734073253946,
+        0.892330391060959
+      ],
+      "brier_scores_clipped": false
+    },
+    {
+      "model": "hist_gradient_boosting",
+      "feature_set": "full",
+      "split": "stratified_kfold",
+      "subset": "deep_gt_50",
+      "protocol": "train_all_eval_subset",
+      "n": 1191,
+      "n_positive": 249,
+      "n_negative": 942,
+      "roc_auc": 0.9219723906240676,
+      "pr_auc": 0.7849154973236733,
+      "brier": 0.08515052061678748,
+      "roc_auc_ci95": [
+        0.9035486686649352,
+        0.9401041025442156
+      ],
+      "pr_auc_ci95": [
+        0.7258064481124944,
+        0.8330126869527275
+      ],
+      "brier_scores_clipped": false
+    },
+    {
+      "model": "hist_gradient_boosting",
+      "feature_set": "full",
+      "split": "stratified_kfold",
+      "subset": "criteria_provided",
+      "protocol": "train_all_eval_subset",
+      "n": 5419,
+      "n_positive": 1988,
+      "n_negative": 3431,
+      "roc_auc": 0.98737873173169,
+      "pr_auc": 0.9788403104003287,
+      "brier": 0.0387092568128216,
+      "roc_auc_ci95": [
+        0.9848158516487151,
+        0.9898552700473847
+      ],
+      "pr_auc_ci95": [
+        0.9724842009316673,
+        0.9841989967733695
+      ],
+      "brier_scores_clipped": false
+    },
+    {
+      "model": "hist_gradient_boosting",
+      "feature_set": "mechanism",
+      "split": "group_kfold_gene",
+      "subset": "all",
+      "protocol": "train_all_eval_subset",
+      "n": 5605,
+      "n_positive": 2155,
+      "n_negative": 3450,
+      "roc_auc": 0.9623431857157267,
+      "pr_auc": 0.9591083911778212,
+      "brier": 0.0571626224237779,
+      "roc_auc_ci95": [
+        0.956832574280398,
+        0.9676964907844169
+      ],
+      "pr_auc_ci95": [
+        0.9530237744457997,
+        0.965197945927371
+      ],
+      "brier_scores_clipped": false
+    },
+    {
+      "model": "hist_gradient_boosting",
+      "feature_set": "mechanism",
+      "split": "group_kfold_gene",
+      "subset": "canonical_dinucleotide",
+      "protocol": "train_all_eval_subset",
+      "skipped": true,
+      "n": 1548,
+      "reason": "fewer than 8 variants in one class, or no finite scores"
+    },
+    {
+      "model": "hist_gradient_boosting",
+      "feature_set": "mechanism",
+      "split": "group_kfold_gene",
+      "subset": "hard_3_50",
+      "protocol": "train_all_eval_subset",
+      "n": 2846,
+      "n_positive": 349,
+      "n_negative": 2497,
+      "roc_auc": 0.9350630498718806,
+      "pr_auc": 0.7679347177818114,
+      "brier": 0.05312771542414873,
+      "roc_auc_ci95": [
+        0.9199865542975928,
+        0.9487194617209606
+      ],
+      "pr_auc_ci95": [
+        0.7294785666717193,
+        0.807622001509475
+      ],
+      "brier_scores_clipped": false
+    },
+    {
+      "model": "hist_gradient_boosting",
+      "feature_set": "mechanism",
+      "split": "group_kfold_gene",
+      "subset": "deep_gt_50",
+      "protocol": "train_all_eval_subset",
+      "n": 1191,
+      "n_positive": 249,
+      "n_negative": 942,
+      "roc_auc": 0.7261423613775696,
+      "pr_auc": 0.5003744776969354,
+      "brier": 0.13276579621291887,
+      "roc_auc_ci95": [
+        0.6824029381459619,
+        0.767610233645302
+      ],
+      "pr_auc_ci95": [
+        0.43893535717794135,
+        0.5704329454154892
+      ],
+      "brier_scores_clipped": false
+    },
+    {
+      "model": "hist_gradient_boosting",
+      "feature_set": "mechanism",
+      "split": "group_kfold_gene",
+      "subset": "criteria_provided",
+      "protocol": "train_all_eval_subset",
+      "n": 5419,
+      "n_positive": 1988,
+      "n_negative": 3431,
+      "roc_auc": 0.9633022559724421,
+      "pr_auc": 0.9582024059239524,
+      "brier": 0.05501930690481857,
+      "roc_auc_ci95": [
+        0.957374152647888,
+        0.968704219664931
+      ],
+      "pr_auc_ci95": [
+        0.9508385206242892,
+        0.9647643598109786
+      ],
+      "brier_scores_clipped": false
+    },
+    {
+      "model": "hist_gradient_boosting",
+      "feature_set": "mechanism",
+      "split": "stratified_kfold",
+      "subset": "all",
+      "protocol": "train_all_eval_subset",
+      "n": 5605,
+      "n_positive": 2155,
+      "n_negative": 3450,
+      "roc_auc": 0.9831116042906622,
+      "pr_auc": 0.9766520826493343,
+      "brier": 0.04294702159512167,
+      "roc_auc_ci95": [
+        0.979747177486223,
+        0.9862295116177359
+      ],
+      "pr_auc_ci95": [
+        0.970854886363008,
+        0.9819955010444785
+      ],
+      "brier_scores_clipped": false
+    },
+    {
+      "model": "hist_gradient_boosting",
+      "feature_set": "mechanism",
+      "split": "stratified_kfold",
+      "subset": "canonical_dinucleotide",
+      "protocol": "train_all_eval_subset",
+      "skipped": true,
+      "n": 1548,
+      "reason": "fewer than 8 variants in one class, or no finite scores"
+    },
+    {
+      "model": "hist_gradient_boosting",
+      "feature_set": "mechanism",
+      "split": "stratified_kfold",
+      "subset": "hard_3_50",
+      "protocol": "train_all_eval_subset",
+      "n": 2846,
+      "n_positive": 349,
+      "n_negative": 2497,
+      "roc_auc": 0.9661903740075484,
+      "pr_auc": 0.8461523836461465,
+      "brier": 0.04231754875460114,
+      "roc_auc_ci95": [
+        0.956031346191809,
+        0.975239936756609
+      ],
+      "pr_auc_ci95": [
+        0.8112274547527503,
+        0.8786612781659618
+      ],
+      "brier_scores_clipped": false
+    },
+    {
+      "model": "hist_gradient_boosting",
+      "feature_set": "mechanism",
+      "split": "stratified_kfold",
+      "subset": "deep_gt_50",
+      "protocol": "train_all_eval_subset",
+      "n": 1191,
+      "n_positive": 249,
+      "n_negative": 942,
+      "roc_auc": 0.8963774418267549,
+      "pr_auc": 0.7382153662957479,
+      "brier": 0.09298932324523539,
+      "roc_auc_ci95": [
+        0.8723856762496928,
+        0.9188506101559429
+      ],
+      "pr_auc_ci95": [
+        0.6780004133820491,
+        0.7947964971729549
+      ],
+      "brier_scores_clipped": false
+    },
+    {
+      "model": "hist_gradient_boosting",
+      "feature_set": "mechanism",
+      "split": "stratified_kfold",
+      "subset": "criteria_provided",
+      "protocol": "train_all_eval_subset",
+      "n": 5419,
+      "n_positive": 1988,
+      "n_negative": 3431,
+      "roc_auc": 0.9827633096744265,
+      "pr_auc": 0.9749941370309143,
+      "brier": 0.042566762067105905,
+      "roc_auc_ci95": [
+        0.9792261531780638,
+        0.9861408437473456
+      ],
+      "pr_auc_ci95": [
+        0.9683253837245075,
+        0.9808061124557861
+      ],
+      "brier_scores_clipped": false
+    },
+    {
+      "model": "hist_gradient_boosting",
+      "feature_set": "motif",
+      "split": "group_kfold_gene",
+      "subset": "all",
+      "protocol": "train_all_eval_subset",
+      "n": 5605,
+      "n_positive": 2155,
+      "n_negative": 3450,
+      "roc_auc": 0.9595692524967215,
+      "pr_auc": 0.9580340088567028,
+      "brier": 0.058400712964363825,
+      "roc_auc_ci95": [
+        0.9536298962328588,
+        0.965201098738493
+      ],
+      "pr_auc_ci95": [
+        0.9521232692197865,
+        0.9640920330765217
+      ],
+      "brier_scores_clipped": false
+    },
+    {
+      "model": "hist_gradient_boosting",
+      "feature_set": "motif",
+      "split": "group_kfold_gene",
+      "subset": "canonical_dinucleotide",
+      "protocol": "train_all_eval_subset",
+      "skipped": true,
+      "n": 1548,
+      "reason": "fewer than 8 variants in one class, or no finite scores"
+    },
+    {
+      "model": "hist_gradient_boosting",
+      "feature_set": "motif",
+      "split": "group_kfold_gene",
+      "subset": "hard_3_50",
+      "protocol": "train_all_eval_subset",
+      "n": 2846,
+      "n_positive": 349,
+      "n_negative": 2497,
+      "roc_auc": 0.9313543013794204,
+      "pr_auc": 0.7598769688621001,
+      "brier": 0.05458815863352111,
+      "roc_auc_ci95": [
+        0.915440291942832,
+        0.9453946152731227
+      ],
+      "pr_auc_ci95": [
+        0.7197979535835498,
+        0.8007741173136982
+      ],
+      "brier_scores_clipped": false
+    },
+    {
+      "model": "hist_gradient_boosting",
+      "feature_set": "motif",
+      "split": "group_kfold_gene",
+      "subset": "deep_gt_50",
+      "protocol": "train_all_eval_subset",
+      "n": 1191,
+      "n_positive": 249,
+      "n_negative": 942,
+      "roc_auc": 0.7096475072263576,
+      "pr_auc": 0.4819857294359445,
+      "brier": 0.1345964194746853,
+      "roc_auc_ci95": [
+        0.6637794082086186,
+        0.7552466141746205
+      ],
+      "pr_auc_ci95": [
+        0.42179633428478114,
+        0.553662355299611
+      ],
+      "brier_scores_clipped": false
+    },
+    {
+      "model": "hist_gradient_boosting",
+      "feature_set": "motif",
+      "split": "group_kfold_gene",
+      "subset": "criteria_provided",
+      "protocol": "train_all_eval_subset",
+      "n": 5419,
+      "n_positive": 1988,
+      "n_negative": 3431,
+      "roc_auc": 0.9610663837293654,
+      "pr_auc": 0.9574094479091928,
+      "brier": 0.05612098449155912,
+      "roc_auc_ci95": [
+        0.9547423801099982,
+        0.9669400495260139
+      ],
+      "pr_auc_ci95": [
+        0.9503135851747705,
+        0.9638035331163932
+      ],
+      "brier_scores_clipped": false
+    },
+    {
+      "model": "hist_gradient_boosting",
+      "feature_set": "motif",
+      "split": "stratified_kfold",
+      "subset": "all",
+      "protocol": "train_all_eval_subset",
+      "n": 5605,
+      "n_positive": 2155,
+      "n_negative": 3450,
+      "roc_auc": 0.9829170449577996,
+      "pr_auc": 0.9773510595252806,
+      "brier": 0.04342313104296052,
+      "roc_auc_ci95": [
+        0.9795246312125122,
+        0.9861558059566572
+      ],
+      "pr_auc_ci95": [
+        0.9720736551931795,
+        0.9819785090584942
+      ],
+      "brier_scores_clipped": false
+    },
+    {
+      "model": "hist_gradient_boosting",
+      "feature_set": "motif",
+      "split": "stratified_kfold",
+      "subset": "canonical_dinucleotide",
+      "protocol": "train_all_eval_subset",
+      "skipped": true,
+      "n": 1548,
+      "reason": "fewer than 8 variants in one class, or no finite scores"
+    },
+    {
+      "model": "hist_gradient_boosting",
+      "feature_set": "motif",
+      "split": "stratified_kfold",
+      "subset": "hard_3_50",
+      "protocol": "train_all_eval_subset",
+      "n": 2846,
+      "n_positive": 349,
+      "n_negative": 2497,
+      "roc_auc": 0.9656562086538231,
+      "pr_auc": 0.8454620369366875,
+      "brier": 0.04275030997287077,
+      "roc_auc_ci95": [
+        0.954870222212968,
+        0.975103880427901
+      ],
+      "pr_auc_ci95": [
+        0.8093080902129639,
+        0.878836043911904
+      ],
+      "brier_scores_clipped": false
+    },
+    {
+      "model": "hist_gradient_boosting",
+      "feature_set": "motif",
+      "split": "stratified_kfold",
+      "subset": "deep_gt_50",
+      "protocol": "train_all_eval_subset",
+      "n": 1191,
+      "n_positive": 249,
+      "n_negative": 942,
+      "roc_auc": 0.8960555598188934,
+      "pr_auc": 0.7330786066524235,
+      "brier": 0.09400075928934179,
+      "roc_auc_ci95": [
+        0.8720438869306875,
+        0.917697169163551
+      ],
+      "pr_auc_ci95": [
+        0.6739042913281559,
+        0.7862227783537031
+      ],
+      "brier_scores_clipped": false
+    },
+    {
+      "model": "hist_gradient_boosting",
+      "feature_set": "motif",
+      "split": "stratified_kfold",
+      "subset": "criteria_provided",
+      "protocol": "train_all_eval_subset",
+      "n": 5419,
+      "n_positive": 1988,
+      "n_negative": 3431,
+      "roc_auc": 0.982595074967438,
+      "pr_auc": 0.9757872393127156,
+      "brier": 0.04303093955099774,
+      "roc_auc_ci95": [
+        0.9790852907312493,
+        0.9858982589436768
+      ],
+      "pr_auc_ci95": [
+        0.969785440064652,
+        0.9811212639792044
+      ],
+      "brier_scores_clipped": false
+    },
+    {
+      "model": "gradient_boosting",
+      "feature_set": "full",
+      "split": "group_kfold_gene",
+      "subset": "all",
+      "protocol": "train_all_eval_subset",
+      "n": 5605,
+      "n_positive": 2155,
+      "n_negative": 3450,
+      "roc_auc": 0.9749904838763913,
+      "pr_auc": 0.9663251391370421,
+      "brier": 0.05689220028120346,
+      "roc_auc_ci95": [
+        0.971444590445518,
+        0.9783642968253469
+      ],
+      "pr_auc_ci95": [
+        0.9613161514657963,
+        0.9710004791242904
+      ],
+      "brier_scores_clipped": false
+    },
+    {
+      "model": "gradient_boosting",
+      "feature_set": "full",
+      "split": "group_kfold_gene",
+      "subset": "canonical_dinucleotide",
+      "protocol": "train_all_eval_subset",
+      "skipped": true,
+      "n": 1548,
+      "reason": "fewer than 8 variants in one class, or no finite scores"
+    },
+    {
+      "model": "gradient_boosting",
+      "feature_set": "full",
+      "split": "group_kfold_gene",
+      "subset": "hard_3_50",
+      "protocol": "train_all_eval_subset",
+      "n": 2846,
+      "n_positive": 349,
+      "n_negative": 2497,
+      "roc_auc": 0.9532332782146598,
+      "pr_auc": 0.7867004217525315,
+      "brier": 0.04988295227939823,
+      "roc_auc_ci95": [
+        0.9422531654024908,
+        0.9629519436937667
+      ],
+      "pr_auc_ci95": [
+        0.7426853179589172,
+        0.8283077307895258
+      ],
+      "brier_scores_clipped": false
+    },
+    {
+      "model": "gradient_boosting",
+      "feature_set": "full",
+      "split": "group_kfold_gene",
+      "subset": "deep_gt_50",
+      "protocol": "train_all_eval_subset",
+      "n": 1191,
+      "n_positive": 249,
+      "n_negative": 942,
+      "roc_auc": 0.8086464754985974,
+      "pr_auc": 0.4782492697246068,
+      "brier": 0.14121929938912775,
+      "roc_auc_ci95": [
+        0.7802419378359637,
+        0.833835635317779
+      ],
+      "pr_auc_ci95": [
+        0.4198106566199593,
+        0.5422645838555922
+      ],
+      "brier_scores_clipped": false
+    },
+    {
+      "model": "gradient_boosting",
+      "feature_set": "full",
+      "split": "group_kfold_gene",
+      "subset": "criteria_provided",
+      "protocol": "train_all_eval_subset",
+      "n": 5419,
+      "n_positive": 1988,
+      "n_negative": 3431,
+      "roc_auc": 0.9759395047052939,
+      "pr_auc": 0.9658665462928729,
+      "brier": 0.05432110851938121,
+      "roc_auc_ci95": [
+        0.9720910171011234,
+        0.9796677256710089
+      ],
+      "pr_auc_ci95": [
+        0.9600814677881127,
+        0.9709891016342289
+      ],
+      "brier_scores_clipped": false
+    },
+    {
+      "model": "gradient_boosting",
+      "feature_set": "full",
+      "split": "stratified_kfold",
+      "subset": "all",
+      "protocol": "train_all_eval_subset",
+      "n": 5605,
+      "n_positive": 2155,
+      "n_negative": 3450,
+      "roc_auc": 0.9862554221729043,
+      "pr_auc": 0.9791333108560619,
+      "brier": 0.042733512321117134,
+      "roc_auc_ci95": [
+        0.9839108512892886,
+        0.9886134558990294
+      ],
+      "pr_auc_ci95": [
+        0.974132864484045,
+        0.9834824826386313
+      ],
+      "brier_scores_clipped": false
+    },
+    {
+      "model": "gradient_boosting",
+      "feature_set": "full",
+      "split": "stratified_kfold",
+      "subset": "canonical_dinucleotide",
+      "protocol": "train_all_eval_subset",
+      "skipped": true,
+      "n": 1548,
+      "reason": "fewer than 8 variants in one class, or no finite scores"
+    },
+    {
+      "model": "gradient_boosting",
+      "feature_set": "full",
+      "split": "stratified_kfold",
+      "subset": "hard_3_50",
+      "protocol": "train_all_eval_subset",
+      "n": 2846,
+      "n_positive": 349,
+      "n_negative": 2497,
+      "roc_auc": 0.9692335673868815,
+      "pr_auc": 0.8260027703604956,
+      "brier": 0.04345089338462478,
+      "roc_auc_ci95": [
+        0.9614471400430544,
+        0.9757697299658858
+      ],
+      "pr_auc_ci95": [
+        0.784849286453969,
+        0.8639616568406627
+      ],
+      "brier_scores_clipped": false
+    },
+    {
+      "model": "gradient_boosting",
+      "feature_set": "full",
+      "split": "stratified_kfold",
+      "subset": "deep_gt_50",
+      "protocol": "train_all_eval_subset",
+      "n": 1191,
+      "n_positive": 249,
+      "n_negative": 942,
+      "roc_auc": 0.9150934949991046,
+      "pr_auc": 0.7468481163156038,
+      "brier": 0.09033466873730342,
+      "roc_auc_ci95": [
+        0.8965722410759176,
+        0.9329299976134746
+      ],
+      "pr_auc_ci95": [
+        0.6835748499777469,
+        0.805045988919361
+      ],
+      "brier_scores_clipped": false
+    },
+    {
+      "model": "gradient_boosting",
+      "feature_set": "full",
+      "split": "stratified_kfold",
+      "subset": "criteria_provided",
+      "protocol": "train_all_eval_subset",
+      "n": 5419,
+      "n_positive": 1988,
+      "n_negative": 3431,
+      "roc_auc": 0.9861755053785259,
+      "pr_auc": 0.9776046786636634,
+      "brier": 0.04244689641485237,
+      "roc_auc_ci95": [
+        0.9836537176613663,
+        0.988587802838288
+      ],
+      "pr_auc_ci95": [
+        0.9716421168991611,
+        0.9827805419596024
+      ],
+      "brier_scores_clipped": false
+    },
+    {
+      "model": "gradient_boosting",
+      "feature_set": "mechanism",
+      "split": "group_kfold_gene",
+      "subset": "all",
+      "protocol": "train_all_eval_subset",
+      "n": 5605,
+      "n_positive": 2155,
+      "n_negative": 3450,
+      "roc_auc": 0.973828575271529,
+      "pr_auc": 0.9661123262544306,
+      "brier": 0.055044295452498095,
+      "roc_auc_ci95": [
+        0.9698787867507709,
+        0.9777328939417771
+      ],
+      "pr_auc_ci95": [
+        0.9595298024793235,
+        0.9720832882566196
+      ],
+      "brier_scores_clipped": false
+    },
+    {
+      "model": "gradient_boosting",
+      "feature_set": "mechanism",
+      "split": "group_kfold_gene",
+      "subset": "canonical_dinucleotide",
+      "protocol": "train_all_eval_subset",
+      "skipped": true,
+      "n": 1548,
+      "reason": "fewer than 8 variants in one class, or no finite scores"
+    },
+    {
+      "model": "gradient_boosting",
+      "feature_set": "mechanism",
+      "split": "group_kfold_gene",
+      "subset": "hard_3_50",
+      "protocol": "train_all_eval_subset",
+      "n": 2846,
+      "n_positive": 349,
+      "n_negative": 2497,
+      "roc_auc": 0.9451433410637178,
+      "pr_auc": 0.7605198702967724,
+      "brier": 0.05385134483791889,
+      "roc_auc_ci95": [
+        0.9324874109832412,
+        0.9562348035250204
+      ],
+      "pr_auc_ci95": [
+        0.7196877173871049,
+        0.8022313821168181
+      ],
+      "brier_scores_clipped": false
+    },
+    {
+      "model": "gradient_boosting",
+      "feature_set": "mechanism",
+      "split": "group_kfold_gene",
+      "subset": "deep_gt_50",
+      "protocol": "train_all_eval_subset",
+      "n": 1191,
+      "n_positive": 249,
+      "n_negative": 942,
+      "roc_auc": 0.8354948456245364,
+      "pr_auc": 0.5691658129632726,
+      "brier": 0.12223246888835225,
+      "roc_auc_ci95": [
+        0.8065395877055189,
+        0.8624728255997828
+      ],
+      "pr_auc_ci95": [
+        0.5102495881968416,
+        0.632881736769362
+      ],
+      "brier_scores_clipped": false
+    },
+    {
+      "model": "gradient_boosting",
+      "feature_set": "mechanism",
+      "split": "group_kfold_gene",
+      "subset": "criteria_provided",
+      "protocol": "train_all_eval_subset",
+      "n": 5419,
+      "n_positive": 1988,
+      "n_negative": 3431,
+      "roc_auc": 0.9743416781657595,
+      "pr_auc": 0.965218037450349,
+      "brier": 0.05307426643551433,
+      "roc_auc_ci95": [
+        0.9700973971577681,
+        0.9786538259576014
+      ],
+      "pr_auc_ci95": [
+        0.957849903770803,
+        0.9715424129755136
+      ],
+      "brier_scores_clipped": false
+    },
+    {
+      "model": "gradient_boosting",
+      "feature_set": "mechanism",
+      "split": "stratified_kfold",
+      "subset": "all",
+      "protocol": "train_all_eval_subset",
+      "n": 5605,
+      "n_positive": 2155,
+      "n_negative": 3450,
+      "roc_auc": 0.9818203033054238,
+      "pr_auc": 0.9762665046219007,
+      "brier": 0.04711898719857267,
+      "roc_auc_ci95": [
+        0.9784490777963882,
+        0.9851164222291384
+      ],
+      "pr_auc_ci95": [
+        0.9715144983541223,
+        0.9808520195113238
+      ],
+      "brier_scores_clipped": false
+    },
+    {
+      "model": "gradient_boosting",
+      "feature_set": "mechanism",
+      "split": "stratified_kfold",
+      "subset": "canonical_dinucleotide",
+      "protocol": "train_all_eval_subset",
+      "skipped": true,
+      "n": 1548,
+      "reason": "fewer than 8 variants in one class, or no finite scores"
+    },
+    {
+      "model": "gradient_boosting",
+      "feature_set": "mechanism",
+      "split": "stratified_kfold",
+      "subset": "hard_3_50",
+      "protocol": "train_all_eval_subset",
+      "n": 2846,
+      "n_positive": 349,
+      "n_negative": 2497,
+      "roc_auc": 0.9622182722418765,
+      "pr_auc": 0.819494945529204,
+      "brier": 0.04758400318072507,
+      "roc_auc_ci95": [
+        0.9520178251045782,
+        0.9710377039412282
+      ],
+      "pr_auc_ci95": [
+        0.7815200584454756,
+        0.854526861404585
+      ],
+      "brier_scores_clipped": false
+    },
+    {
+      "model": "gradient_boosting",
+      "feature_set": "mechanism",
+      "split": "stratified_kfold",
+      "subset": "deep_gt_50",
+      "protocol": "train_all_eval_subset",
+      "n": 1191,
+      "n_positive": 249,
+      "n_negative": 942,
+      "roc_auc": 0.8898587982503261,
+      "pr_auc": 0.702321384515309,
+      "brier": 0.10110586594381658,
+      "roc_auc_ci95": [
+        0.8643272169917623,
+        0.9120911666908178
+      ],
+      "pr_auc_ci95": [
+        0.6355599322698652,
+        0.7618710333297027
+      ],
+      "brier_scores_clipped": false
+    },
+    {
+      "model": "gradient_boosting",
+      "feature_set": "mechanism",
+      "split": "stratified_kfold",
+      "subset": "criteria_provided",
+      "protocol": "train_all_eval_subset",
+      "n": 5419,
+      "n_positive": 1988,
+      "n_negative": 3431,
+      "roc_auc": 0.9817583730303712,
+      "pr_auc": 0.9750328248559402,
+      "brier": 0.04641609225156048,
+      "roc_auc_ci95": [
+        0.9782775189863,
+        0.9851447242641624
+      ],
+      "pr_auc_ci95": [
+        0.9696393015670857,
+        0.9797570590310544
+      ],
+      "brier_scores_clipped": false
+    },
+    {
+      "model": "gradient_boosting",
+      "feature_set": "motif",
+      "split": "group_kfold_gene",
+      "subset": "all",
+      "protocol": "train_all_eval_subset",
+      "n": 5605,
+      "n_positive": 2155,
+      "n_negative": 3450,
+      "roc_auc": 0.9731999730992972,
+      "pr_auc": 0.96554388900128,
+      "brier": 0.05512003320227004,
+      "roc_auc_ci95": [
+        0.9690077150897347,
+        0.977208216639925
+      ],
+      "pr_auc_ci95": [
+        0.9595533084726696,
+        0.9708762322717899
+      ],
+      "brier_scores_clipped": false
+    },
+    {
+      "model": "gradient_boosting",
+      "feature_set": "motif",
+      "split": "group_kfold_gene",
+      "subset": "canonical_dinucleotide",
+      "protocol": "train_all_eval_subset",
+      "skipped": true,
+      "n": 1548,
+      "reason": "fewer than 8 variants in one class, or no finite scores"
+    },
+    {
+      "model": "gradient_boosting",
+      "feature_set": "motif",
+      "split": "group_kfold_gene",
+      "subset": "hard_3_50",
+      "protocol": "train_all_eval_subset",
+      "n": 2846,
+      "n_positive": 349,
+      "n_negative": 2497,
+      "roc_auc": 0.9421179340710285,
+      "pr_auc": 0.7540022545865251,
+      "brier": 0.05402151469123475,
+      "roc_auc_ci95": [
+        0.9284349509501798,
+        0.954191692366155
+      ],
+      "pr_auc_ci95": [
+        0.7099098806167775,
+        0.7967672453774354
+      ],
+      "brier_scores_clipped": false
+    },
+    {
+      "model": "gradient_boosting",
+      "feature_set": "motif",
+      "split": "group_kfold_gene",
+      "subset": "deep_gt_50",
+      "protocol": "train_all_eval_subset",
+      "n": 1191,
+      "n_positive": 249,
+      "n_negative": 942,
+      "roc_auc": 0.8362110863837515,
+      "pr_auc": 0.5677852716452889,
+      "brier": 0.12205327270289225,
+      "roc_auc_ci95": [
+        0.8067039543551874,
+        0.8639143902752039
+      ],
+      "pr_auc_ci95": [
+        0.5089742753457359,
+        0.6303056764450441
+      ],
+      "brier_scores_clipped": false
+    },
+    {
+      "model": "gradient_boosting",
+      "feature_set": "motif",
+      "split": "group_kfold_gene",
+      "subset": "criteria_provided",
+      "protocol": "train_all_eval_subset",
+      "n": 5419,
+      "n_positive": 1988,
+      "n_negative": 3431,
+      "roc_auc": 0.9737246709637011,
+      "pr_auc": 0.9645489306041791,
+      "brier": 0.05319005370911625,
+      "roc_auc_ci95": [
+        0.969198976995535,
+        0.9781642183182385
+      ],
+      "pr_auc_ci95": [
+        0.9574451046159245,
+        0.9705257609883062
+      ],
+      "brier_scores_clipped": false
+    },
+    {
+      "model": "gradient_boosting",
+      "feature_set": "motif",
+      "split": "stratified_kfold",
+      "subset": "all",
+      "protocol": "train_all_eval_subset",
+      "n": 5605,
+      "n_positive": 2155,
+      "n_negative": 3450,
+      "roc_auc": 0.9816048959279061,
+      "pr_auc": 0.9758798226119654,
+      "brier": 0.047617450679578774,
+      "roc_auc_ci95": [
+        0.9781945013025376,
+        0.9849048054715476
+      ],
+      "pr_auc_ci95": [
+        0.9713003407269483,
+        0.980320382179455
+      ],
+      "brier_scores_clipped": false
+    },
+    {
+      "model": "gradient_boosting",
+      "feature_set": "motif",
+      "split": "stratified_kfold",
+      "subset": "canonical_dinucleotide",
+      "protocol": "train_all_eval_subset",
+      "skipped": true,
+      "n": 1548,
+      "reason": "fewer than 8 variants in one class, or no finite scores"
+    },
+    {
+      "model": "gradient_boosting",
+      "feature_set": "motif",
+      "split": "stratified_kfold",
+      "subset": "hard_3_50",
+      "protocol": "train_all_eval_subset",
+      "n": 2846,
+      "n_positive": 349,
+      "n_negative": 2497,
+      "roc_auc": 0.9623479407380547,
+      "pr_auc": 0.8161492016560037,
+      "brier": 0.048143944753502387,
+      "roc_auc_ci95": [
+        0.9525794590376131,
+        0.9711645022624377
+      ],
+      "pr_auc_ci95": [
+        0.7764664901154077,
+        0.8525692054438371
+      ],
+      "brier_scores_clipped": false
+    },
+    {
+      "model": "gradient_boosting",
+      "feature_set": "motif",
+      "split": "stratified_kfold",
+      "subset": "deep_gt_50",
+      "protocol": "train_all_eval_subset",
+      "n": 1191,
+      "n_positive": 249,
+      "n_negative": 942,
+      "roc_auc": 0.8887631204222409,
+      "pr_auc": 0.6983869418296758,
+      "brier": 0.10156256353533204,
+      "roc_auc_ci95": [
+        0.8642668967042574,
+        0.9107948898140769
+      ],
+      "pr_auc_ci95": [
+        0.6317250024444638,
+        0.7590657107238362
+      ],
+      "brier_scores_clipped": false
+    },
+    {
+      "model": "gradient_boosting",
+      "feature_set": "motif",
+      "split": "stratified_kfold",
+      "subset": "criteria_provided",
+      "protocol": "train_all_eval_subset",
+      "n": 5419,
+      "n_positive": 1988,
+      "n_negative": 3431,
+      "roc_auc": 0.9815865463841046,
+      "pr_auc": 0.9746602669943208,
+      "brier": 0.04685996346109862,
+      "roc_auc_ci95": [
+        0.9782071730702245,
+        0.9849640797016714
+      ],
+      "pr_auc_ci95": [
+        0.9691746753056073,
+        0.9793147665269065
+      ],
+      "brier_scores_clipped": false
+    },
+    {
+      "model": "logistic_regression",
+      "feature_set": "full",
+      "split": "group_kfold_gene",
+      "subset": "hard_3_50",
+      "protocol": "train_on_subset",
+      "n": 2846,
+      "n_positive": 349,
+      "n_negative": 2497,
+      "roc_auc": 0.9079502853280671,
+      "pr_auc": 0.7230385849000815,
+      "brier": 0.08986062416988416,
+      "roc_auc_ci95": [
+        0.8862973116521957,
+        0.9282434607419044
+      ],
+      "pr_auc_ci95": [
+        0.6792154148839249,
+        0.7639760677192183
+      ],
+      "brier_scores_clipped": false
+    },
+    {
+      "model": "logistic_regression",
+      "feature_set": "full",
+      "split": "stratified_kfold",
+      "subset": "hard_3_50",
+      "protocol": "train_on_subset",
+      "n": 2846,
+      "n_positive": 349,
+      "n_negative": 2497,
+      "roc_auc": 0.9414116423949428,
+      "pr_auc": 0.7972205327091973,
+      "brier": 0.08118761068070604,
+      "roc_auc_ci95": [
+        0.9249135571256395,
+        0.9576665264409016
+      ],
+      "pr_auc_ci95": [
+        0.7602212526900427,
+        0.8299413106966557
+      ],
+      "brier_scores_clipped": false
+    },
+    {
+      "model": "logistic_regression",
+      "feature_set": "mechanism",
+      "split": "group_kfold_gene",
+      "subset": "hard_3_50",
+      "protocol": "train_on_subset",
+      "n": 2846,
+      "n_positive": 349,
+      "n_negative": 2497,
+      "roc_auc": 0.9105201313209088,
+      "pr_auc": 0.7073453849172993,
+      "brier": 0.09477205016346475,
+      "roc_auc_ci95": [
+        0.8913303930173301,
+        0.9292634496728731
+      ],
+      "pr_auc_ci95": [
+        0.6651360484148865,
+        0.7461350614156284
+      ],
+      "brier_scores_clipped": false
+    },
+    {
+      "model": "logistic_regression",
+      "feature_set": "mechanism",
+      "split": "stratified_kfold",
+      "subset": "hard_3_50",
+      "protocol": "train_on_subset",
+      "n": 2846,
+      "n_positive": 349,
+      "n_negative": 2497,
+      "roc_auc": 0.9255582343511355,
+      "pr_auc": 0.7323037369410054,
+      "brier": 0.09328294057789771,
+      "roc_auc_ci95": [
+        0.9085962055043463,
+        0.9425307362127617
+      ],
+      "pr_auc_ci95": [
+        0.6916741982309508,
+        0.7691599097625451
+      ],
+      "brier_scores_clipped": false
+    },
+    {
+      "model": "logistic_regression",
+      "feature_set": "motif",
+      "split": "group_kfold_gene",
+      "subset": "hard_3_50",
+      "protocol": "train_on_subset",
+      "n": 2846,
+      "n_positive": 349,
+      "n_negative": 2497,
+      "roc_auc": 0.9089291103478903,
+      "pr_auc": 0.7055958151602028,
+      "brier": 0.09542862886504862,
+      "roc_auc_ci95": [
+        0.8894180551106297,
+        0.9282856964011243
+      ],
+      "pr_auc_ci95": [
+        0.6636767456561621,
+        0.7448535355549614
+      ],
+      "brier_scores_clipped": false
+    },
+    {
+      "model": "logistic_regression",
+      "feature_set": "motif",
+      "split": "stratified_kfold",
+      "subset": "hard_3_50",
+      "protocol": "train_on_subset",
+      "n": 2846,
+      "n_positive": 349,
+      "n_negative": 2497,
+      "roc_auc": 0.9257309344279038,
+      "pr_auc": 0.7325072242388208,
+      "brier": 0.09399449524295322,
+      "roc_auc_ci95": [
+        0.9088674008057857,
+        0.9427057904830402
+      ],
+      "pr_auc_ci95": [
+        0.6918317680655564,
+        0.770606960217666
+      ],
+      "brier_scores_clipped": false
+    },
+    {
+      "model": "hist_gradient_boosting",
+      "feature_set": "full",
+      "split": "group_kfold_gene",
+      "subset": "hard_3_50",
+      "protocol": "train_on_subset",
+      "n": 2846,
+      "n_positive": 349,
+      "n_negative": 2497,
+      "roc_auc": 0.9319200232255784,
+      "pr_auc": 0.770592337499055,
+      "brier": 0.06180754904472014,
+      "roc_auc_ci95": [
+        0.9150472432490995,
+        0.9464864644679882
+      ],
+      "pr_auc_ci95": [
+        0.7275764654858727,
+        0.8092860698814723
+      ],
+      "brier_scores_clipped": false
+    },
+    {
+      "model": "hist_gradient_boosting",
+      "feature_set": "full",
+      "split": "stratified_kfold",
+      "subset": "hard_3_50",
+      "protocol": "train_on_subset",
+      "n": 2846,
+      "n_positive": 349,
+      "n_negative": 2497,
+      "roc_auc": 0.9713891626972425,
+      "pr_auc": 0.8707368323185635,
+      "brier": 0.048346746939597396,
+      "roc_auc_ci95": [
+        0.9611093694891002,
+        0.9794510036943048
+      ],
+      "pr_auc_ci95": [
+        0.8401913608711787,
+        0.896810517020326
+      ],
+      "brier_scores_clipped": false
+    },
+    {
+      "model": "hist_gradient_boosting",
+      "feature_set": "mechanism",
+      "split": "group_kfold_gene",
+      "subset": "hard_3_50",
+      "protocol": "train_on_subset",
+      "n": 2846,
+      "n_positive": 349,
+      "n_negative": 2497,
+      "roc_auc": 0.9326108235326518,
+      "pr_auc": 0.7966126881170188,
+      "brier": 0.060847087547345476,
+      "roc_auc_ci95": [
+        0.9147798730567858,
+        0.9491800948221111
+      ],
+      "pr_auc_ci95": [
+        0.7599056516078332,
+        0.8334838108711271
+      ],
+      "brier_scores_clipped": false
+    },
+    {
+      "model": "hist_gradient_boosting",
+      "feature_set": "mechanism",
+      "split": "stratified_kfold",
+      "subset": "hard_3_50",
+      "protocol": "train_on_subset",
+      "n": 2846,
+      "n_positive": 349,
+      "n_negative": 2497,
+      "roc_auc": 0.9661020158287367,
+      "pr_auc": 0.8495376167894552,
+      "brier": 0.0555147746772365,
+      "roc_auc_ci95": [
+        0.955348423557161,
+        0.9744682628653214
+      ],
+      "pr_auc_ci95": [
+        0.8158746279946204,
+        0.8801108013640581
+      ],
+      "brier_scores_clipped": false
+    },
+    {
+      "model": "hist_gradient_boosting",
+      "feature_set": "motif",
+      "split": "group_kfold_gene",
+      "subset": "hard_3_50",
+      "protocol": "train_on_subset",
+      "n": 2846,
+      "n_positive": 349,
+      "n_negative": 2497,
+      "roc_auc": 0.9309308706264136,
+      "pr_auc": 0.7836193218919336,
+      "brier": 0.06178498101022536,
+      "roc_auc_ci95": [
+        0.9140673970219027,
+        0.9475329697804411
+      ],
+      "pr_auc_ci95": [
+        0.7456200399603151,
+        0.8204981941274144
+      ],
+      "brier_scores_clipped": false
+    },
+    {
+      "model": "hist_gradient_boosting",
+      "feature_set": "motif",
+      "split": "stratified_kfold",
+      "subset": "hard_3_50",
+      "protocol": "train_on_subset",
+      "n": 2846,
+      "n_positive": 349,
+      "n_negative": 2497,
+      "roc_auc": 0.9647261527586686,
+      "pr_auc": 0.8479501930990655,
+      "brier": 0.056502555144605796,
+      "roc_auc_ci95": [
+        0.9534268022296394,
+        0.9734071306346376
+      ],
+      "pr_auc_ci95": [
+        0.8143675259383393,
+        0.8784645029379272
+      ],
+      "brier_scores_clipped": false
+    },
+    {
+      "model": "gradient_boosting",
+      "feature_set": "full",
+      "split": "group_kfold_gene",
+      "subset": "hard_3_50",
+      "protocol": "train_on_subset",
+      "n": 2846,
+      "n_positive": 349,
+      "n_negative": 2497,
+      "roc_auc": 0.93617211714229,
+      "pr_auc": 0.7308440367501144,
+      "brier": 0.06494650845594649,
+      "roc_auc_ci95": [
+        0.920546367601106,
+        0.9503142782690943
+      ],
+      "pr_auc_ci95": [
+        0.6784293095248461,
+        0.7789545793726611
+      ],
+      "brier_scores_clipped": false
+    },
+    {
+      "model": "gradient_boosting",
+      "feature_set": "full",
+      "split": "stratified_kfold",
+      "subset": "hard_3_50",
+      "protocol": "train_on_subset",
+      "n": 2846,
+      "n_positive": 349,
+      "n_negative": 2497,
+      "roc_auc": 0.969475117992594,
+      "pr_auc": 0.8481170944940672,
+      "brier": 0.05491198308959483,
+      "roc_auc_ci95": [
+        0.9606291469428963,
+        0.976953241438745
+      ],
+      "pr_auc_ci95": [
+        0.8120802812005042,
+        0.877579944237814
+      ],
+      "brier_scores_clipped": false
+    },
+    {
+      "model": "gradient_boosting",
+      "feature_set": "mechanism",
+      "split": "group_kfold_gene",
+      "subset": "hard_3_50",
+      "protocol": "train_on_subset",
+      "n": 2846,
+      "n_positive": 349,
+      "n_negative": 2497,
+      "roc_auc": 0.9471738579131634,
+      "pr_auc": 0.7855409612616118,
+      "brier": 0.06229663602868175,
+      "roc_auc_ci95": [
+        0.9326939184649619,
+        0.9600363283813201
+      ],
+      "pr_auc_ci95": [
+        0.7437959278696911,
+        0.8240670724667891
+      ],
+      "brier_scores_clipped": false
+    },
+    {
+      "model": "gradient_boosting",
+      "feature_set": "mechanism",
+      "split": "stratified_kfold",
+      "subset": "hard_3_50",
+      "protocol": "train_on_subset",
+      "n": 2846,
+      "n_positive": 349,
+      "n_negative": 2497,
+      "roc_auc": 0.9606312675497131,
+      "pr_auc": 0.8224484453818207,
+      "brier": 0.060592662917864644,
+      "roc_auc_ci95": [
+        0.9491980071726247,
+        0.9706061264502792
+      ],
+      "pr_auc_ci95": [
+        0.7821296338115085,
+        0.8562168891588824
+      ],
+      "brier_scores_clipped": false
+    },
+    {
+      "model": "gradient_boosting",
+      "feature_set": "motif",
+      "split": "group_kfold_gene",
+      "subset": "hard_3_50",
+      "protocol": "train_on_subset",
+      "n": 2846,
+      "n_positive": 349,
+      "n_negative": 2497,
+      "roc_auc": 0.9475708959634084,
+      "pr_auc": 0.7847895200427673,
+      "brier": 0.06216914151704914,
+      "roc_auc_ci95": [
+        0.9333179055179763,
+        0.9599332769858719
+      ],
+      "pr_auc_ci95": [
+        0.7447520343019499,
+        0.8238030946781058
+      ],
+      "brier_scores_clipped": false
+    },
+    {
+      "model": "gradient_boosting",
+      "feature_set": "motif",
+      "split": "stratified_kfold",
+      "subset": "hard_3_50",
+      "protocol": "train_on_subset",
+      "n": 2846,
+      "n_positive": 349,
+      "n_negative": 2497,
+      "roc_auc": 0.9592576994972765,
+      "pr_auc": 0.8186864376721911,
+      "brier": 0.06108231505479313,
+      "roc_auc_ci95": [
+        0.9475104569553315,
+        0.9693241332998186
+      ],
+      "pr_auc_ci95": [
+        0.7794810030781216,
+        0.8521811106245384
+      ],
+      "brier_scores_clipped": false
+    },
+    {
+      "model": "distance_rule",
+      "feature_set": "rule",
+      "split": "not_applicable",
+      "subset": "all",
+      "protocol": "fixed_rule",
+      "n": 5605,
+      "n_positive": 2155,
+      "n_negative": 3450,
+      "roc_auc": 0.8506908772991694,
+      "pr_auc": 0.881757372894376,
+      "brier": 0.18637816452649197,
+      "roc_auc_ci95": [
+        0.8388914313017026,
+        0.8642720141292843
+      ],
+      "pr_auc_ci95": [
+        0.8708581277229264,
+        0.8924910887798974
+      ],
+      "brier_scores_clipped": false
+    },
+    {
+      "model": "distance_rule",
+      "feature_set": "rule",
+      "split": "not_applicable",
+      "subset": "canonical_dinucleotide",
+      "protocol": "fixed_rule",
+      "skipped": true,
+      "n": 1548,
+      "reason": "fewer than 8 variants in one class, or no finite scores"
+    },
+    {
+      "model": "distance_rule",
+      "feature_set": "rule",
+      "split": "not_applicable",
+      "subset": "hard_3_50",
+      "protocol": "fixed_rule",
+      "n": 2846,
+      "n_positive": 349,
+      "n_negative": 2497,
+      "roc_auc": 0.59045180864602,
+      "pr_auc": 0.34893754525448006,
+      "brier": 0.10267971350238105,
+      "roc_auc_ci95": [
+        0.5467756633304413,
+        0.6355736963373247
+      ],
+      "pr_auc_ci95": [
+        0.30043144127101756,
+        0.4024792031718662
+      ],
+      "brier_scores_clipped": false
+    },
+    {
+      "model": "distance_rule",
+      "feature_set": "rule",
+      "split": "not_applicable",
+      "subset": "deep_gt_50",
+      "protocol": "fixed_rule",
+      "n": 1191,
+      "n_positive": 249,
+      "n_negative": 942,
+      "roc_auc": 0.49161401444418856,
+      "pr_auc": 0.24531073528580433,
+      "brier": 0.20674114449938424,
+      "roc_auc_ci95": [
+        0.4430221712369134,
+        0.5372598908379941
+      ],
+      "pr_auc_ci95": [
+        0.20551735147711833,
+        0.2980548526324824
+      ],
+      "brier_scores_clipped": false
+    },
+    {
+      "model": "distance_rule",
+      "feature_set": "rule",
+      "split": "not_applicable",
+      "subset": "criteria_provided",
+      "protocol": "fixed_rule",
+      "n": 5419,
+      "n_positive": 1988,
+      "n_negative": 3431,
+      "roc_auc": 0.8562358558227828,
+      "pr_auc": 0.8817491670794807,
+      "brier": 0.1756845303258485,
+      "roc_auc_ci95": [
+        0.8425251458733244,
+        0.8694710069368647
+      ],
+      "pr_auc_ci95": [
+        0.8695536026498994,
+        0.8929196231623818
+      ],
+      "brier_scores_clipped": false
+    },
+    {
+      "model": "dinucleotide_rule",
+      "feature_set": "rule",
+      "split": "not_applicable",
+      "subset": "all",
+      "protocol": "fixed_rule",
+      "n": 5605,
+      "n_positive": 2155,
+      "n_negative": 3450,
+      "roc_auc": 0.8576569487877871,
+      "pr_auc": 0.8236317782901443,
+      "brier": 0.10972346119536129,
+      "roc_auc_ci95": [
+        0.8485023492059625,
+        0.8672575286679493
+      ],
+      "pr_auc_ci95": [
+        0.8110259458213489,
+        0.8373508808278833
+      ],
+      "brier_scores_clipped": false
+    },
+    {
+      "model": "dinucleotide_rule",
+      "feature_set": "rule",
+      "split": "not_applicable",
+      "subset": "canonical_dinucleotide",
+      "protocol": "fixed_rule",
+      "skipped": true,
+      "n": 1548,
+      "reason": "fewer than 8 variants in one class, or no finite scores"
+    },
+    {
+      "model": "dinucleotide_rule",
+      "feature_set": "rule",
+      "split": "not_applicable",
+      "subset": "hard_3_50",
+      "protocol": "fixed_rule",
+      "n": 2846,
+      "n_positive": 349,
+      "n_negative": 2497,
+      "roc_auc": 0.5,
+      "pr_auc": 0.12262825017568517,
+      "brier": 0.12262825017568517,
+      "roc_auc_ci95": [
+        0.5,
+        0.5
+      ],
+      "pr_auc_ci95": [
+        0.11138439915671117,
+        0.13492621222768797
+      ],
+      "brier_scores_clipped": false
+    },
+    {
+      "model": "dinucleotide_rule",
+      "feature_set": "rule",
+      "split": "not_applicable",
+      "subset": "deep_gt_50",
+      "protocol": "fixed_rule",
+      "n": 1191,
+      "n_positive": 249,
+      "n_negative": 942,
+      "roc_auc": 0.5,
+      "pr_auc": 0.20906801007556675,
+      "brier": 0.20906801007556675,
+      "roc_auc_ci95": [
+        0.5,
+        0.5
+      ],
+      "pr_auc_ci95": [
+        0.1847187237615449,
+        0.23259865659109988
+      ],
+      "brier_scores_clipped": false
+    },
+    {
+      "model": "dinucleotide_rule",
+      "feature_set": "rule",
+      "split": "not_applicable",
+      "subset": "criteria_provided",
+      "protocol": "fixed_rule",
+      "n": 5419,
+      "n_positive": 1988,
+      "n_negative": 3431,
+      "roc_auc": 0.8648597355042525,
+      "pr_auc": 0.8276054656578772,
+      "brier": 0.09946484591252999,
+      "roc_auc_ci95": [
+        0.8544343052799478,
+        0.87432263474161
+      ],
+      "pr_auc_ci95": [
+        0.8142055656448417,
+        0.8395070873832564
+      ],
+      "brier_scores_clipped": false
+    },
+    {
+      "model": "distance_logistic",
+      "feature_set": "abs_dist_to_splice",
+      "split": "group_kfold_gene",
+      "subset": "all",
+      "protocol": "train_all_eval_subset",
+      "n": 5605,
+      "n_positive": 2155,
+      "n_negative": 3450,
+      "roc_auc": 0.5200722956387236,
+      "pr_auc": 0.4841668756254208,
+      "brier": 0.2578512976148525,
+      "roc_auc_ci95": [
+        0.5037516181525501,
+        0.5372943474924338
+      ],
+      "pr_auc_ci95": [
+        0.46420373461671477,
+        0.5053113995304467
+      ],
+      "brier_scores_clipped": false
+    },
+    {
+      "model": "distance_logistic",
+      "feature_set": "abs_dist_to_splice",
+      "split": "group_kfold_gene",
+      "subset": "canonical_dinucleotide",
+      "protocol": "train_all_eval_subset",
+      "skipped": true,
+      "n": 1548,
+      "reason": "fewer than 8 variants in one class, or no finite scores"
+    },
+    {
+      "model": "distance_logistic",
+      "feature_set": "abs_dist_to_splice",
+      "split": "group_kfold_gene",
+      "subset": "hard_3_50",
+      "protocol": "train_all_eval_subset",
+      "n": 2846,
+      "n_positive": 349,
+      "n_negative": 2497,
+      "roc_auc": 0.5493078800577885,
+      "pr_auc": 0.23656821938354616,
+      "brier": 0.2508219133724611,
+      "roc_auc_ci95": [
+        0.5143563737347839,
+        0.5843202189429461
+      ],
+      "pr_auc_ci95": [
+        0.19660739210237768,
+        0.28349313505355755
+      ],
+      "brier_scores_clipped": false
+    },
+    {
+      "model": "distance_logistic",
+      "feature_set": "abs_dist_to_splice",
+      "split": "group_kfold_gene",
+      "subset": "deep_gt_50",
+      "protocol": "train_all_eval_subset",
+      "n": 1191,
+      "n_positive": 249,
+      "n_negative": 942,
+      "roc_auc": 0.279606749716488,
+      "pr_auc": 0.14436055836969325,
+      "brier": 0.28666299302808734,
+      "roc_auc_ci95": [
+        0.24132161573782998,
+        0.3170794428990462
+      ],
+      "pr_auc_ci95": [
+        0.12539206016777532,
+        0.16974843200405768
+      ],
+      "brier_scores_clipped": false
+    },
+    {
+      "model": "distance_logistic",
+      "feature_set": "abs_dist_to_splice",
+      "split": "group_kfold_gene",
+      "subset": "criteria_provided",
+      "protocol": "train_all_eval_subset",
+      "n": 5419,
+      "n_positive": 1988,
+      "n_negative": 3431,
+      "roc_auc": 0.5130419649931065,
+      "pr_auc": 0.4694107860166811,
+      "brier": 0.25558894924619546,
+      "roc_auc_ci95": [
+        0.4954703367863656,
+        0.5289182837695969
+      ],
+      "pr_auc_ci95": [
+        0.44874417791685467,
+        0.49146131047608005
+      ],
+      "brier_scores_clipped": false
+    },
+    {
+      "model": "distance_logistic",
+      "feature_set": "abs_dist_to_splice",
+      "split": "stratified_kfold",
+      "subset": "all",
+      "protocol": "train_all_eval_subset",
+      "n": 5605,
+      "n_positive": 2155,
+      "n_negative": 3450,
+      "roc_auc": 0.601404082181647,
+      "pr_auc": 0.5459785986473707,
+      "brier": 0.2500421288104281,
+      "roc_auc_ci95": [
+        0.5868810228452047,
+        0.6160920171880357
+      ],
+      "pr_auc_ci95": [
+        0.526629521745148,
+        0.5654446933800434
+      ],
+      "brier_scores_clipped": false
+    },
+    {
+      "model": "distance_logistic",
+      "feature_set": "abs_dist_to_splice",
+      "split": "stratified_kfold",
+      "subset": "canonical_dinucleotide",
+      "protocol": "train_all_eval_subset",
+      "skipped": true,
+      "n": 1548,
+      "reason": "fewer than 8 variants in one class, or no finite scores"
+    },
+    {
+      "model": "distance_logistic",
+      "feature_set": "abs_dist_to_splice",
+      "split": "stratified_kfold",
+      "subset": "hard_3_50",
+      "protocol": "train_all_eval_subset",
+      "n": 2846,
+      "n_positive": 349,
+      "n_negative": 2497,
+      "roc_auc": 0.5154219447290904,
+      "pr_auc": 0.1660670788393401,
+      "brier": 0.25045700190564263,
+      "roc_auc_ci95": [
+        0.48309867053897804,
+        0.5491429833514567
+      ],
+      "pr_auc_ci95": [
+        0.13780772160818186,
+        0.2013713188114203
+      ],
+      "brier_scores_clipped": false
+    },
+    {
+      "model": "distance_logistic",
+      "feature_set": "abs_dist_to_splice",
+      "split": "stratified_kfold",
+      "subset": "deep_gt_50",
+      "protocol": "train_all_eval_subset",
+      "n": 1191,
+      "n_positive": 249,
+      "n_negative": 942,
+      "roc_auc": 0.4643457055397812,
+      "pr_auc": 0.21535324110693327,
+      "brier": 0.24989662065916438,
+      "roc_auc_ci95": [
+        0.4199902946170042,
+        0.5072628571483011
+      ],
+      "pr_auc_ci95": [
+        0.18356950931176774,
+        0.25956729519332244
+      ],
+      "brier_scores_clipped": false
+    },
+    {
+      "model": "distance_logistic",
+      "feature_set": "abs_dist_to_splice",
+      "split": "stratified_kfold",
+      "subset": "criteria_provided",
+      "protocol": "train_all_eval_subset",
+      "n": 5419,
+      "n_positive": 1988,
+      "n_negative": 3431,
+      "roc_auc": 0.6061454709017733,
+      "pr_auc": 0.5329837760056262,
+      "brier": 0.25000583558730044,
+      "roc_auc_ci95": [
+        0.5902520720767027,
+        0.6209548437475231
+      ],
+      "pr_auc_ci95": [
+        0.5123740907589475,
+        0.5524336935715627
+      ],
+      "brier_scores_clipped": false
+    }
+  ],
+  "logistic_coefficients": [
+    {
+      "feature": "gtex_brain_mean_tpm",
+      "coefficient": 3.44474499755708
+    },
+    {
+      "feature": "disrupts_canonical_dinucleotide",
+      "coefficient": 2.507332451221394
+    },
+    {
+      "feature": "gtex_hippocampus_tpm",
+      "coefficient": -2.2568881179242504
+    },
+    {
+      "feature": "acceptor_maxent_delta",
+      "coefficient": -2.010777251917747
+    },
+    {
+      "feature": "donor_maxent_delta",
+      "coefficient": -1.6357177455586864
+    },
+    {
+      "feature": "constraint_overlap",
+      "coefficient": 1.5888496742350642
+    },
+    {
+      "feature": "gtex_cerebellum_tpm",
+      "coefficient": -1.336240617471426
+    },
+    {
+      "feature": "acceptor_pwm_delta",
+      "coefficient": 0.5339830348609702
+    },
+    {
+      "feature": "donor_pwm_delta",
+      "coefficient": -0.5326479353417917
+    },
+    {
+      "feature": "cryptic_donor_delta",
+      "coefficient": 0.41105087379850785
+    },
+    {
+      "feature": "gtex_cortex_tpm",
+      "coefficient": -0.34147009318238486
+    },
+    {
+      "feature": "hpa_brain_ntpm",
+      "coefficient": -0.3192930978643113
+    },
+    {
+      "feature": "gc_local",
+      "coefficient": 0.2720803059762859
+    },
+    {
+      "feature": "cryptic_acceptor_created",
+      "coefficient": 0.2468515383789632
+    },
+    {
+      "feature": "gtex_tau",
+      "coefficient": 0.20010260924779194
+    },
+    {
+      "feature": "cryptic_acceptor_delta",
+      "coefficient": 0.194401421341252
+    },
+    {
+      "feature": "ppt_delta",
+      "coefficient": 0.13560857875608706
+    },
+    {
+      "feature": "abs_dist_to_splice",
+      "coefficient": 0.13294318287543577
+    },
+    {
+      "feature": "gc_delta",
+      "coefficient": 0.09908590297561812
+    },
+    {
+      "feature": "motif_ref_information_bits",
+      "coefficient": -0.09838739936878224
+    },
+    {
+      "feature": "nearest_is_donor",
+      "coefficient": 0.06999252063384506
+    },
+    {
+      "feature": "constraint_score",
+      "coefficient": -0.055302612784351
+    },
+    {
+      "feature": "branchpoint_delta",
+      "coefficient": 0.04917762398003419
+    },
+    {
+      "feature": "cryptic_donor_created",
+      "coefficient": 0.03443081883223569
+    },
+    {
+      "feature": "cpg_delta",
+      "coefficient": -0.018658998622448405
+    },
+    {
+      "feature": "gtex_brain_specificity",
+      "coefficient": -0.016645370493098843
+    },
+    {
+      "feature": "constraint_observed",
+      "coefficient": 0.0
+    },
+    {
+      "feature": "expression_observed",
+      "coefficient": 0.0
+    }
+  ],
+  "permutation_importance": [
+    {
+      "feature": "acceptor_maxent_delta",
+      "mean_auc_drop": 0.030964910349111564
+    },
+    {
+      "feature": "motif_ref_information_bits",
+      "mean_auc_drop": 0.025561008365359877
+    },
+    {
+      "feature": "constraint_overlap",
+      "mean_auc_drop": 0.02026191213006143
+    },
+    {
+      "feature": "abs_dist_to_splice",
+      "mean_auc_drop": 0.018761636573372212
+    },
+    {
+      "feature": "constraint_score",
+      "mean_auc_drop": 0.008665401433760206
+    },
+    {
+      "feature": "donor_maxent_delta",
+      "mean_auc_drop": 0.0050167910929267605
+    },
+    {
+      "feature": "cryptic_donor_delta",
+      "mean_auc_drop": 0.003575963577662246
+    },
+    {
+      "feature": "acceptor_pwm_delta",
+      "mean_auc_drop": 0.002138861480442791
+    },
+    {
+      "feature": "gtex_brain_specificity",
+      "mean_auc_drop": 0.0019662843562378504
+    },
+    {
+      "feature": "disrupts_canonical_dinucleotide",
+      "mean_auc_drop": 0.0019303224992005986
+    },
+    {
+      "feature": "donor_pwm_delta",
+      "mean_auc_drop": 0.0013375362890124885
+    },
+    {
+      "feature": "cryptic_acceptor_delta",
+      "mean_auc_drop": 0.0008862587401297616
+    },
+    {
+      "feature": "gtex_cortex_tpm",
+      "mean_auc_drop": 0.000547565164480308
+    },
+    {
+      "feature": "cryptic_acceptor_created",
+      "mean_auc_drop": 0.0004305048723246685
+    },
+    {
+      "feature": "gc_local",
+      "mean_auc_drop": 0.0004140400645642561
+    },
+    {
+      "feature": "gc_delta",
+      "mean_auc_drop": 0.0002285146095234225
+    },
+    {
+      "feature": "cpg_delta",
+      "mean_auc_drop": 0.00016047592303455982
+    },
+    {
+      "feature": "ppt_delta",
+      "mean_auc_drop": 6.933729638332053e-05
+    },
+    {
+      "feature": "constraint_observed",
+      "mean_auc_drop": 0.0
+    },
+    {
+      "feature": "expression_observed",
+      "mean_auc_drop": 0.0
+    },
+    {
+      "feature": "branchpoint_delta",
+      "mean_auc_drop": 0.0
+    },
+    {
+      "feature": "cryptic_donor_created",
+      "mean_auc_drop": -5.368330548223276e-06
+    },
+    {
+      "feature": "hpa_brain_ntpm",
+      "mean_auc_drop": -9.206402367897937e-05
+    },
+    {
+      "feature": "nearest_is_donor",
+      "mean_auc_drop": -0.00012490606661311074
+    },
+    {
+      "feature": "gtex_brain_mean_tpm",
+      "mean_auc_drop": -0.0001464226313349259
+    },
+    {
+      "feature": "gtex_cerebellum_tpm",
+      "mean_auc_drop": -0.00017185936998638242
+    },
+    {
+      "feature": "gtex_hippocampus_tpm",
+      "mean_auc_drop": -0.00019263923602626855
+    },
+    {
+      "feature": "gtex_tau",
+      "mean_auc_drop": -0.00046092692677683015
+    }
+  ],
+  "deployment_model": "gradient_boosting",
+  "deployment_features": [
+    "abs_dist_to_splice",
+    "nearest_is_donor",
+    "disrupts_canonical_dinucleotide",
+    "donor_maxent_delta",
+    "acceptor_maxent_delta",
+    "donor_pwm_delta",
+    "acceptor_pwm_delta",
+    "cryptic_donor_delta",
+    "cryptic_acceptor_delta",
+    "cryptic_donor_created",
+    "cryptic_acceptor_created",
+    "ppt_delta",
+    "branchpoint_delta",
+    "gc_delta",
+    "cpg_delta",
+    "gc_local",
+    "motif_ref_information_bits",
+    "constraint_overlap",
+    "constraint_score",
+    "constraint_observed",
+    "gtex_brain_specificity",
+    "gtex_brain_mean_tpm",
+    "gtex_tau",
+    "gtex_cortex_tpm",
+    "gtex_hippocampus_tpm",
+    "gtex_cerebellum_tpm",
+    "hpa_brain_ntpm",
+    "expression_observed"
+  ],
+  "notes": [
+    "ROC-AUC, PR-AUC, and Brier score are computed from out-of-fold predictions.",
+    "GroupKFold holds out every variant of a gene. StratifiedKFold does not.",
+    "The canonical dinucleotide rule and the distance rule are not trained.",
+    "deployment_score is a refit on the full research cohort and is not the benchmark.",
+    "Gene-level expression features can proxy ascertainment. Compare the mechanism and motif feature sets."
+  ],
+  "calibration": {
+    "hist_gradient_boosting_group_full": {
+      "fraction_positive": [
+        0.0014265335235378032,
+        0.015625,
+        0.018651362984218076,
+        0.05413105413105413,
+        0.3068181818181818,
+        0.6910919540229885,
+        0.9957142857142857,
+        0.9957203994293866
+      ],
+      "mean_predicted": [
+        0.002938393248660627,
+        0.011583069464513285,
+        0.024781969670495202,
+        0.05522329853362064,
+        0.18901961797255196,
+        0.7685232035557878,
+        0.9978917168867513,
+        0.9995225581597109
+      ]
+    },
+    "logistic_regression_group_full": {
+      "fraction_positive": [
+        0.024251069900142655,
+        0.015691868758915834,
+        0.02,
+        0.02710413694721826,
+        0.36857142857142855,
+        0.630527817403709,
+        0.9957142857142857,
+        0.9942938659058488
+      ],
+      "mean_predicted": [
+        0.013786366754712037,
+        0.0305946028716129,
+        0.04317135036399926,
+        0.06495918840184912,
+        0.34228561881160413,
+        0.758424249924861,
+        0.9998989497338053,
+        0.9999897124300545
+      ]
+    }
+  }
+}

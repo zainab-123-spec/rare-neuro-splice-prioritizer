@@ -1,0 +1,54 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rnsp"
+version = "0.1.0"
+description = "Interpretable splice-variant prioritizer for rare neurological disease genes."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [
+  { name = "Zainab Javed", email = "276657223+zainab-123-spec@users.noreply.github.com" },
+]
+keywords = ["bioinformatics", "splicing", "clinvar", "regulatory-genomics", "rare-disease"]
+dependencies = [
+  "requests>=2.31",
+  "numpy>=1.24",
+  "pandas>=2.0",
+  "scikit-learn>=1.3",
+  "matplotlib>=3.7",
+  "joblib>=1.3",
+  "streamlit>=1.28",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.4", "ruff>=0.6"]
+
+[project.urls]
+Homepage = "https://github.com/zainab-123-spec/rare-neuro-splice-prioritizer"
+Repository = "https://github.com/zainab-123-spec/rare-neuro-splice-prioritizer"
+
+[tool.setuptools.packages.find]
+include = ["rnsp*"]
+
+[tool.setuptools.package-data]
+rnsp = ["py.typed", "data/maxent/*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+src = ["rnsp", "tests", "app.py"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+ignore = ["E501"]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/*" = ["B011"]
+"app.py" = ["E402"]
