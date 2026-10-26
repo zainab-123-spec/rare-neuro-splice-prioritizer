@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import logging
+from concurrent.futures import ThreadPoolExecutor
 from typing import Any
 
 from rnsp.config import ENSEMBL_REST, ENSEMBL_TILE_BP, JUNCTION_FLANK_BP, SEQUENCE_FLANK_BP
@@ -56,10 +57,10 @@ def fetch_sequence_store(
         intervals.append((junction.anchor - JUNCTION_FLANK_BP, junction.anchor + JUNCTION_FLANK_BP))
     for pos in positions:
         intervals.append((pos - SEQUENCE_FLANK_BP, pos + SEQUENCE_FLANK_BP))
-    blocks: list[tuple[int, str]] = []
-    for start, end in covering_tiles(intervals, ENSEMBL_TILE_BP):
-        sequence = _fetch_region(client, chrom, start, end)
-        blocks.append((start, sequence))
+    tiles = covering_tiles(intervals, ENSEMBL_TILE_BP)
+    logger.info("Fetching %s Ensembl sequence tiles on chromosome %s", len(tiles), chrom)
+    workers = _worker_clients(client, n=3)
+    blocks = _fetch_tiles(workers, chrom, tiles)
     return BaseStore(blocks)
 
 
@@ -107,6 +108,39 @@ def fetch_constrained(
             )
         pos = chunk_end + 1
     return elements
+
+
+def _worker_clients(client: HttpClient, n: int) -> list[HttpClient]:
+    """Extra clients share the cache and the rate limiter, each with its own session."""
+    if n <= 1:
+        return [client]
+    workers = [client]
+    for _ in range(n - 1):
+        workers.append(
+            HttpClient(
+                client.cache_dir,
+                min_interval=0.0,
+                limiter=client.limiter,
+                max_retries=client.max_retries,
+                timeout=client.timeout,
+                max_backoff=client.max_backoff,
+            )
+        )
+    return workers
+
+
+def _fetch_tiles(
+    workers: list[HttpClient], chrom: str, tiles: list[tuple[int, int]]
+) -> list[tuple[int, str]]:
+    def one(item: tuple[int, tuple[int, int]]) -> tuple[int, str]:
+        index, (start, end) = item
+        sequence = _fetch_region(workers[index % len(workers)], chrom, start, end)
+        return start, sequence
+
+    if len(tiles) <= 1 or len(workers) == 1:
+        return [one((0, tile)) for tile in tiles]
+    with ThreadPoolExecutor(max_workers=len(workers)) as pool:
+        return list(pool.map(one, enumerate(tiles)))
 
 
 def _fetch_region(client: HttpClient, chrom: str, start: int, end: int) -> str:

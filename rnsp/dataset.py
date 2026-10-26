@@ -68,7 +68,13 @@ def build_dataset(
     destination = Path(out_dir) if out_dir else PROCESSED_DIR
     destination.mkdir(parents=True, exist_ok=True)
     ncbi = HttpClient(cache, min_interval=NCBI_MIN_INTERVAL_S)
-    ensembl = HttpClient(cache, min_interval=ENSEMBL_MIN_INTERVAL_S, max_retries=7)
+    ensembl = HttpClient(
+        cache,
+        min_interval=ENSEMBL_MIN_INTERVAL_S,
+        max_retries=4,
+        timeout=(8.0, 35.0),
+        max_backoff=8.0,
+    )
     expression_client = HttpClient(cache, min_interval=GTEX_MIN_INTERVAL_S)
 
     qc: Counter[str] = Counter()

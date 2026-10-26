@@ -12,6 +12,7 @@ import hashlib
 import json
 import logging
 import random
+import threading
 import time
 from collections.abc import Callable
 from pathlib import Path
@@ -49,12 +50,14 @@ class RateLimiter:
         self._clock = clock
         self._sleep = sleep
         self._last = 0.0
+        self._lock = threading.Lock()
 
     def wait(self) -> None:
-        delay = self.min_interval - (self._clock() - self._last)
-        if delay > 0:
-            self._sleep(delay)
-        self._last = self._clock()
+        with self._lock:
+            delay = self.min_interval - (self._clock() - self._last)
+            if delay > 0:
+                self._sleep(delay)
+            self._last = self._clock()
 
 
 class HttpClient:
@@ -71,11 +74,13 @@ class HttpClient:
         limiter: RateLimiter | None = None,
         sleep: Callable[[float], None] = time.sleep,
         rng: random.Random | None = None,
+        max_backoff: float = 60.0,
     ) -> None:
         self.cache_dir = Path(cache_dir)
         self.cache_dir.mkdir(parents=True, exist_ok=True)
         self.max_retries = max_retries
         self.timeout = timeout
+        self.max_backoff = max_backoff
         self.session = session or requests.Session()
         self.session.headers.setdefault("User-Agent", USER_AGENT)
         self.limiter = limiter or RateLimiter(min_interval)
@@ -147,7 +152,7 @@ class HttpClient:
         raise HttpError(f"Gave up on {url}: {last_error}", url=url)
 
     def _backoff(self, attempt: int, url: str, reason: str) -> None:
-        delay = min(60.0, 1.5 * (2**attempt)) + self._rng.random()
+        delay = min(self.max_backoff, 1.5 * (2**attempt)) + self._rng.random()
         logger.warning(
             "Retrying %s after %s (attempt %s, sleep %.1fs)",
             url,
