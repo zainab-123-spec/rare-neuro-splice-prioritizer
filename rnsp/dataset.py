@@ -71,28 +71,37 @@ def build_dataset(
     ensembl = HttpClient(
         cache,
         min_interval=ENSEMBL_MIN_INTERVAL_S,
-        max_retries=4,
-        timeout=(8.0, 35.0),
-        max_backoff=8.0,
+        max_retries=8,
+        timeout=(10.0, 45.0),
+        max_backoff=12.0,
     )
     expression_client = HttpClient(cache, min_interval=GTEX_MIN_INTERVAL_S)
 
     qc: Counter[str] = Counter()
     failures: list[dict[str, str]] = []
     bundles: list[LocusBundle] = []
-    for panel in selected:
-        try:
-            bundle = _fetch_locus(panel, ncbi, ensembl, expression_client, qc)
-        except Exception as exc:
-            logger.exception("Skipping %s", panel.symbol)
-            failures.append({"gene": panel.symbol, "error": str(exc)})
-            qc[f"gene_failed:{panel.symbol}"] += 1
-            continue
-        if bundle.variants:
-            bundles.append(bundle)
-        else:
-            qc[f"no_variants:{panel.symbol}"] += 1
-            logger.warning("No variants passed retrieval QC for %s", panel.symbol)
+    pending = list(selected)
+    for attempt in (1, 2):
+        if attempt == 2 and pending:
+            logger.info("Retrying %s genes after a transient API failure", len(pending))
+        still_pending: list[PanelGene] = []
+        for panel in pending:
+            try:
+                bundle = _fetch_locus(panel, ncbi, ensembl, expression_client, qc)
+            except Exception as exc:
+                logger.exception("Attempt %s failed for %s", attempt, panel.symbol)
+                if attempt == 2:
+                    failures.append({"gene": panel.symbol, "error": str(exc)})
+                    qc[f"gene_failed:{panel.symbol}"] += 1
+                else:
+                    still_pending.append(panel)
+                continue
+            if bundle.variants:
+                bundles.append(bundle)
+            else:
+                qc[f"no_variants:{panel.symbol}"] += 1
+                logger.warning("No variants passed retrieval QC for %s", panel.symbol)
+        pending = still_pending
 
     if not bundles:
         raise RuntimeError("No genes produced variants. See the log for API or QC errors.")
